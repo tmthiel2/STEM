@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-locale="US">
+<head>
+<script>
+if(window&&!("Promise"in window)){var xhr=new XMLHttpRequest;xhr.open("GET",'/media/shared/js/promise.js',false);xhr.onerror=function(){console.log(xhr.statusText)};xhr.send("");eval(xhr.responseText);}
+</script> <script>window.usingBordeauxAds = true</script>
+<!-- Consent Manager Tag : Stubbed (minified) (updated 2018-04-27T17:00) -->
+<script type="text/javascript">
+/*! CMP 2.18.0 Copyright 2018 Oath Holdings, Inc. */
+!function(e){var t={};function n(r){if(t[r])return t[r].exports;var o=t[r]={i:r,l:!1,exports:{}};return e[r].call(o.exports,o,o.exports,n),o.l=!0,o.exports}n.m=e,n.c=t,n.d=function(e,t,r){n.o(e,t)||Object.defineProperty(e,t,{configurable:!1,enumerable:!0,get:r})},n.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return n.d(t,"a",t),t},n.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},n.p="/",n(n.s=2)}({2:function(e,t){!function(){var e=!1;function t(e){var t="string"==typeof e.data,n=e.data;if(t)try{n=JSON.parse(e.data)}catch(e){}if(n&&n.__cmpCall){var r=n.__cmpCall;window.__cmp(r.command,r.parameter,function(n,o){var a={__cmpReturn:{returnValue:n,success:o,callId:r.callId}};e&&e.source&&e.source.postMessage(t?JSON.stringify(a):a,"*")})}}"function"==typeof __cmp||(window.__cmp=function(){var t=arguments;if(__cmp.a=__cmp.a||[],!t.length)return __cmp.a;"ping"===t[0]?t[2]({gdprAppliesGlobally:e,cmpLoaded:!1},!0):__cmp.a.push([].slice.apply(t))},function e(){if(document.body&&document.body.firstChild){var t=document.body,n=document.createElement("iframe");n.style.display="none",n.height=n.width=0,n.name="__cmpLocator",t.insertBefore(n,t.firstChild)}else setTimeout(e,5)}(),window.addEventListener?window.addEventListener("message",t,!1):window.attachEvent("onmessage",t))}()}});
+</script>
+<!-- End Consent Manager Tag : Stubbed (minified) -->
+<script>
+window.askForConsent = true;
+window.waitForConsent = true;
+window.indexExchangeEnabled = true;
+window.amazonA9Enabled = true;
+window.rampS2SEnabled = null;
+window.iasOptimiseEnabled = true;
+window.bluekaiEnabled = true;
+window.cmpConfig = {"gdprAppliesGlobally":false,"uiUrl":"https:\/\/consent.cmp.toptenreviews.com\/cmpui.html"};
+/*! begin dom-promises (v2.14.2) */
+'use strict';var d=d||{};d.scope={};d.ASSUME_ES5=!1;d.ASSUME_NO_NATIVE_MAP=!1;d.ASSUME_NO_NATIVE_SET=!1;d.defineProperty=d.ASSUME_ES5||"function"==typeof Object.defineProperties?Object.defineProperty:function(b,f,g){b!=Array.prototype&&b!=Object.prototype&&(b[f]=g.value)};d.getGlobal=function(b){return"undefined"!=typeof window&&window===b?b:"undefined"!=typeof global&&null!=global?global:b};d.global=d.getGlobal(this);d.SYMBOL_PREFIX="jscomp_symbol_";
+d.initSymbol=function(){d.initSymbol=function(){};d.global.Symbol||(d.global.Symbol=d.Symbol)};d.Symbol=function(){var b=0;return function(f){return d.SYMBOL_PREFIX+(f||"")+b++}}();d.initSymbolIterator=function(){d.initSymbol();var b=d.global.Symbol.iterator;b||(b=d.global.Symbol.iterator=d.global.Symbol("iterator"));"function"!=typeof Array.prototype[b]&&d.defineProperty(Array.prototype,b,{configurable:!0,writable:!0,value:function(){return d.arrayIterator(this)}});d.initSymbolIterator=function(){}};
+d.arrayIterator=function(b){var f=0;return d.iteratorPrototype(function(){return f<b.length?{done:!1,value:b[f++]}:{done:!0}})};d.iteratorPrototype=function(b){d.initSymbolIterator();b={next:b};b[d.global.Symbol.iterator]=function(){return this};return b};d.makeIterator=function(b){d.initSymbolIterator();var f=b[Symbol.iterator];return f?f.call(b):d.arrayIterator(b)};d.arrayFromIterator=function(b){for(var f,g=[];!(f=b.next()).done;)g.push(f.value);return g};
+d.arrayFromIterable=function(b){return b instanceof Array?b:d.arrayFromIterator(d.makeIterator(b))};
+(function(){function b(a){q||(q=!0,x.forEach(p(a)))}function f(a){r||(r=!0,y.forEach(p(a)))}function g(){return t&&t.now&&t.now()||0}function p(a){for(var h=[],b=0;b<arguments.length;++b)h[b-0]=arguments[b];return function(a){return a.apply(null,d.arrayFromIterable(h))}}function B(a){"cmp_request_translation_data"===a.data&&Promise.resolve(window.reliablePageLoad).then(function(){var a=window.__translator.trans;a={tag:"cmp_translations_data",main:{heading:a("cmp_main_heading"),description:a("cmp_main_description"),
+btnAccept:a("cmp_main_btn_accept"),btnMoreInfo:a("cmp_main_btn_moreinfo")},confirm:{heading:a("cmp_confirm_heading"),description:a("cmp_confirm_description"),btnGoBack:a("cmp_confirm_btn_goback"),btnLeave:a("cmp_confirm_btn_leave")},purposes:{heading:a("cmp_purposes_heading"),description:a("cmp_purposes_description"),btnAcceptAll:a("cmp_purposes_btn_acceptall"),btnRejectAll:a("cmp_purposes_btn_rejectall"),btnSave:a("cmp_purposes_btn_save"),btnAndContinue:a("cmp_purposes_btn_andcontinue"),btnAndContinueShort:a("cmp_purposes_btn_andcontinueshort"),
+list:{1:a("cmp_purposes_list_1"),"1_description":a("cmp_purposes_list_1_description"),2:a("cmp_purposes_list_2"),"2_description":a("cmp_purposes_list_2_description"),3:a("cmp_purposes_list_3"),"3_description":a("cmp_purposes_list_3_description"),4:a("cmp_purposes_list_4"),"4_description":a("cmp_purposes_list_4_description"),5:a("cmp_purposes_list_5"),"5_description":a("cmp_purposes_list_5_description")}},vendors:{heading:a("cmp_vendors_heading"),description:a("cmp_vendors_description"),btnAcceptAll:a("cmp_vendors_btn_acceptall"),
+btnRejectAll:a("cmp_vendors_btn_rejectall"),btnSave:a("cmp_vendors_btn_save"),btnBack:a("cmp_vendors_btn_back"),privacyPolicy:a("cmp_vendors_privacy_policy")}};document.getElementById("cmp-ui-iframe").contentWindow.postMessage(a,"*")});"cmp_request_ffte_data"===a.data&&Promise.resolve(window.reliablePageLoad).then(function(){var a={tag:"cmp_ffte_data",ffte:window.ffte||{}};document.getElementById("cmp-ui-iframe").contentWindow.postMessage(a,"*")})}function C(a,b,c){a.performance&&a.performance.timing&&
+Date.now();a.__cmp("init",a.cmpConfig);a.__cmp("getVendorConsents",null,function(h,D){D?(b({askedForConsent:!0,consent:h}),a.reliablePageLoad.then(function(){if(h.gdprApplies&&.33>Math.random()){var b=h.vendorConsents;var c=void 0;c=void 0===c?"none":c;b instanceof Object?(b=E(b),b.label=0===b.total?"n/a":0===b.consented?c:b.consented===b.total?"all":"some",c=b):c=b?{label:"all",total:0,consented:0}:{label:c,total:0,consented:0};a.ga&&a.ga("send","event","CMP","getVendorConsents",c.label,c.consented,
+{nonInteraction:!0,dimension123:c.consented})}})):c(Error("Failed to get vendor consents"))})}function F(a,b,c){function h(a,b){return null===b||void 0===b?a:b}JSON.parse(h("true",l("mock_consent_success")(a)))?(c=parseInt(l("mock_consent_timeout")(a),10),a={askedForConsent:!0,consent:{gdprApplies:JSON.parse(h("true",l("mock_gdpr_applies")(a))),hasGlobalScope:JSON.parse(h("false",l("mock_has_global_scope")(a))),metadata:"AAAAAAA",purposeConsents:JSON.parse(h(JSON.stringify({1:!0,2:!0,3:!0,4:!0,5:!0}),
+l("mock_purpose_consents")(a))),vendorConsents:JSON.parse(h("{}",l("mock_vendor_consents")(a)))}},isNaN(c)?b(a):setTimeout(b,c,a)):c(Error("Failed to get vendor consents"))}function E(a){if(!(a instanceof Object))return{total:0,consented:0};var b=Object.keys(a),c=b.length;b=b.filter(function(b){return a[b]}).length;return{total:c,consented:b}}function u(a){return function(b){return 0<=b.location.search.indexOf(a)}}function l(a){return function(b){return z(a,b.location.search)}}function z(a,b,c){c=
+void 0===c?"\x26":c;if(""===a)return!1;a=b.indexOf(a+"\x3d");return 0<=a?(a=b.indexOf("\x3d",a),c=b.indexOf(c,a+1),0<=c?b.substring(a+1,c):b.substring(a+1)):!1}function G(a){return a.split("").map(function(a){return H(I.call(a,0)-1)}).join("")}var k=String,H=k.fromCharCode,I=k.prototype.charCodeAt,e=window,A=e.document,t=e.performance;k=e.Promise;var v=g();performance.mark("DOMPromises - Initialising");e.resolveFEP=null;e.processFEP=k?new k(function(a){e.resolveFEP=a}):{then:function(){}};var m=!(-1<
+window.location.href.indexOf("disable_dom_promise_timeouts")),r=!1,y=[];m&&setTimeout(function(){return f({timeStamp:g()})},5E3);A.addEventListener("DOMContentLoaded",f);e.reliableDOMContentLoaded=k?new k(function(a){m&&setTimeout(function(){return a({timeStamp:g()})},5E3);A.addEventListener("DOMContentLoaded",a)}):{then:function(a){r?a():y.push(a)}};e.reliableDOMContentLoaded.then(function(a){console.log("DOMContentLoaded at",a.timeStamp-v|0)});var q=!1,x=[];m&&setTimeout(function(){return b({timeStamp:g()})},
+7E3);e.addEventListener("load",b);e.reliablePageLoad=k?new k(function(a){m&&setTimeout(function(){return a({timeStamp:g()})},7E3);e.addEventListener("load",a)}):{then:function(a){q?a():x.push(a);return e.reliablePageLoad},catch:function(){return e.reliablePageLoad}};e.reliablePageLoad.then(function(a){console.log("PageLoad at",a.timeStamp-v|0)});var n=!1,w=[];m&&setTimeout(function(){var a={timeStamp:g()};n||(n=!0,w.forEach(p(a)))},1E4);e.resolveBordeauxDone=function(){var a={timeStamp:g()};n||(n=
+!0,w.forEach(p(a)))};e.bordeauxDone=k?new k(function(a){m&&setTimeout(function(){return a({timeStamp:g()})},1E4);e.resolveBordeauxDone=function(){return a({timeStamp:g()})}}):{then:function(a){n?a():w.push(a)}};e.bordeauxDone.then(function(a){console.log("BordeauxDone at",a.timeStamp-v|0)});(function(a){var b=a.Promise;a.addEventListener("message",B,!1);a.reliableConsentGiven=b?b.resolve(a.reliableDOMContentLoaded).then(function(){return new b(function(b,e){u("force_clear_consent")(a)&&(document.cookie=
+"EuConsent\x3d; path\x3d/; Max-Age\x3d0",document.cookie="cmp\x3d; path\x3d/; Max-Age\x3d0",document.cookie="TestingHideEUConsent\x3d; path\x3d/; Max-Age\x3d0");u("force_hide_consent")(a)&&(document.cookie="TestingHideEUConsent\x3dtrue;");var c=u("mock_consent")(a);"true"===z("TestingHideEUConsent",document.cookie,";")?b({askedForConsent:!1}):c?F(a,b,e):a.askForConsent?C(a,b,e):b({askedForConsent:!1})})}):{then:function(){}};a.reliableConsentGiven.then(function(){return a.bdx.metrics.mark("Reliable consent")});
+a.reliableConsentGiven.then(function(b){b.askedForConsent&&b.consent.gdprApplies&&a.reliablePageLoad.then(function(){var b=a.document.querySelector("#document-footer-content \x3e nav \x3e ul");if(b){var c=a.document.createElement("a");c.addEventListener("click",function(){a.__cmp("renderConsents",function(){})});c.href="#";c.textContent=a.__translator.trans("cmp_footer_link");var e=a.document.createElement("li");e.appendChild(c);b.appendChild(e)}if(b=a.document.querySelector("ul.footer__listcontainer"))c=
+a.document.createElement("a"),c.className="footer__link",c.addEventListener("click",function(){a.__cmp("renderConsents",function(){})}),c.href="#",c.textContent=a.__translator.trans("cmp_footer_link"),e=a.document.createElement("li"),e.className="footer__list-item",e.appendChild(c),b.appendChild(e);if(b=a.document.querySelector("#gawker-contact-block ul"))c=a.document.createElement("a"),c.className="is-reversed",c.addEventListener("click",function(){a.__cmp("renderConsents",function(){})}),c.href=
+"#",c.textContent=a.__translator.trans("cmp_footer_link"),e=a.document.createElement("li"),e.appendChild(c),b.appendChild(e)})})})(e);(function(){var a=window,b=a.document,c=a.Promise;a.wadoinawdoijzxioznelknsdf=c?new c(function(a){var c=parseInt(l("mock_tiberius")(window),10);isNaN(c)||setTimeout(a,c,!0);b.addEventListener(G("tq/cmpdljoh"),function(){a(!0)})}):{then:function(){}}})()})();
+/*! end dom-promises (v2.14.2) */</script>
+<script>
+window.hawk_css_endpoint = "https://widgets.fie-data.co.uk";
+</script>
+<script id="hawk-script">
+function loadHawk(src) {
+!function (e, f, u) {
+e.async = 1;
+e.src = u;
+f.parentNode.insertBefore(e, f);
+}(document.createElement('script'),
+document.getElementsByTagName('script')[0],
+src);
+}
+window.reliableDOMContentLoaded.then(function() {
+loadHawk("https://widgets.fie-data.co.uk/js/w/ttr.js");
+});
+</script>
+<link rel="preload" href="https://widgets.fie-data.co.uk/js/w/ttr.js" as="script">
+<script>
+window.adParameters = {
+site: 'toptenreviews',
+content: 'unknown',
+type: 'no-inbody-ads',
+};
+</script>
+<script>window.gaCookieSet=/(?:^|;\\s*)_ga/.test(document.cookie);</script>
+<script>window.vanilla = window.vanilla || {}</script>
+<script>'use strict';(function(){function g(c,a){return function(){return setTimeout(c,a)}}function h(c,a,b){b=void 0===b?function(){}:b;return function(){var d=c.createElement("script"),e=c.getElementsByTagName("script")[0],f=k({},a,{async:1});Object.keys(f).forEach(function(a){return d.setAttribute(a,f[a])});e.parentNode.insertBefore(d,e);b()}}var k=Object.assign||function(c){for(var a=1;a<arguments.length;a++){var b=arguments[a],d;for(d in b)Object.prototype.hasOwnProperty.call(b,d)&&(c[d]=b[d])}return c};
+window.vanilla.addJs=function(c,a,b,d){b=void 0===b?!1:b;c=h(document,c,d);a=null!==a?g(c,a):c;b?window.reliablePageLoad.then(a):a()}})();</script>
+<script>'use strict';(function(){function f(a,d){return function(){var c=a.createElement("link"),b=g({},d,{rel:"stylesheet",type:"text/css"});Object.keys(b).forEach(function(a){return c.setAttribute(a,b[a])});var e=a.getElementsByTagName("head")[0];e.parentNode.insertBefore(c,e)}}var g=Object.assign||function(a){for(var d=1;d<arguments.length;d++){var c=arguments[d],b;for(b in c)Object.prototype.hasOwnProperty.call(c,b)&&(a[b]=c[b])}return a},h=window.requestAnimationFrame||window.webkitRequestAnimationFrame||
+window.mozRequestAnimationFrame||window.msRequestAnimationFrame||function(a){return window.reliablePageLoad.then(a)};window.vanilla.addCss=function(a){return h(f(document,a))}})();</script>
+<script>
+function handleHeaderError() {
+if (window.amIIE && !window.amIIE()) {
+window.wadoinawdoijzxioznelknsdf.then(function () {
+window._sp_ = window._sp_ || {};
+window._sp_.config = window._sp_.config || {};
+if (window._sp_.bootstrap && !window.headerExecuted) {
+window._sp_.bootstrap('//vanilla.futurecdn.net/toptenreviews/140351/media/js/header/header.js');
+}
+})
+}
+}
+</script>
+<script>
+window.bordeaux = window.bordeaux || {};
+window.bordeaux.cmd = window.bordeaux.cmd || [];
+window.bordeaux.cmd.push(function(){
+window.bordeaux.setPlacement(null);
+});
+</script>
+<script defer src="//vanilla.futurecdn.net/toptenreviews/140351/media/js/header/header.js" onerror="handleHeaderError()" crossorigin="anonymous"></script>
+<!-- tag factory //-->
+<meta charset="utf-8">
+<link rel="dns-prefetch" href="//cdn.mos.cms.futurecdn.net">
+<meta data-static-host="//vanilla.futurecdn.net/toptenreviews/140351" id="static-host-pattern">
+<script async="1" src="https://consent.cmp.oath.com/cmp3p.js"></script>
+<meta id="gpt-api-script-location" data-src="//securepubads.g.doubleclick.net/tag/js/gpt.js">
+<meta id="index-exchange-script-location" data-src="//js-sec.indexww.com/ht/p/184056-168676013467862.js">
+<meta id="amazon-a9-script-location" data-src="//c.amazon-adsystem.com/aax2/apstag.js">
+<meta id="ias-optimise-script-location" data-src="//cdn.adsafeprotected.com/iasPET.1.js">
+<meta id="bluekai-script-location" data-src="//tags.bkrtx.com/js/bk-coretag.js">
+<script>
+var vanFontLoader=function(e){if("undefined"==typeof e||"object"!=typeof e)return!1;var t=document.getElementsByTagName("head")[0],n=function(e,n){var o=document.createElement("style");o.type="text/css","undefined"!=typeof n&&(o.id=n,o.classList.add("font-style")),o.styleSheet?o.styleSheet.cssText=e:o.appendChild(document.createTextNode(e)),t.appendChild(o)},o=function(){"undefined"!=typeof e.hideKey&&n(e.hideKey+"{visibility:visible}")};if("undefined"!=typeof e.hideKey&&n(e.hideKey+"{visibility:hidden}"),"undefined"!=typeof e.fontKey&&"undefined"!=typeof e.staticHost&&"undefined"!=typeof e.version&&"undefined"!=typeof e.woff2Version){var i=e.fontKey,a=e.version,f=e.woff2Version,r=e.staticHost,d="woff",s=!1;f&&(s=function(e){if(!("FontFace"in e))return!1;var t=new e.FontFace("t",'url( "data:application/font-woff2," ) format( "woff2" )',{});try{var n=t.load();"undefined"!=typeof n.then&&n.then(function(){},function(){})}catch(o){return!1}return"loading"==t.status}(window)),s?d="woff2":navigator.userAgent.indexOf("Android")>-1&&(d="ttf");var c="vanFont-"+i+"-"+d,u=c+".json",y=function(){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="//"+r+"/"+a+"/media/fonts/json/"+u,t.appendChild(e)},l=!1,v=!1;try{if(l=localStorage.getItem(c)){var v=JSON.parse(l);v.version!=a&&(localStorage.removeItem(c),v=!1)}}catch(p){console.error("Error when parsing font in vanFontLoader",p)}v&&"undefined"!=typeof v.value?(n(v.value,i),o()):y()}this.store=function(e){e.version=a;var t=JSON.stringify(e);localStorage.setItem(c,t),n(e.value),o()}}; try {
+var OpenSans_vanFontLoader = new vanFontLoader({fontKey: 'OpenSans', version: 1, woff2Version: true, staticHost: 'vanilla.futurecdn.net/toptenreviews' });
+var toptenreviews_vanFontLoader = new vanFontLoader({fontKey: 'toptenreviews', version: 2, woff2Version: false, staticHost: 'vanilla.futurecdn.net/toptenreviews' ,hideKey: '.icon' });
+} catch(e) {
+console.warn('Failed to load fonts: '+ e.message);
+}
+</script>
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta content="" name="news_keywords">
+<title>State Farm Auto Insurance Review | Top Ten Reviews</title>
+<meta name="pub_date" content="2019-09-12T11:03:15+00:00">
+<meta name="description" content="State Farm is a definite all-rounder when it comes to performance with some tasty bonuses to sweeten the deal.">
+<link rel="canonical" href="https://www.toptenreviews.com/state-farm-auto-insurance-review">
+<style id="critical-styles">.newsletter-signup,.mag-banner-wrap,.popular-box{display:none;}html,body,div,span,iframe,h1,h2,h3,h4,p,a,abbr,img,small,strong,i,ul,li,form{margin:0;padding:0;border:0;font:inherit;font-size:100%;vertical-align:baseline}label{padding:0;border:0;font:inherit;font-size:100%}label,table{vertical-align:baseline}table,caption{margin:0;padding:0;border:0;font:inherit;font-size:100%}tbody,thead,tr{vertical-align:baseline}tbody,thead,tr,th,td{margin:0;padding:0;border:0;font:inherit;font-size:100%}article,aside,figure,figcaption,footer,header,nav,section,time{margin:0;padding:0;border:0;font:inherit;font-size:100%;vertical-align:baseline}html{line-height:1}ul{list-style:none}table{border-collapse:collapse;border-spacing:0}caption,th,td{text-align:left;font-weight:400;vertical-align:middle}a img{border:none}article,aside,figcaption,figure,footer,header,nav,section{display:block}.container{margin:auto}.container:after{content:"";display:table;clear:both}.container.full{clear:both;max-width:100%}@media screen and (min-width:1000px){.container.full{max-width:970px}}@media screen and (min-width:1574px){.container.full{max-width:1200px}body.limit-width .container.full{max-width:970px}}#main{background:#fff;outline:none}#sidebar{width:100%}@media screen and (min-width:1000px){#sidebar{width:300px;margin-top:.875em}}@media only screen and (min-width:700px){html{font-size:100%}}html{font-family:"Open Sans",sans-serif;color:#333}h1,h2,h3,h4{font-weight:700}.block-links a{display:block;position:relative;color:#333;background:#ddd;line-height:22px;padding:11px 12px;margin:0 12px 12px 0;text-align:center;font-size:14px;font-weight:600;text-transform:uppercase}.block-links a:hover{color:#333;text-decoration:none;background:#666}.block-links a:visited{color:#333;text-decoration:none}.separator-heading{border-top:1px solid #ccc;border-bottom:1px solid #ccc}.review-article header h1{font-weight:600;font-size:24px;line-height:30px;margin-bottom:.25rem}@media (min-width:700px){.review-article header h1{margin-bottom:.5rem;font-size:28px;line-height:34px}}@media (min-width:1574px){.review-article header h1{margin-bottom:.75rem;font-size:34px;line-height:42px}body.limit-width .review-article header h1{margin-bottom:.5rem;font-size:28px;line-height:34px}}.review-article header h2{font-size:18px;line-height:26px;font-weight:300}@media (min-width:1000px){.review-article header h2{font-size:20px;line-height:28px}}@media (min-width:1574px){.review-article header h2{font-size:24px;line-height:30px}body.limit-width .review-article header h2{font-size:20px;line-height:28px}}@media (min-width:900px){.review-article .byline{margin-bottom:10px}}@media (min-width:900px){.review-article header h2{width:auto;margin-right:300px}}.no-select{-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-o-user-select:none;-ms-user-select:none;user-select:none}.hidden{visibility:hidden}.fallback{display:none}.icon:before,.rating:before,.pagination.internal.current-prev-next .next .direction:before,.pagination.internal.current-prev-next .next .direction:after,.pagination.internal label:after,.pagination.internal input[type=checkbox].hidden:checked~label:after{font-family:"toptenreviews",arial;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;text-transform:none}.icon-arrow-down:before{content:"\f154"}.icon-arrow-right:before,.pagination.internal.current-prev-next .next .direction:after{content:"\f156"}.pagination.internal label:after{content:"\f166"}.pagination.internal input[type=checkbox].hidden:checked~label:after{content:"\f169"}.icon-envelope-solid:before{content:"\f16b"}.icon-envelope:before{content:"\f16c"}.icon-facebook:before{content:"\f16e"}.icon-filled-envelope:before{content:"\f16f"}.icon-google-plus:before{content:"\f172"}.icon-home:before{content:"\f173"}.icon-search:before{content:"\f17c"}.rating:before{content:"\f180"}.icon-twitter:before{content:"\f183"}.icon-whats-app:before{content:"\f185"}.icon-circle,.pagination.internal.current-prev-next .next .direction:before,.pagination.internal.current-prev-next .next .direction:after{border-radius:50%;display:block}ul.inline li{float:left}.review-article{position:relative}.review-article .text-copy{clear:both;position:relative;word-break:break-word;margin-bottom:40px}.review-article .text-copy p,.review-article .text-copy img{width:100%;height:auto}.review-article .text-copy img.lft{width:auto}.review-article .text-copy figure{margin-bottom:1em}.review-article .text-copy strong{font-weight:600}.review-article .text-copy p{font-size:16px;line-height:1.5;margin-bottom:1em}.review-article .text-copy figcaption{font-size:13px;line-height:16px;color:#666}.review-article .text-copy>*:last-child{margin-bottom:0}@media (min-width:1000px){.review-article{float:left;max-width:650px}}@media (min-width:1574px){.review-article{max-width:832px}body.limit-width .review-article{max-width:650px}}.review-article header .byline{clear:both;line-height:23px;font-size:13px}@media (min-width:1000px){.review-article header .byline{margin-bottom:.5rem}}@media (min-width:1574px){.review-article header .byline{margin-bottom:.75rem}}.review-article header .byline .rating{float:left}.review-article header .byline .chunk{margin-right:1ex}.review-article header,.review-article section{margin-left:20px;margin-right:20px}@media (min-width:1000px){.review-article header,.review-article section{margin-left:1.5em;margin-right:1.5em}}@media (min-width:1574px){.review-article header,.review-article section{margin-left:125px;margin-right:70px}body.limit-width .review-article header,body.limit-width .review-article section{margin-left:1.5em;margin-right:1.5em}}.review-article header,.review-article section{overflow:visible}.review-article{width:100%}@media screen and (min-width:1000px){.review-article{width:970px}}@media screen and (min-width:900px){.review-article{max-width:100%;float:none}}.review-article header{position:relative}@media (min-width:700px){.review-article header{overflow:hidden;*zoom:1;margin-bottom:20px}}@media screen and (min-width:1574px){body.limit-width .review-article{max-width:100%}}.review-article header{margin-top:16px}@media screen and (min-width:900px){.review-article header{margin-bottom:5px}}@media screen and (min-width:575px){.review-article header{margin-top:30px}}body.limit-width .review-article header h1{font-size:30px;line-height:38px;letter-spacing:-1px}@media screen and (min-width:575px){body.limit-width .review-article header h1{font-size:35px;line-height:43px}}.review-article header h2{margin-right:0;margin-bottom:4px}@media screen and (min-width:575px){.review-article header h2{margin-bottom:.625rem}}.review-article header .byline{margin-bottom:.8rem}@media screen and (min-width:575px){.review-article header .byline{margin-bottom:1.25rem}}.review-article header .byline .relative-date{display:block;margin:4px 0 0}@media screen and (min-width:575px){.review-article header .byline .relative-date{display:inline;margin:0 1ex 0 4px}}@media (min-width:1000px){#content-after-image{width:645px;float:left}}.boxout-1{display:none}.rating{position:relative;display:block}.rating:before{background:#fff;color:#ededed;display:block;font-size:17.5px;height:inherit;line-height:inherit}.review-article .rating{width:94px}#article-body figure,article figure{margin-bottom:15px}#article-body figure p.vanilla-image-block,article figure p.vanilla-image-block{line-height:0;margin-bottom:15px}#article-body figure p.vanilla-image-block,#article-body figure figcaption,article figure p.vanilla-image-block,article figure figcaption{display:inline-block}#article-body figure figcaption,article figure figcaption{width:100%}figure{position:relative}figure img{top:0;left:0}.center-cropped{width:-webkit-calc(100% - 40px);width:calc(100% - 40px);margin:0 25px 25px;overflow:hidden;position:relative}@media (max-width:574px){.center-cropped{width:100%;margin:0 0 25px;max-height:287.5px;height:56.25vw;padding-top:0}}@media (min-width:575px){.center-cropped{max-height:400px;height:50vw;padding-top:0;margin:0 20px 25px}}@media (min-width:1000px){.center-cropped{height:40vw;padding-top:0;width:-webkit-calc(100% - 50px);width:calc(100% - 50px);margin:25px 25px 30px}}img.lft{float:left;margin:0 20px 10px 0;width:auto}.dfp-leaderboard-container{margin:auto;max-width:970px;height:auto}.dfp-leaderboard-container:empty{display:none}#burgerbar-none{display:none}#burgerbar{background:#fff}#burgerbar,#burgerbar~.burgerbar .button-menu.checked{display:none}@media only screen and (max-width:699px){#burgerbar:checked~.burgerbar .button-menu.unchecked{display:none}#burgerbar:checked~.burgerbar .button-menu.checked,#burgerbar:checked~.wrapper .menuitems{display:block}}.button-search{position:absolute;top:0;right:0;min-width:60px;height:60px;margin-bottom:0;line-height:60px}@media only screen and (min-width:700px){.button-search{position:relative}}*:checked+.button-search{background-color:#0581c9}.search-box{z-index:1000001;position:absolute;right:0;top:60px;width:100%;border:2px solid #0581c9;-webkit-box-sizing:border-box;box-sizing:border-box;background-color:#fff;padding:1em 18px;font-size:16px;display:none;line-height:44px}.search-box .search-submit{position:absolute;right:18px;top:16px;width:44px;height:44px;background-color:#333;color:#fff;border:none;padding:0}.search-box .search-submit .icon:before{font-size:20px}*:checked~.search-box{display:block}.burgerbar .burgerbar-small .search-box{width:100%}@media screen and (min-width:575px){.burgerbar .burgerbar-small .search-box{width:480px}}.search-checkbox{display:none}.masthead-item{width:auto;text-align:center;font-size:0}@media only screen and (min-width:700px){.masthead-item{padding-right:1rem;padding-left:1rem;position:relative;height:100%;float:right}}.masthead-item .desktop-text{display:none}@media only screen and (min-width:700px){.masthead-item .desktop-text{display:inline-block;zoom:1;*display:inline;padding-right:8px;font-size:14px;vertical-align:middle;line-height:60px}}.masthead-item .icon-search{display:inline-block;zoom:1;*display:inline;vertical-align:middle;font-size:1.4rem}@media only screen and (min-width:700px){.masthead-item .icon-search{font-size:1rem}}.burgerbar{background-color:#fff;font-size:24px;line-height:60px;max-height:60px;height:60px}.pro .burgerbar{background-color:#8c2b5e}@media only screen and (min-width:700px){.burgerbar{border-bottom:1px solid #fff}.pro .burgerbar{border-bottom:1px solid #8c2b5e}}.burgerbar .other-links{display:none}@media only screen and (min-width:700px){.burgerbar .other-links{display:block;float:right;clear:none;margin-right:10px;height:24px;line-height:24px;margin-top:18px;font-size:14px}.burgerbar .other-links a{float:left;-webkit-box-sizing:border-box;box-sizing:border-box;color:#fff}.burgerbar .other-links a:visited{color:#fff}}.burgerbar .buttons-social{display:none}@media only screen and (min-width:700px){.burgerbar .buttons-social{display:block}.burgerbar .buttons-social a{float:left;border:1px solid #fff;width:24px;height:24px;margin-top:18px;-webkit-box-sizing:border-box;box-sizing:border-box;color:#fff;margin-right:10px}.burgerbar .buttons-social a:visited{color:#fff}.burgerbar .buttons-social a:before{font-size:12px;line-height:22px;-webkit-box-sizing:border-box;box-sizing:border-box;float:left;width:22px;text-align:center}}.burgerbar .logo{text-align:left}.burgerbar .logo .site-logo{vertical-align:middle;line-height:25px;display:inline-block}.pro .burgerbar .logo .site-logo{line-height:16px}.pro .burgerbar .logo .site-logo:after{bottom:-1px}.burgerbar .logo .site-logo:after{position:absolute;content:'';text-transform:uppercase;font-size:9.11px;bottom:-4px;left:3px;line-height:0}@media only screen and (max-width:360px){.pro .burgerbar .logo svg{width:185px}.pro .burgerbar .logo svg path{-webkit-transform:scale(.93);-ms-transform:scale(.93);transform:scale(.93)}}.burgerbar .logo h1{display:none}.burgerbar .logo .strapline{font-size:13px;font-weight:400;text-transform:uppercase;float:right;line-height:13px;margin-top:27px;margin-left:13px}@media only screen and (max-width:699px){.burgerbar .logo{text-align:center;margin:auto}.burgerbar .logo .strapline{display:none}}.burgerbar .logo a{color:#fff}.burgerbar .logo a:hover{color:#fff;text-decoration:none}.burgerbar .logo a:visited{color:#fff}.burgerbar .logo a:visited:hover{color:#fff}.burgerbar .button-menu{-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-o-user-select:none;-ms-user-select:none;user-select:none;position:absolute;left:0;width:60px}.burgerbar .burgerbar-small{width:100%;max-height:60px;height:60px}@media only screen and (min-width:700px){.burgerbar .burgerbar-small{position:relative}.burgerbar .burgerbar-small>.button-menu{display:none}.burgerbar .burgerbar-small .logo{padding:0 16px;position:absolute}}.burgerbar .site-logo{position:relative}.trending-wrapper{margin:30px 24px 0;display:block;font-weight:600}.trending-wrapper .trending-bar{*zoom:1;display:block;background-color:transparent;position:relative;clear:both;white-space:nowrap;width:100%;height:40px;font-size:14px;background:#ededed}.trending-wrapper .trending-bar,.trending-wrapper .trending-items{overflow:hidden;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}.trending-wrapper .trending-items{height:100%;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center}.trending-wrapper .trending-lead{text-transform:uppercase;margin:0 0 0 10px;padding:0 10px 0 0;display:inline-block;line-height:40px;cursor:pointer;background:#ededed;color:#0581c9;vertical-align:top}.trending-wrapper .trending-item{display:inline-block;*display:inline;margin-left:-2px;line-height:40px}.trending-wrapper .trending-item:first-of-type{margin-left:0}.trending-wrapper .trending-item a{line-height:40px;padding:0 14px;display:block}.trending-wrapper .trending-item a,.trending-wrapper .trending-item a:hover,.trending-wrapper .trending-item a:visited,.trending-wrapper .trending-item a:hover:visited{color:#333}.trending.pro{width:100%;max-width:927px;display:table;overflow:hidden;border-collapse:separate;border-spacing:2px;margin-left:22px;margin-top:30px}@media only screen and (max-width:999px){.trending.pro{display:none}}.trending.pro .menu-item-container{background:#ededed;padding:0 12px;line-height:40px;font-size:13px;display:table-cell;text-align:center}.trending.pro .menu-item-container a{color:#333}.trending.pro .menu-item{font-size:inherit;display:inline}.trending.pro .menu-item a{font-size:inherit;padding-left:0;padding-right:0;line-height:40px}.trending.pro .menu-item a:hover{background-color:inherit}.breadcrumb{font-size:13px;margin-bottom:30px}@media (max-width:700px){.breadcrumb{display:none}}.breadcrumb li{display:inline-block}.breadcrumb li:after{content:'>';margin-left:1ex;margin-right:1ex}.breadcrumb li:last-child:after{content:none;margin:0}.review-article .breadcrumb{margin-top:30px;margin-left:24px}.box{display:table;margin-bottom:40px;float:left;clear:both;width:100%}.box.separator{border-bottom:1px #ddd dotted;border-top:1px #ddd dotted}.box.separator .sub-box{padding:0 24px 0 0}.box.contrast{background:#ededed}.box.contrast .sub-box{padding:8px 16px}.box.less-space{margin-bottom:30px}.box .sub-box{float:left;width:100%;-webkit-box-sizing:border-box;box-sizing:border-box}.box .sub-box.auto{width:auto;float:left}.box .sub-box:nth-child(odd){border-bottom:1px #fff dotted}@media (min-width:575px){.box .sub-box{width:50%;float:none;display:table-cell;vertical-align:top;height:100%}.box .sub-box:nth-child(odd){border-bottom:none;border-right:1px #fff dotted}.box .sub-box.full{width:100%;border-right:none}}.box h3,.box h4{font-weight:600;font-size:16px;line-height:40px;text-transform:uppercase;vertical-align:middle}.box .inline{float:left;margin:12px 0 0}.box p{font-size:16px;line-height:24px;margin-bottom:1rem;color:#333}.box li{font-size:16px;line-height:28px}.box ul{margin-bottom:1rem}#sidebar .box{margin-bottom:30px}.load-comments:hover{color:#fff}input[type="search"]{-webkit-appearance:none;border:1px solid #ddd;font-size:1em;padding-right:3em;line-height:2.5em;padding-left:.75em;width:100%;-webkit-box-sizing:border-box;box-sizing:border-box;outline-offset:0;border-radius:0;margin-top:0;margin-bottom:0}input[type="search"]:focus{outline-offset:0}@media screen and (min-width:700px){input[type="search"]{padding-right:0}}@media screen and (min-width:900px){input[type="search"]{padding-right:54px;padding-top:13px;padding-bottom:11px;line-height:16px;font-size:16px}}label{line-height:1.4;display:block;margin:0 0 5px}.byline{display:block;margin-bottom:4px;line-height:23px;font-size:13px}.byline .relative-date{margin-left:4px}.primary-nav.pro .wrapper,.primary-nav.pro .menuitems.container,.primary-nav.pro .wrapper .menu-item-container a{background:#601948!important}.primary-nav{position:relative;z-index:1600}.primary-nav .wrapper{background:#0581c9}.primary-nav .menuitems{display:none;position:absolute;width:100%;left:0;top:60px;z-index:999}.primary-nav .menuitems:hover{z-index:999}@media screen and (min-width:700px){.primary-nav .menuitems{z-index:auto;display:block;position:relative;top:0}}.nav-list{font-size:0}@media screen and (min-width:700px){.nav-list{height:44px;overflow:hidden}}.nav-list.component-loaded{height:auto;overflow:visible}.menu-item{background-color:#0581c9}@media screen and (min-width:700px){.menu-item{display:inline-block;zoom:1;*display:inline;vertical-align:top;font-size:0;background-color:transparent}}.menu-item a{display:block;line-height:44px;font-size:1rem;padding-left:1rem}.menu-item a:not(.maglink){padding-right:1rem}@media screen and (min-width:700px){.menu-item a{display:inline-block;zoom:1;*display:inline;vertical-align:top}}.menu-item a,.menu-item a:visited,.menu-item a:hover,.menu-item a:visited:hover{color:#fff}@media screen and (min-width:700px){.menu-item a:not(.menu-item-magazines):hover{background-color:#0581c9}}.menu-item a:not(.menu-item-magazines):active{background-color:#666}.menu-item .icon-home{font-size:1.3em;line-height:1}.pro .menu-item{background-color:transparent}.menu-item.menu-item-main-pro{background-color:#8c2b5e}@media screen and (min-width:700px){.menu-item.menu-item-main-pro{min-width:70px;text-align:center}}.menu-item.menu-item-main-pro a{background-color:transparent}.pro .menu-item.menu-item-main-pro{background-color:#2f6e91}.sub-menu{vertical-align:top;display:none;background-color:#0581c9;font-size:0}.sub-menu-item{font-size:1rem}.menu-hamburger{height:60px;margin-bottom:0}.menu-hamburger:before,.menu-hamburger:after{content:"";position:absolute;width:18px;margin-left:-9px;top:50%;left:50%}.menu-hamburger:before{height:8px;border-top:2px solid #fff;border-bottom:2px solid #fff;margin-top:-6px}.menu-hamburger:after{height:2px;background:#fff;margin-top:-1px}.menu-hamburger.checked:before{border-top:none;border-bottom:none;width:8px;height:18px;margin-top:-9px;margin-left:-6px}.menu-hamburger.checked:after{width:2px;height:18px;margin-top:-9px;margin-left:-1px}.menu-item-hover-reveal,.menu-item-magazines{line-height:44px;color:#fff;padding-left:1rem;padding-right:1rem;white-space:nowrap;cursor:default}.menu-item-hover-reveal.menu-item,.menu-item-magazines.menu-item{font-size:1rem}@media screen and (min-width:700px){.menu-item-hover-reveal:hover .sub-menu,.menu-item-hover-reveal:focus .sub-menu,.menu-item-magazines:hover .sub-menu,.menu-item-magazines:focus .sub-menu{display:block;position:absolute;margin-left:-16px}}.menu-item-hover-reveal .icon,.menu-item-magazines .icon{font-size:11px;line-height:1;position:relative;top:-1px;left:1px}@media screen and (min-width:700px){.menu-item-hover-reveal .icon-arrow-right,.menu-item-magazines .icon-arrow-right{display:none}}.menu-item-hover-reveal .icon-arrow-down,.menu-item-magazines .icon-arrow-down{display:none}@media screen and (min-width:700px){.menu-item-hover-reveal .icon-arrow-down,.menu-item-magazines .icon-arrow-down{display:inline}}#sidebar{-webkit-box-sizing:border-box;box-sizing:border-box;float:left}@media screen and (min-width:700px){#sidebar{padding-left:20px;padding-right:20px}}@media screen and (min-width:1000px){#sidebar{padding-left:0;padding-right:0;width:300px}#sidebar>*:first-child{margin-top:1em}}@media (min-width:900px){.review-article+#sidebar{margin-top:0}}.review-article+#sidebar>*:first-child{margin-top:0}.pagination.internal{border-top:1px solid #ddd;border-bottom:1px solid #ddd;width:100%}.pagination.internal.expand{-webkit-box-sizing:border-box;box-sizing:border-box;color:#fff;background:#ccc}@media (min-width:700px){.pagination.internal.expand{padding:0 0 0 20px}}.pagination.internal.current-prev-next .current{width:100%;-webkit-box-sizing:border-box;box-sizing:border-box;float:left;margin-bottom:0;padding:10px;border-bottom:1px solid #ddd;display:none}@media screen and (min-width:575px){.pagination.internal.current-prev-next .current{display:none}}.pagination.internal.current-prev-next .current .title{font-size:13px;text-transform:uppercase;width:100%;text-align:center;float:left;font-weight:800}.pagination.internal.current-prev-next .current .page-title{font-size:16px;width:100%;float:left;text-align:center}.pagination.internal.current-prev-next .direction{text-transform:uppercase;color:#333;font-weight:600;line-height:24px;margin:10px 0}.pagination.internal.current-prev-next .next{margin:10px 0;line-height:24px;-webkit-box-sizing:border-box;box-sizing:border-box;width:50%}.pagination.internal.current-prev-next .next:hover .page-title{text-decoration:underline}.pagination.internal.current-prev-next .next .page-title{clear:both}.pagination.internal.current-prev-next .next .direction:before,.pagination.internal.current-prev-next .next .direction:after{color:#fff;background:#333;width:24px;height:24px;font-size:10px;line-height:24px;top:0}.pagination.internal.current-prev-next .next{float:right;text-align:right;padding-left:20px}.pagination.internal.current-prev-next .next .direction:after{float:right;margin-left:10px;text-indent:9px;text-align:left}.pagination.internal.current-prev-next .next .direction,.pagination.internal.current-prev-next .next .page-title{float:right}.pagination.internal label{width:100%;float:left;font-size:16px;line-height:40px;position:relative;margin:0}.pagination.internal label .box-title{font-weight:600;float:left;text-transform:uppercase;margin-left:20px}@media (min-width:700px){.pagination.internal label .box-title{margin-right:17px}}.pagination.internal label .current-page{cursor:pointer;float:left;overflow:hidden;font-weight:300;text-transform:uppercase;display:none}@media (min-width:700px){.pagination.internal label .current-page{display:block}}.pagination.internal label .pages-wrapper{position:relative;clear:both;font-weight:300;z-index:100000}@media (min-width:700px){.pagination.internal label .pages-wrapper{float:none;overflow:hidden;display:block;clear:none;margin-right:36px}}.pagination.internal label:after{cursor:pointer;font-size:22px;position:absolute;top:2px;right:10px}@media (min-width:700px){.pagination.internal label{max-height:40px;overflow:visible}.pagination.internal label:after{margin-top:0}}.pagination.internal input[type=checkbox].hidden{margin-left:-200px}@media (min-width:700px){.pagination.internal input[type=checkbox].hidden:checked~label:after{position:absolute;right:10px;top:0}}.pagination.internal .pages{display:none;float:left;clear:both;border:1px solid #0581c9;background:#fff;font-weight:600;text-transform:none;margin-bottom:0}.pagination.internal .pages li{border-bottom:1px solid #0581c9}.pagination.internal .pages li a{line-height:40px;padding:0 10px;display:block}.pagination.internal .pages li:last-child{border-bottom:none}.pagination.internal .pages li:hover{cursor:pointer}.pagination.internal .pages li.current,.pagination.internal .pages li:hover,.pagination.internal .pages li>a:active{background:#eAeAeA;color:#2f6e91}.pagination.internal input[type=checkbox].hidden:checked~label .pages-wrapper .pages{display:block;width:100%;-webkit-box-sizing:border-box;box-sizing:border-box}.review-article .socialite-widget{margin-bottom:20px}@media (min-width:900px){.review-article .socialite-widget{width:280px;position:absolute;right:0;bottom:0;text-align:right}}.socialite-widget-item{display:inline-block;zoom:1;*display:inline;vertical-align:middle;width:24px;height:24px;line-height:24px;font-size:1rem;margin-left:8px}.socialite-widget-item:first-child{margin-left:0}.socialite-widget-item a{background-color:#333;display:block;line-height:24px;width:100%;height:100%;text-align:center;color:#fff;border-radius:50%;text-decoration:none}.socialite-widget-item a:visited,.socialite-widget-item a:hover,.socialite-widget-item a:visited:hover{color:#fff;text-decoration:none}.socialite-widget-item .icon{font-size:.9em;width:100%;height:100%;line-height:24px}.socialite-widget-item .icon:before{display:block}.socialite-widget-item .facebook,.socialite-widget-item .icon-facebook,.buttons-social .icon-facebook{background:#3B5998}.socialite-widget-item .facebook:hover,.socialite-widget-item .icon-facebook:hover,.buttons-social .icon-facebook:hover{background:#4c70ba}.socialite-widget-item .twitter,.socialite-widget-item .icon-twitter,.buttons-social .icon-twitter{background:#4099FF}.socialite-widget-item .twitter:hover,.socialite-widget-item .icon-twitter:hover,.buttons-social .icon-twitter:hover{background:#73b4ff}.socialite-widget-item .whatsapp{background:#64D448}.socialite-widget-item .whatsapp:hover{background:#87de71}.socialite-widget-item .email{background:#333}.socialite-widget-item .email:hover{background:#4d4d4d}.burgerbar .buttons-social a{border:none}.burgerbar .buttons-social a:before{font-size:14px;line-height:24px;width:100%;height:100%}.newsletter-signup{display:block!important;background-color:#ededed;border-bottom:1px solid #ccc}@media (max-width:900px){.newsletter-signup{float:none!important}}.newsletter-signup .grey-box{color:#666}.newsletter-signup>h3{min-height:36px;font-size:16px;line-height:1.25em;font-family:"Open Sans",Arial,sans-serif;padding:8px 0;border-top:1px solid #ccc;border-bottom:1px solid #ccc}.newsletter-signup>h3 span{display:block;-webkit-box-sizing:border-box;box-sizing:border-box;width:300px;margin:0 auto}.newsletter-signup .icon-envelope{float:left;background-color:#ccc;color:#fff;text-align:center;border-radius:50%;font-size:25px;line-height:36px;width:38px;height:38px;margin-right:10px;margin-left:10px}.newsletter-signup small{font-size:10px;line-height:12px}@media screen and (min-width:700px){.newsletter-signup{float:none}}@media screen and (min-width:900px){.newsletter-signup{float:none;width:100%}}@media screen and (max-width:900px){.newsletter-signup .icon-envelope{margin-left:0}.newsletter-signup .grey-box{padding-left:0;padding-right:0}.newsletter-signup h3 span{width:300px;margin:0 auto}}.newsletter-signup .newsletter-logo{text-align:center}.newsletter-signup .newsletter-logo img{height:20px;padding-top:2px}.newsletter-signup.product-newsletter{border:solid 1px #333;-webkit-box-sizing:border-box;box-sizing:border-box}.newsletter-signup.product-newsletter h3,.newsletter-signup.product-newsletter h4{color:#fff;text-transform:none;font-family:"Open Sans",sans-serif}.newsletter-signup.product-newsletter h3{background:#333;font-size:15px;line-height:20px;border-top:none;border-bottom:none}.newsletter-signup.product-newsletter .icon-filled-envelope{float:left}.newsletter-signup.product-newsletter .product-cta{font-weight:700;display:inline}.newsletter-signup.product-newsletter .product-info{font-weight:400;display:inline}.newsletter-signup.product-newsletter .reduce{font-size:80%;display:inline}.newsletter-signup.product-newsletter h4{background-color:#666;font-size:.75em;line-height:33px}.newsletter-signup.product-newsletter p{color:#333;text-align:center;font-size:13px;line-height:17px;width:58%;margin-top:.5rem;display:inline-block;margin-left:5px}.newsletter-signup.product-newsletter p .jump-out-text{font-weight:700;display:block}.newsletter-signup.product-newsletter footer{color:#666;margin:.75rem 0 .5rem}.newsletter-signup .newsletter-image{display:inline-block;height:102px;width:35%;margin-left:8px;background:url("/media/img/newsletter-image.png") no-repeat;background-size:auto 102px;background-repeat:no-repeat;image-rendering:-moz-crisp-edges;image-rendering:-o-crisp-edges;image-rendering:-webkit-optimize-contrast;image-rendering:crisp-edges;-ms-interpolation-mode:nearest-neighbor}.newsletter-signup .newsletter-button{-webkit-box-sizing:border-box;box-sizing:border-box;width:100%;padding:0 17px;background:-webkit-gradient(linear,left bottom,left top,color-stop(50%,#E94E1B),color-stop(50%,#ed724a));background:-webkit-linear-gradient(bottom,#E94E1B 50%,#ed724a 50%);background:linear-gradient(to top,#E94E1B 50%,#ed724a 50%);height:44px;text-align:center}.newsletter-signup .newsletter-button a{color:#fff;font-size:1em;font-weight:900;display:inline-block;padding-top:14px;height:100%;width:100%;-webkit-box-sizing:border-box;box-sizing:border-box}.newsletter-signup .newsletter-button a:hover,.newsletter-signup .newsletter-button a:visited{color:#fff;text-decoration:none}.newsletter-signup .newsletter-button .icon{color:#fff;font-size:12px;position:relative;top:-2px;padding-left:3px}.newsletter-signup .subtitle{display:block;padding-left:10px;width:300px;margin:auto}.icon-filled-envelope{float:left;text-align:center;border-radius:50%;font-size:40px;line-height:36px;width:38px;height:38px;margin-right:10px;margin-left:10px;background-color:#ccc;color:#fff}.ratingVerdict{clear:both}#article-body .inlinegallery{visibility:hidden;margin-bottom:30px;width:100%}#article-body .inlinegallery,#article-body .inlinegallery .inlinegallery-wrap{position:relative;overflow:hidden}#article-body .inlinegallery .inlinegallery-item{position:relative;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;float:left;width:100%}#article-body .inlinegallery .inlinegallery-item,#article-body .inlinegallery .inlinegallery-item figure{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}#article-body .inlinegallery .inlinegallery-item figure{-webkit-box-pack:start;-webkit-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start;max-height:90vh;margin-bottom:1em;border-bottom:1px solid #333}#article-body .inlinegallery .inlinegallery-item figure p.vanilla-image-block{position:relative;margin-bottom:15px;background-color:#333}#article-body .inlinegallery .inlinegallery-item figure p.vanilla-image-block img{display:block;width:100%;height:auto;max-height:80vh;object-fit:contain}.review-article #article-body .inlinegallery .inlinegallery-item>*:last-child{margin-bottom:0}.newsletter-signup,.newsletter-signup>h3{background-color:#fff}.newsletter-signup .grey-box{padding:1ex;margin:0 auto;width:300px;-webkit-box-sizing:border-box;box-sizing:border-box;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}#article-body .widthsetter{width:100%}#article-body .widthsetter .articletable{display:inline-block;width:100%;margin-bottom:20px;word-break:normal;overflow-x:scroll}#article-body .widthsetter .articletable::-webkit-scrollbar{-webkit-appearance:none;-moz-appearance:none}#article-body .widthsetter .articletable::-webkit-scrollbar-thumb{border-radius:8px;border:2px solid #fff;background-color:rgba(0,0,0,.5)}#article-body .widthsetter .articletable::-webkit-scrollbar-track{background-color:#fff;border-radius:8px}#article-body .widthsetter .articletable table{margin-left:150px}#article-body .widthsetter .articletable table caption{width:100%;padding:14px;-webkit-box-sizing:border-box;box-sizing:border-box;text-align:center;font-weight:800;font-size:16px;line-height:18px;background-color:#fff}#article-body .widthsetter .articletable table tbody,#article-body .widthsetter .articletable table thead{text-align:center}#article-body .widthsetter .articletable table th,#article-body .widthsetter .articletable table td{padding:14px;min-width:10px;max-width:150px;font-size:13px;line-height:13px}@media (min-width:575px){#article-body .widthsetter .articletable table th,#article-body .widthsetter .articletable table td{font-size:15px;line-height:15px;max-width:200px}}#article-body .widthsetter .articletable table thead>tr{background-color:#333;color:#fff}#article-body .widthsetter .articletable table thead>tr th{background-color:#333}#article-body .widthsetter .articletable table tr .firstcol{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;position:absolute;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;max-width:120px;min-height:30px;left:0;padding:0 14px;-webkit-box-sizing:border-box;box-sizing:border-box;z-index:100;cursor:default}@media (min-width:575px){#article-body .widthsetter .articletable table tr .firstcol{max-width:200px}}#article-body .widthsetter .articletable table tbody>tr:nth-of-type(2n+1),#article-body .widthsetter .articletable table tbody>tr:nth-of-type(2n+1) td{background-color:#fff}body{background-color:#fff;-webkit-text-size-adjust:100%}a{color:#0581c9;text-decoration:none}a:hover{text-decoration:underline}a:visited{color:#0581c9}a:visited:hover{color:#0581c9}button{font-size:.875em;line-height:3em;border:solid 1px #333;color:#fff;background-color:#333;text-transform:uppercase;font-family:"Open Sans",sans-serif;margin:0;padding:1ex 1em}button:focus{outline:0}button::-moz-focus-inner{border:0}@media screen and (min-width:700px){.mobile-only{display:none}}#affiliateDisclaimer{text-align:left;font-size:12px;line-height:16px;padding:0;margin:15px 24px 0;color:#333}@media screen and (min-width:700px){#affiliateDisclaimer{font-size:13px;line-height:18px;margin-top:15px}}@media screen and (min-width:1000px){#affiliateDisclaimer{font-size:13px;line-height:18px;margin-top:20px}}#affiliateDisclaimer a{color:#333;text-decoration:underline}.burgerbar{color:#333}.burgerbar .logo .site-logo{height:30px}.burgerbar .other-links a{color:#333}.burgerbar .other-links a:visited{color:#333}.menu-hamburger.unchecked:before{border-top:2px solid #333;border-bottom:2px solid #333}.menu-hamburger.unchecked:after{border-top:2px solid #333}.menu-hamburger.checked:before{border-left:2px solid #333;border-right:2px solid #333}.menu-hamburger.checked:after{border-left:2px solid #333}.newsletter-signup .icon-envelope{background-color:#0581c9}div#article-body p.vanilla-image-block{text-align:center}div#article-body p.vanilla-image-block img{max-width:100%;max-height:80vh}</style>
+<link rel="apple-touch-icon" href="https://vanilla.futurecdn.net/toptenreviews/140351/apple-touch-icon.png">
+<link rel="shortcut icon" href="https://vanilla.futurecdn.net/toptenreviews/140351/favicon.ico">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-TileImage" content="https://vanilla.futurecdn.net/toptenreviews/140351/apple-touch-icon.png">
+<meta property="og:title" content="State Farm Auto Insurance review">
+<meta property="og:site_name" content="TopTenReviews">
+<meta property="og:url" content="https://www.toptenreviews.com/state-farm-auto-insurance-review">
+<meta property="og:description" content="For an all-round quality provider State Farm is tough to beat">
+<meta property="og:image" content="https://cdn.mos.cms.futurecdn.net/HrkkpWo36Hgeq9MPHD7f3Q-1200-80.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:type" content="article">
+<meta property="article:publisher" content="https://www.facebook.com/10TopTenReviews/">
+<meta property="article:author" content="https://www.facebook.com/10TopTenReviews/">
+<meta property="fb:app_id" content="">
+<meta property="fb:pages" content="">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:site" content="@toptenreviews">
+<meta property="twitter:title" content="State Farm Auto Insurance review">
+<meta property="twitter:description" content="For an all-round quality provider State Farm is tough to beat">
+<meta property="twitter:creator" content="@toptenreviews">
+<meta property="twitter:image" content="https://cdn.mos.cms.futurecdn.net/HrkkpWo36Hgeq9MPHD7f3Q-1200-80.jpg">
+<meta property="twitter:account_id" content="16098199">
+<meta name="google-site-verification" content="rM7bIIhWqAsajNsLQ8yzBHlUdibZuCCkLeSWCDidmWs">
+<meta name="taboola:url" content="https://www.toptenreviews.com/state-farm-auto-insurance-review">
+<meta name="theme-color" content="#0581c9">
+<script type="text/javascript">
+window.missingImage = function(){var missingImage = document.createElement('img');missingImage.src = '//vanilla.futurecdn.net/toptenreviews/media/img/missing-image.svg';return missingImage;}
+VAN={};
+var FEP_object;
+;
+VAN.gaDimensions=function(e,i,a,o){ga("create",e,"auto",{useAmpClientId:!0}),null!=a&&ga("set",{dimension57:a}),ga("require","displayfeatures"),o.fepPrimaryProduct&&ga("set",{dimension40:o.fepPrimaryProduct}),o.fepSecondaryProducts.length&&ga("set",{dimension41:o.fepSecondaryProducts.join("|")}),o.fepPrimaryProduct[0]&&ga("set",{dimension42:o.fepPrimaryCompany}),o.fepCompanies.length>=1&&ga("set",{dimension43:o.fepCompanies.join("|")}),o.fepPrimaryProduct&&ga("set",{dimension45:o.fepPrimaryProduct}),o.fepCategory&&ga("set",{dimension46:o.fepCategory}),o.fepArticleName.length>0&&ga("set",{dimension47:o.fepArticleName}),o.fepAlgorithm&&ga("set",{dimension50:o.fepAlgorithm}),o.fepNullified?ga("set",{dimension51:"true"}):ga("set",{dimension51:"false"}),"object"==typeof o.fepGroups&&Array.isArray(o.fepGroups)&&ga("set",{dimension58:o.fepGroups.join("|")}),o.thirdCategories&&ga("set",{dimension74:o.thirdCategories.join("|")}),void 0!==VAN.abTest&&void 0!==VAN.abTest.variationId&&ga("set",{dimension53:VAN.abTest.variationId});var t="false";try{void 0!==window.vanilla&&void 0!==window.vanilla.aft&&(t=!0===window.vanilla.aft.logged_in?"true":"false")}catch(e){console.error("Badly structured aft object",e)}ga("set",{dimension13:t}),ga("set",{dimension10:document.querySelector("html").getAttribute("data-locale").replace("_","-")});try{var n=document.cookie.replace(/(?:(?:^|.*;\s*)_ga\s*\=\s*([^;]*).*$)|^.*$/,"$1");n&&ga("set",{dimension59:n})}catch(e){console.log("GA ID error: ",e)}ga("send","pageview",i)}; VAN.assignFep=function(a){try{var e=e||{fepPrimaryProduct:"",fepSecondaryProducts:Array(),fepCompanies:Array(),fepHawk:{},fepCategory:"",fepGroups:Array(),kwMunge:Array(),fepArticleName:"",fepPrimaryCompany:"",fepAlgorithm:"",fepNullified:"",ready:!1,primaryCategory:"",secondaryCategories:Array(),thirdCategories:Array()};if(window.FEP=e,!e.ready){if("undefined"==typeof a)throw"FEPNotReady";e.fepPrimaryProduct=a[0].adTags.primaryProduct,e.fepSecondaryProducts=a[0].adTags.secondaryProducts,e.fepCompanies=a[0].adTags.companies,e.fepCategory="object"==typeof a[0].adTags.category?"":a[0].adTags.category,e.fepGroups="undefined"!=typeof a[0].adTags.groups?a[0].adTags.groups:Array(),e.fepArticleName=a[0].articleName,e.fepAlgorithm=a[0].strategy,e.fepNullified=a[0].nullified,e.fepPrimaryCompany=null!==a[0].adTags.primaryCompany&&a[0].adTags.primaryCompany.length>=1?a[0].adTags.primaryCompany:" ","undefined"!=typeof a[0].adTags.primaryCategory&&"undefined"!=typeof a[0].adTags.secondaryCategories&&"undefined"!=typeof a[0].adTags.thirdCategories&&(e.primaryCategory=a[0].adTags.primaryCategory,e.secondaryCategories=a[0].adTags.secondaryCategories,e.thirdCategories=a[0].adTags.thirdCategories),e.fepIAB=[],e.ready=!0;var r=["fepPrimaryProduct","fepSecondaryProducts","fepCompanies","fepCategory"];r.forEach(function(a){var r=e[a];"object"==typeof r&&(r=r),e.kwMunge=e.kwMunge.concat(r)}),e.kwMunge=e.kwMunge.filter(function(a,r){return e.kwMunge.indexOf(a)==r}),"undefined"!=typeof a[0].hawkTags.primaryProduct&&(e.fepHawk.primaryProduct=a[0].hawkTags.primaryProduct),"undefined"!=typeof a[0].hawkTags.secondaryProducts&&(e.fepHawk.secondaryProducts=a[0].hawkTags.secondaryProducts),"undefined"!=typeof a[0].hawkTags.companies&&(e.fepHawk.companies=a[0].hawkTags.companies),"undefined"!=typeof a[0].hawkTags.groups&&(e.fepHawk.groups=a[0].hawkTags.groups),"undefined"!=typeof a[0].hawkTags.category&&(e.fepHawk.category=a[0].hawkTags.category)}return window.FEP=e,e}catch(o){console.log("fep ga exc "+o.message)}};;
+</script>
+<script>
+try{
+var FEP_object = [{"acceptableLanguage":true,"adTags":{"category":"Auto_Insurance","companies":["J.D._Power","ConsumerAffairs","Lyft","Uber"],"editorProducts":"State_Farm_Auto_Insurance","groups":["Auto_Insurance","State_Farm","auto_insurance","car_insurance","insurance","Insurance","Travel_&_Auto"],"primaryCategory":"Auto_Insurance","primaryCompany":"State_Farm","primaryProduct":"State_Farm","secondaryCategories":["Auto_Insurance","State_Farm","auto_insurance","car_insurance","insurance","Insurance","Travel_&_Auto"],"secondaryCompanies":["J.D._Power","ConsumerAffairs","Lyft","Uber"],"secondaryProducts":["Insurance","Home_insurance","Allstate","Driving","Vehicle_insurance"],"thirdCategories":[]},"articleName":"State_Farm_Auto_Insurance","articleType":"review","dataSource":"provided","hawkTags":{"primaryProduct":"State_Farm","secondaryProducts":["Insurance","Home_insurance","Allstate","Driving","Vehicle_insurance"],"companies":["State_Farm","J.D._Power","ConsumerAffairs","Lyft","Uber"],"category":"Auto_Insurance","groups":["Auto_Insurance","State_Farm","auto_insurance","car_insurance","insurance","Insurance","Travel_&_Auto"],"editorProducts":"State_Farm_Auto_Insurance","internalProductName":"State_Farm_Auto_Insurance"},"internalProductName":"State_Farm_Auto_Insurance","nullified":false,"origSite":"toptenreviews","overrides":[],"site":"toptenreviews","strategy":"6.5","timestamp":1570468572,"topProductVsproductName":"0.4"}];
+}catch(ex){
+if (typeof console == "object") {
+console.log(ex);
+}
+}
+</script>
+<!-- GA TPL PREMIUM -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+// Optimizely Universal Analytics Integration
+window.optimizely = window.optimizely || [];
+window.optimizely.push("activateUniversalAnalytics");
+// Setup the FEP global object form the FEP_object
+// @TODO - can the format of FEP_object be changed server side?
+VAN.assignFep(FEP_object);
+var ga_code = 'UA-72111741-22';
+var analytics_ga_data = {"dimension1":"review","dimension2":"","dimension3":"insurance|travel-and-auto","dimension4":"toptenreviews\/","dimension5":"7HfmLWwiF2qUTyKQZWWvzC","dimension6":"|state_farm|auto_insurance|car_insurance|insurance|state_farm|auto_insurance|car_insurance|insurance|state_farm_auto_insurance|review|van-disable-inbody-ads|review|van-disable-inbody-ads|serversidehawk","dimension7":"luke_edwards","dimension8":"12-09-2019","dimension9":"1","dimension10":"EN-US","dimension95":"review","dimension106":"0","dimension126":"en","dimension127":"GB|US|AU|SG","dimension128":"07-10-2019","dimension134":"vandisableinbodyads"};
+var version = 'null';
+// Make sure all the GA dimensions are setup and correct
+VAN.gaDimensions(ga_code, analytics_ga_data, version, window.FEP);
+</script>
+<!-- END GA PREMIUM -->
+<script>
+var trailingSlash = false;
+</script>
+<link rel="manifest" href="/manifest.json">
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+var OneSignal = window.OneSignal || [];
+OneSignal.push(function() {
+OneSignal.init({
+appId: "ea7ce88e-c5ed-4416-9fbc-19034f8b0d85",
+autoRegister: true
+});
+OneSignal.registerForPushNotifications();
+});
+OneSignal.push(["addListenerForNotificationOpened", function(data) {
+OneSignal.getUserId( function(userId) {
+ga('send', 'event', 'OneSignal Notification_Clicked', data.id, userId);
+});
+}]);
+</script>
+<!-- Hawk Elements' styles -->
+<style id="hawkStyles">.hawk-tracking-pixel-container{width:0;height:0;}.hawk-affiliate-link-button{line-height:1.2;}.hawk-affiliate-link-button a.hawk-affiliate-link-link,.hawk-affiliate-link-button a.hawk-affiliate-link-link:hover,.hawk-affiliate-link-button a.hawk-affiliate-link-link:hover:visited,.hawk-affiliate-link-button a.hawk-affiliate-link-link:visited{text-decoration:none;}.hawk-affiliate-link-button{width:100%;line-height:1;}.hawk-affiliate-link-button .hawk-affiliate-link-link{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-flex:1;-ms-flex:1;flex:1;color:var(--white);padding:8px 10px;text-decoration:none;text-transform:uppercase;font-size:13px;font-weight:700;background-color:var(--site-color);word-break:normal;letter-spacing:normal;}.hawk-affiliate-link-button .hawk-affiliate-link-link:hover,.hawk-affiliate-link-button .hawk-affiliate-link-link:hover:visited,.hawk-affiliate-link-button .hawk-affiliate-link-link:link,.hawk-affiliate-link-button .hawk-affiliate-link-link:visited,.hawk-affiliate-link-button .hawk-affiliate-link-link>*{color:var(--white);text-decoration:none;}.hawk-tracking-pixel-container{width:0;height:0;}.hawk-affiliate-link-button{line-height:1.2;}.hawk-affiliate-link-button a.hawk-affiliate-link-link,.hawk-affiliate-link-button a.hawk-affiliate-link-link:hover,.hawk-affiliate-link-button a.hawk-affiliate-link-link:hover:visited,.hawk-affiliate-link-button a.hawk-affiliate-link-link:visited{text-decoration:none;}.hawk-affiliate-link-button{width:100%;line-height:1;}.hawk-affiliate-link-button .hawk-affiliate-link-link{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-flex:1;-ms-flex:1;flex:1;color:var(--white);padding:8px 10px;text-decoration:none;text-transform:uppercase;font-size:13px;font-weight:700;background-color:var(--site-color);word-break:normal;letter-spacing:normal;}.hawk-affiliate-link-button .hawk-affiliate-link-link:hover,.hawk-affiliate-link-button .hawk-affiliate-link-link:hover:visited,.hawk-affiliate-link-button .hawk-affiliate-link-link:link,.hawk-affiliate-link-button .hawk-affiliate-link-link:visited,.hawk-affiliate-link-button .hawk-affiliate-link-link>*{color:var(--white);text-decoration:none;}body .hawk-widget{--white:#fff;--trd-blue:#2f6e91;--site-color:#5aaf0b;width:100%;letter-spacing:normal;}._hawk.subtitle~.hawk-widget[data-widget-type=price]{margin:16px 0;}@media (min-width:600px){._hawk.subtitle~.hawk-widget[data-widget-type=price]{margin:0;min-height:128px;float:right;clear:none;width:50%;}.fancy_box_body ._hawk.subtitle~.hawk-widget[data-widget-type=price]{float:none;width:100%;}}.icon~.hawk-widget{clear:both;}</style>
+<!-- End Hawk Elements' styles -->
+<script type="application/ld+json">
+{
+"@type": "Product",
+"name": "State Farm Auto Insurance",
+"image": "https://cdn.mos.cms.futurecdn.net/HrkkpWo36Hgeq9MPHD7f3Q.jpg",
+"mainEntityOfPage": {
+"@type": "WebPage",
+"@id": "https://www.toptenreviews.com/state-farm-auto-insurance-review"
+},
+"url": "https://www.toptenreviews.com/state-farm-auto-insurance-review",
+"brand": {
+"@type": "Brand"
+},
+"review": {
+"@type": "Review",
+"name": "State Farm Auto Insurance review",
+"reviewBody": "Compare quotes with Assurance State Farm Auto Insurance: What you need to know State Farm Auto Insurance is the largest auto insurer in the entire nation meaning it gets the balance right between being a well-known brand name but offering a decent selection of products at consumer-friendly prices.&nbsp; State Farm looks after its customers that stay with the company by not automatically raising rates when policies renew, something customers report really enjoying.&nbsp; Since this is a nationwide&hellip;",
+"headline": "State Farm Auto Insurance review",
+"alternativeHeadline": "For an all-round quality provider State Farm is tough to beat",
+"datePublished": "2019-09-12T11:03:15Z",
+"keywords": [
+"Category: Insurance",
+"Category: Travel & Auto",
+"Category: Insurance",
+"State Farm",
+"auto insurance",
+"car insurance",
+"insurance",
+"State Farm",
+"auto insurance",
+"car insurance",
+"insurance",
+"review",
+"van-disable-inbody-ads",
+"review",
+"van-disable-inbody-ads",
+"serversidehawk"
+],
+"thumbnailUrl": "https://cdn.mos.cms.futurecdn.net/HrkkpWo36Hgeq9MPHD7f3Q-320-80.jpg",
+"creator": {
+"@type": "Person",
+"name": "Luke Edwards"
+},
+"publisher": {
+"@type": "Organization",
+"name": "Top Ten Reviews",
+"url": "https://www.toptenreviews.com",
+"logo": {
+"@type": "ImageObject",
+"url": "https://vanilla.futurecdn.net/toptenreviews/media/img/brand_logo.png",
+"caption": "Top Ten Reviews logo"
+}
+},
+"author": {
+"@type": "Person",
+"name": "Luke Edwards"
+},
+"reviewRating": {
+"@type": "Rating",
+"ratingValue": "4",
+"bestRating": "5"
+}
+},
+"aggregateRating": {
+"@type": "AggregateRating",
+"ratingValue": "4",
+"ratingCount": "1"
+},
+"description": "For an all-round quality provider State Farm is tough to beat",
+"@context": "http://schema.org"
+}
+</script>
+</head>
+<body class="limit-width ">
+<script>window.isIE = false</script>
+<!--[IE]><script>window.isIE = true</script><![endif]-->
+<script>
+window.amIIE = function() {
+return navigator.userAgent.indexOf('MSIE') !== -1 || navigator.appVersion.indexOf('Trident/') !== -1 || window.isIE;
+}
+</script>
+<a href="#main" class="skip-to-main-content" style="position:absolute;">Skip to main content</a>
+<nav class="primary-nav">
+<input type="radio" name="burgerbar-expand" class="burgerbar-none-radio" id="burgerbar-none" checked>
+<input type="radio" name="burgerbar-expand" class="burgerbar-radio" id="burgerbar">
+<div class="burgerbar ">
+<div class="container full burgerbar-small">
+<label class="button-menu unchecked menu-hamburger" for="burgerbar" onclick></label>
+<label class="button-menu checked menu-hamburger" for="burgerbar-none" onclick></label>
+<script type="application/ld+json">
+[
+{
+"@type": "Organization",
+"name": "Top Ten Reviews",
+"url": "https://www.toptenreviews.com",
+"logo": {
+"@type": "ImageObject",
+"url": "https://vanilla.futurecdn.net/toptenreviews/media/img/brand_logo.png",
+"caption": "Top Ten Reviews logo"
+},
+"@context": "http://schema.org"
+},
+{
+"@type": "WebSite",
+"name": "Top Ten Reviews",
+"url": "https://www.toptenreviews.com",
+"potentialAction": {
+"@type": "SearchAction",
+"target": "https://www.toptenreviews.com/search?searchTerm={query}",
+"query-input": "required name=query"
+},
+"@context": "http://schema.org"
+}
+]
+</script>
+<div id="publisherDetails">
+<div class="logo">
+<a href="https://www.toptenreviews.com/">
+<span class="site-logo">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="237px" height="32px" viewbox="31.5 134 237 32" enable-background="new 31.5 134 237 32" xml:space="preserve">
+<title>TTR logo</title>
+<g>
+<path fill="#0581C9" d="M181.4912109,156.4775391c-2.4013672,0.1181641-4.4443359-1.7314453-4.5634766-4.1328125
+c-0.0009766-0.0185547-0.0019531-0.0371094-0.0019531-0.0556641h11.9941406c0-0.2714844,0-0.7216797,0-1.0048828
+c0-5.0522461-2.5195312-8.671875-7.7714844-8.671875c-4.6015625,0-8.0917969,3.3833008-8.0917969,8.4707031
+c0,5.3232422,3.3242188,8.7773438,8.1972656,8.7773438c3.1396484,0.0976562,6.0917969-1.4853516,7.7490234-4.1523438
+l-2.7314453-2.0703125C185.3212891,155.3916016,183.4853516,156.4814453,181.4912109,156.4775391z M181.1835938,145.7587891
+c2.015625-0.1181641,3.7451172,1.4194336,3.8632812,3.4345703c0.0029297,0.0380859,0.0039062,0.0761719,0.0048828,0.1147461
+h-8.0439453c0.234375-2.0981445,2.0556641-3.6547852,4.1640625-3.5610352L181.1835938,145.7587891z"></path>
+<g>
+<path fill="#161E27" d="M264.7734375,142.340332h-0.2246094v-1.7036133h-0.6386719v-0.2011719h1.5029297v0.2011719h-0.6396484
+V142.340332z"></path>
+<path fill="#161E27" d="M266.7373047,141.8198242L266.7373047,141.8198242l-0.6972656-1.0175781v1.5380859h-0.2128906v-1.9047852
+h0.2128906l0.6972656,1.0410156l0.6982422-1.0410156h0.2128906v1.9047852h-0.2128906v-1.5380859L266.7373047,141.8198242z"></path>
+<path fill="#0581C9" d="M197.4267578,151.4140625c-0.5214844,1.7978516-0.8642578,3.3828125-0.8642578,3.3828125l0,0
+c0,0-0.3779297-1.5849609-0.8994141-3.2880859l-2.5195312-8.5419922h-4.0800781l5.3574219,16.4560547h4.1171875
+l5.4306641-16.4560547h-4.046875L197.4267578,151.4140625z"></path>
+<path fill="#0581C9" d="M220.4707031,156.4775391c-2.4013672,0.1181641-4.4443359-1.7314453-4.5644531-4.1328125
+c0-0.0185547-0.0009766-0.0371094-0.0009766-0.0556641h11.9716797c0-0.2714844,0-0.7216797,0-1.0048828
+c0-5.0522461-2.5195312-8.671875-7.7851562-8.671875c-4.6015625,0-8.0908203,3.3833008-8.0908203,8.4707031
+c0,5.3232422,3.3125,8.7773438,8.1982422,8.7773438c3.1386719,0.0976562,6.0908203-1.4853516,7.7480469-4.1523438
+l-2.7324219-2.0703125C224.2714844,155.3798828,222.453125,156.4697266,220.4707031,156.4775391z M220.1640625,145.7587891
+c2.015625-0.1181641,3.7451172,1.4194336,3.8632812,3.4345703c0.0009766,0.0380859,0.0029297,0.0761719,0.0048828,0.1147461
+h-7.9853516c0.2333984-2.0791016,2.0253906-3.6293945,4.1171875-3.5610352V145.7587891z"></path>
+<path fill="#0581C9" d="M247.7148438,142.9790039l-1.9394531,7.0976562
+c-0.5917969,2.1420898-0.828125,3.1118164-1.1835938,4.7329102l0,0c-0.3076172-1.6923828-0.5556641-2.5205078-1.0996094-4.6381836
+l-1.8925781-7.1923828h-3.5498047l-1.9042969,7.0976562c-0.5195312,1.940918-0.7919922,3.1118164-1.1123047,4.7329102l0,0
+c-0.3066406-1.6923828-0.6855469-3.0048828-1.1113281-4.6381836l-1.9042969-7.1923828h-4.0117188l4.7324219,16.4555664h3.9042969
+l1.8808594-6.2226562c0.484375-1.7265625,0.9707031-3.9394531,1.3134766-5.5605469l0,0
+c0.3193359,1.8540039,0.734375,3.6904297,1.2421875,5.5009766l1.7265625,6.2939453h3.8320312l5.0166016-16.4672852H247.7148438z"></path>
+<path fill="#0581C9" d="M261,149.7573242l-1.9755859-0.4492188c-2.3652344-0.4848633-3.4541016-0.7216797-3.4541016-1.9047852
+s1.1826172-1.6206055,2.6972656-1.6206055c1.7314453-0.0117188,3.3974609,0.6601562,4.6376953,1.8686523l2.2822266-2.4487305
+c-1.8583984-1.7490234-4.3330078-2.6923828-6.8847656-2.6259766c-3.1464844,0-6.6367188,1.5263672-6.6367188,5.1108398
+c0,3.0048828,2.2480469,4.2236328,5.1113281,4.8388672l2.4482422,0.5205078
+c1.5849609,0.3427734,2.5205078,0.5556641,2.5205078,1.6914062s-1.1835938,1.8691406-3.1113281,1.8691406
+c-1.9677734,0.0253906-3.8251953-0.9052734-4.9814453-2.4960938l-2.6611328,2.3662109
+c1.8867188,2.2470703,4.7099609,3.4921875,7.6425781,3.3710938c3.7724609,0,7.1923828-1.7988281,7.1923828-5.5605469
+C265.7324219,151.2714844,263.53125,150.3491211,261,149.7573242z"></path>
+<path fill="#0581C9" d="M53.9765625,134c-4.6181641-0.0083008-8.8891602,2.4501953-11.2026367,6.4472656v-5.855957H31.5v6.2817383
+h3.2885742V159.375h7.9853516v-5.9736328c3.5800781,6.1708984,11.4853516,8.2705078,17.6567383,4.6904297
+c6.1708984-3.5800781,8.2709961-11.4853516,4.690918-17.6567383C62.8154297,136.4609375,58.5717773,134.0102539,53.9765625,134z
+M59.1347656,153.9101562l-5.1582031-3.7504883l-5.1572266,3.7504883l1.9633789-6.0571289l-5.1694336-3.75h6.3759766
+l1.9873047-6.0688477l1.9755859,6.0688477h6.3056641l-5.1577148,3.75L59.1347656,153.9101562z"></path>
+<rect x="205.8251953" y="142.9790039" fill="#0581C9" width="3.9394531" height="16.4555664"></rect>
+<path fill="#0581C9" d="M169.6728516,148.7871094c1.9775391-1.2460938,3.1572266-3.4365234,3.1123047-5.7729492
+c0.1171875-2.4765625-1.1796875-4.8056641-3.3486328-6.0092773c-1.8427734-0.8740234-3.8818359-1.2451172-5.9150391-1.0766602
+h-8.6123047v23.5063477h4.1523438v-9.4047852h4.2470703l5.4179688,9.4047852h4.9453125l-5.9140625-9.8188477
+C168.4208984,149.4023438,169.0625,149.125,169.6728516,148.7871094z M166.8339844,145.8300781
+c-1.0664062,0.375-2.1972656,0.527832-3.3242188,0.4492188h-4.4589844v-6.6835938h4.4589844
+c1.1269531-0.0786133,2.2578125,0.0742188,3.3242188,0.4492188c1.0742188,0.5439453,1.7246094,1.6723633,1.65625,2.875
+C168.5371094,144.1259766,167.8945312,145.2543945,166.8339844,145.8300781z"></path>
+<circle fill="#0581C9" cx="207.7890625" cy="139.0515137" r="2.1887207"></circle>
+</g>
+</g>
+<g>
+<path fill="#686868" d="M105.1411133,142.6005859c-2.2924805-0.0708008-4.4033203,1.2387695-5.3588867,3.3242188v-2.9458008
+h-2.0351562V166h2.0351562v-9.5224609c0.9423828,2.1318359,3.1015625,3.4638672,5.4301758,3.3476562
+c4.0810547,0,6.8847656-3.1113281,6.8847656-8.5761719C112.097168,145.7827148,109.293457,142.6005859,105.1411133,142.6005859z
+M104.8457031,158.0849609c-3.1469727,0-5.1108398-2.3662109-5.1108398-6.8486328
+c0-4.4838867,1.9755859-6.8852539,5.0517578-6.8852539c3.0751953,0,5.1811523,2.3662109,5.1811523,6.8500977
+C109.9677734,155.6835938,108.0869141,158.0849609,104.8457031,158.0849609z"></path>
+<polygon fill="#686868" points="84.0244141,136.7802734 66.8242188,136.7802734 66.8242188,138.8027344 74.4072266,138.8027344
+74.4072266,159.5410156 76.4301758,159.5410156 76.4301758,138.8027344 84.0244141,138.8027344 "></polygon>
+<path fill="#686868" d="M87.1005859,142.6005859c-4.637207,0-7.4643555,3.4541016-7.4643555,8.6708984
+s2.8032227,8.5771484,7.4643555,8.5771484s7.5-3.3710938,7.5-8.5771484
+C94.6005859,146.0664062,91.7734375,142.6005859,87.1005859,142.6005859z M87.1005859,158.0849609
+c-3.1826172,0-5.3232422-2.5546875-5.3232422-6.8486328c0-4.2944336,2.1171875-6.9086914,5.3232422-6.9086914
+s5.3232422,2.590332,5.3232422,6.9086914C92.4238281,155.5537109,90.3183594,158.0849609,87.1005859,158.0849609z"></path>
+<path fill="#686868" d="M128.1147461,158.0498047c-3.0756836,0-5.5600586-2.1054688-5.5600586-6.3994141v-0.2363281h12.5043945
+v-0.2724609c0-4.8740234-2.3662109-8.5410156-7.1928711-8.5410156c-4.4243164,0-7.4287109,3.5488281-7.4287109,8.5058594
+c0,5.5947266,2.9692383,8.7421875,7.6064453,8.7421875c3.0429688,0.0595703,5.8310547-1.6923828,7.0976562-4.4599609
+l-1.5498047-1.0048828C132.6669922,156.5927734,130.5107422,158.0371094,128.1147461,158.0498047z M127.8662109,144.2919922
+c2.8535156,0.0996094,5.0859375,2.4941406,4.9863281,5.347168c-0.0014648,0.0395508-0.003418,0.0791016-0.0058594,0.1181641
+H122.590332C122.8979492,146.4331055,124.8618164,144.2919922,127.8662109,144.2919922z"></path>
+<polygon fill="#686868" points="124.9916992,136.7802734 107.7910156,136.7802734 107.7910156,138.8027344
+115.3857422,138.8027344 115.3857422,159.5410156 117.3969727,159.5410156 117.3969727,138.8027344 124.9916992,138.8027344 "></polygon>
+<path fill="#686868" d="M145.5991211,142.6005859c-2.2324219-0.1645508-4.3310547,1.0761719-5.2641602,3.1113281v-2.7329102
+h-1.9990234v16.4555664h1.9990234v-9.7836914c-0.027832-1.409668,0.484375-2.7763672,1.4316406-3.8208008
+c0.8549805-0.9047852,2.0566406-1.3999023,3.300293-1.3603516c1.0883789-0.0834961,2.1586914,0.309082,2.934082,1.0761719
+c0.8632812,0.9345703,1.0410156,2.4487305,1.0410156,5.0517578v8.8369141h2.0341797v-9.2983398
+c0-3.6674805-0.4140625-4.7319336-1.4545898-5.9150391C148.5742188,143.1308594,147.1103516,142.5410156,145.5991211,142.6005859z"></path>
+</g>
+</svg>
+<img class="fallback" src="" data-fallback-src="https://vanilla.futurecdn.net/toptenreviews/media/img/brand_logo.png">
+</span>
+<span class="hidden-header" itemprop="name">Top Ten Reviews</span> </a>
+</div>
+</div>
+<input type="checkbox" name="burgerbar-expand" class="search-checkbox" id="search-checkbox">
+<label class="button-search masthead-item " for="search-checkbox" onclick="">
+<span class="desktop-text">Search</span><span class="icon icon-search"></span>
+</label>
+<form class="search-box" action="https://www.toptenreviews.com/search" method="GET">
+<input type="search" name="searchTerm" placeholder="Search Top Ten Reviews" class="search-input">
+<button type="submit" class="search-submit">
+<span class="icon icon-search"></span>
+</button>
+</form>
+<div class="other-links">
+<a href="https://www.toptenreviews.com/feeds/all">
+<abbr title="Really Simple Syndication">RSS</abbr>
+</a>
+</div>
+<div class="buttons-social masthead-item">
+<a target="_blank" href="https://www.facebook.com/10TopTenReviews/" class="icon icon-circle icon-facebook" aria-label="Facebook"></a>
+<a target="_blank" href="https://twitter.com/toptenreviews" class="icon icon-circle icon-twitter" aria-label="Twitter"></a>
+<a target="_blank" href="https://www.instagram.com/toptenreviews" rel="nofollow" class="icon icon-circle icon-instagram" aria-label="Instagram"></a>
+<a target="_blank" href="https://www.youtube.com/user/toptenreviews" class="icon icon-circle icon-youtube" aria-label="YouTube"></a>
+<a target="_blank" href="https://www.pinterest.com/toptenreviews" class="icon icon-circle icon-pinterest" aria-label="Pinterest"></a>
+</div>
+</div>
+</div>
+<div class="wrapper">
+<div class="menuitems container full">
+<ul class="nav-list">
+<li class="menu-item menu-item-home">
+<a class="home" href="https://www.toptenreviews.com/" aria-label="home">
+<i class="icon icon-home"></i> </a>
+</li>
+<li class="menu-item menu-item-electronics">
+<a class="" href="https://www.toptenreviews.com/electronics" aria-label="Electronics">
+Electronics
+</a>
+</li>
+<li class="menu-item menu-item-health &amp; beauty">
+<a class="" href="https://www.toptenreviews.com/health-and-beauty" aria-label="Health &amp; Beauty">
+Health &amp; Beauty
+</a>
+</li>
+<li class="menu-item menu-item-hobbies">
+<a class="" href="https://www.toptenreviews.com/hobbies" aria-label="Hobbies">
+Hobbies
+</a>
+</li>
+<li class="menu-item menu-item-home &amp; garden">
+<a class="" href="https://www.toptenreviews.com/home-and-garden" aria-label="Home &amp; Garden">
+Home &amp; Garden
+</a>
+</li>
+<li class="menu-item menu-item-kitchen">
+<a class="" href="https://www.toptenreviews.com/kitchen" aria-label="Kitchen">
+Kitchen
+</a>
+</li>
+<li class="menu-item menu-item-money">
+<a class="" href="https://www.toptenreviews.com/money" aria-label="Money">
+Money
+</a>
+</li>
+<li class="menu-item menu-item-travel &amp; auto">
+<a class="" href="https://www.toptenreviews.com/travel-and-auto" aria-label="Travel &amp; Auto">
+Travel &amp; Auto
+</a>
+</li>
+<li class="menu-item menu-item-more menu-level-1 has-submenu
+menu-item-hover-reveal more-hide">
+<span tabindex="0">More <i class="icon icon-arrow-down"></i><i class="icon icon-arrow-right"></i></span>
+<ul class="sub-menu">
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<div class="dfp-leaderboard-container"></div>
+<div id="main" class="container full " tabindex="-1">
+<div class="trending-wrapper ">
+<div class="trending-bar container full">
+<div class="trending-lead brands-disabled">
+Trending
+</div>
+<ul class="trending-items ">
+<li class="trending-item"> <a href="https://www.toptenreviews.com/best-debt-settlement-companies">Debt Settlement Companies</a></li>
+<li class="trending-item"> <a href="https://www.toptenreviews.com/best-home-security-systems">Home Security Systems</a></li>
+<li class="trending-item"> <a href="https://www.toptenreviews.com/best-dna-testing-kits">DNA Testing Kits</a></li>
+<li class="trending-item"> <a href="https://www.toptenreviews.com/best-photo-books">Best Photo Books</a></li>
+<li class="trending-item"> <a href="https://www.toptenreviews.com/best-antivirus-software">Best Antivirus 2019</a></li>
+<!-- Start Trending Subset //-->
+<!-- End Trending Subset //-->
+</ul>
+<div id="fadeout"></div>
+</div>
+</div>
+<aside id="affiliateDisclaimer"><small>Top Ten Reviews is supported by its audience. When you purchase through links on our site, we may earn an affiliate commission. <a href="https://www.futureplc.com/terms-conditions/">Learn more</a></small></aside>
+<article class="review-article" data-id="7HfmLWwiF2qUTyKQZWWvzC">
+<div class="header-container">
+<nav class="breadcrumb" aria-label="Breadcrumbs">
+<ol>
+<li><a href="https://www.toptenreviews.com/">Home</a></li>
+<li><a href="https://www.toptenreviews.com/reviews">Reviews</a></li>
+</ol>
+</nav>
+<header>
+<div class="header-sub-container">
+<h1 class="review-title-long">State Farm Auto Insurance review</h1>
+<h2>For an all-round quality provider State Farm is tough to beat
+</h2>
+<p class="byline">
+<span class="chunk rating">
+<span class="icon icon-star"> </span>
+<span class="icon icon-star"> </span>
+<span class="icon icon-star"> </span>
+<span class="icon icon-star"> </span>
+</span>
+By
+<span class="no-wrap by-author"><a href="https://www.toptenreviews.com/author/luke-edwards" rel="author"><span style="white-space: nowrap">Luke Edwards</span></a></span>
+<time class="no-wrap chunk relative-date" datetime="2019-09-12T11:03:15+00:00">2019-09-12T11:03:15Z</time>
+<span class="no-wrap move-on-reviews"><a class="chunk category" href="https://www.toptenreviews.com/money/insurance">Insurance</a>&nbsp;<i class="icon icon-category-insurance"></i></span>
+</p>
+<nav class="socialite-widget box less-space " data-contexturl="https://www.toptenreviews.com/https://www.toptenreviews.com/state-farm-auto-insurance-review">
+<ul class="socialite-widget-ul">
+<li class="socialite-widget-item">
+<a href="https://www.facebook.com/sharer/sharer.php?u=https://www.toptenreviews.com/state-farm-auto-insurance-review" data-platform="facebook" target="_blank" class="facebook socialite" data-action="share" aria-label="Facebook">
+<i class="icon icon-facebook"></i>
+</a>
+</li>
+<li class="socialite-widget-item">
+<a href="https://twitter.com/intent/tweet?text=State%20Farm%20Auto%20Insurance%20review&amp;url=https://www.toptenreviews.com/state-farm-auto-insurance-review" data-platform="twitter" target="_blank" class="twitter socialite" data-action="tweet" aria-label="Twitter">
+<i class="icon icon-twitter"></i>
+</a>
+</li>
+<li class="socialite-widget-item mobile-only">
+<a href="whatsapp://send?text=State%20Farm%20Auto%20Insurance%20reviewhttps://www.toptenreviews.com/state-farm-auto-insurance-review?fwa" data-platform="whatsapp" class="whatsapp socialite" data-action="message" aria-label="WhatsApp">
+<i class="icon icon-whats-app"></i>
+</a>
+</li>
+<li class="socialite-widget-item">
+<a href="http://pinterest.com/pin/create/button/?url=https://www.toptenreviews.com/state-farm-auto-insurance-review&amp;media=https://cdn.mos.cms.futurecdn.net/HrkkpWo36Hgeq9MPHD7f3Q-1200-80.jpg" data-platform="pinterest" target="_blank" class="pinterest socialite" data-action="pin" aria-label="Pinterest">
+<i class="icon icon-pinterest"></i>
+</a>
+</li>
+<li class="socialite-widget-item">
+<a href="mailto:?subject=I%20found%20this%20webpage&amp;body=Hi,%20I%20found%20this%20webpage%20and%20thought%20you%20might%20like%20it%20https://www.toptenreviews.com/state-farm-auto-insurance-review" class="email socialite" data-platform="email" aria-label="Email">
+<i class="icon icon-envelope-solid"></i>
+</a>
+</li>
+</ul>
+<div class="num-shares-wrapper"><i class="icon icon-share"></i> <span class="num-shares-label">Shares</span> <span class="num-shares-value"></span></div>
+</nav>
+</div>
+</header>
+</div>
+<div id="content-after-image">
+<section class="content-wrapper">
+<div class="box contrast less-space verdict">
+<div class="sub-box full">
+<h3>Our Verdict</h3>
+<p>State Farm Auto Insurance is a real all-rounder with good quality services, features and a strong financial position as well as good customer feedback. It's not super strong in any one area but if we had to pick one it would be benefits as it rewards good driving well.</p>
+</div>
+</div>
+<div class="box contrast less-space pro-con">
+<div class="sub-box">
+<h4 class="icon icon-plus_circle">
+For
+</h4>
+<ul>
+<li>
+Drive Safe &amp; Save benefits
+</li>
+<li>
+Steer Clear Driver Program
+</li>
+<li>
+Great rental car system
+</li>
+</ul>
+</div>
+<div class="sub-box">
+<h4 class="icon icon-minus_circle">
+Against
+</h4>
+<ul>
+<li>
+No accident forgiveness
+</li>
+<li>
+Not the cheapest
+</li>
+<li>
+Not all options in every state
+</li>
+</ul>
+</div>
+</div>
+<div class="ratingVerdict" id="best-price-article-top">
+</div>
+<div id="article-body" class="text-copy bodyCopy auto">
+<aside class="hawk-widget" data-link="https://tracking.assurance.com/aff_c?offer_id=220&amp;aff_id=1572&amp;aff_sub={auto}" data-link-text="Compare quotes with Assurance" data-model-name="State Farm Insurance" data-show-fallback="button" data-widget-type="review" data-render-type="editorial"><div class="hawk-affiliate-link-button"><a href="https://tracking.assurance.com/aff_c?offer_id=220&amp;aff_id=1572&amp;aff_sub=%7Bauto%7D" target="_blank" rel="nofollow" class="hawk-affiliate-link-link" data-url="https://tracking.assurance.com/aff_c?offer_id=220&amp;aff_id=1572&amp;aff_sub={auto}"><span>Compare quotes with Assurance</span></a><span class="hawk-tracking-pixel-container"></span></div></aside><h2 id="state-farm-auto-insurance-what-you-need-to-know">State Farm Auto Insurance: What you need to know</h2><p>State Farm Auto Insurance is the largest <a href="https://www.toptenreviews.com/best-auto-insurance">auto insurer</a> in the entire nation meaning it gets the balance right between being a well-known brand name but offering a decent selection of products at consumer-friendly prices.&nbsp;</p><p>State Farm looks after its customers that stay with the company by not automatically raising rates when policies renew, something customers report really enjoying.&nbsp;</p><p>Since this is a nationwide company, across 50 states, you can get access to a local agent, of which there are 18,000, to file a claim or to simply have a chat with about any questions you need answered.</p><ul><li><a href="https://www.toptenreviews.com/best-auto-insurance">Best auto insurance</a></li><li><a href="https://www.toptenreviews.com/best-auto-loan-services">Best auto loan</a></li><li><a href="https://www.toptenreviews.com/best-extended-car-warranty-services">Best extended car warranties</a></li></ul><p>State Farm Auto Insurance offers benefits for safe drivers which extend beyond adults to good teen drivers. This is quite a rare offering that could help younger new drivers earn a more affordable policy which lets them get on the road early.&nbsp;</p><p>There's even a reward scheme which offers savings to students that have a good grade average &ndash; a nice idea to entice parents into using this service.</p><p>State Farm is a large company and also offers home insurance. If you need this too then you could make a saving as it does offer reductions and bundle benefits for taking more than one policy out at a time with the company.</p><h2 id="policies-how-much-does-state-farm-auto-insurance-cost">Policies: How much does State Farm Auto Insurance cost?</h2><ul><li><strong>Low-cost car coverage: $530</strong></li><li><strong>High-cost car coverage: $688</strong></li><li><strong>Market-leading 20/65/20 quotes</strong></li></ul><div class="fancy-box"><h5>State Farm Auto Insurance: Key features</h5><div class="fancy_box_body"><p><strong>Car rental cover: </strong>Rental is paid for and any expense to do with that is also covered<br>
+<br>
+<strong>Drive Safe &amp; Save:</strong> Based on mileage and safe driving you can make savings<br>
+<br>
+<strong>Steer Clear Driver Program:</strong> Driver training refresher course offers to help make savings</p></div></div><p>Policies aren't one set price and vary based on lots of factors including the car value, your credit and driving history, age, location and more. So pricing here is a rough guide based on the average user taking out the state recommended 100/300/100 policy.</p><p>We tested using low-value and high-value cars costing above and below $25,000 but with lots of other factors playing a part, this is to be taken as a rough idea.</p><p>For both low and high-priced cars State Farm sat slightly below the national average. So for a low cost car that's around the $530 mark and for a high priced vehicle it's closer to $688 price.</p><p>For a state minimum requirement which is usually 20/65/20 we got the lowest prices, meaning there are savings to be made here.</p><p>Teen driver policies, which can represent an 80 percent price bump were at the lower end of the scale for State Farm.</p><h2 id="state-farm-auto-insurance-rental-and-expenses">State Farm Auto Insurance: Rental and expenses</h2><ul><li><strong>Complimentary rental car</strong></li><li><strong>Expenses covered when over 50 miles from home</strong></li></ul><p>For car rental, when your car is in the shop after a collision, State Farm offers one of the best services. The insurance company will pay for a rental car for you but on top of that you get expenses too.</p><p>Expenses include things like meals, transportation and even lodgings. These all apply only if you're stranded more than 50 miles from your home. This coverage is also limited by state so may vary where you are.</p><figure><p class="vanilla-image-block" data-bordeaux-image-check><img src="https://vanilla.futurecdn.net/toptenreviews/media/img/missing-image.svg" alt="State Farm" class=" lazy-image lazy-image-loading lazyload optional-image" onerror="if(this.src &amp;&amp; this.src.indexOf('missing-image.svg') !== -1){return true;};this.parentNode.replaceChild(window.missingImage(),this)" sizes="auto" data-normal="https://vanilla.futurecdn.net/toptenreviews/media/img/missing-image.svg" data-src="https://cdn.mos.cms.futurecdn.net/vmLviEYshaDfB4QCFBH7Bn-320-80.jpg" data-srcset="https://cdn.mos.cms.futurecdn.net/vmLviEYshaDfB4QCFBH7Bn-320-80.jpg 320w, https://cdn.mos.cms.futurecdn.net/vmLviEYshaDfB4QCFBH7Bn-650-80.jpg 650w" data-sizes="auto" data-original-mos="https://cdn.mos.cms.futurecdn.net/vmLviEYshaDfB4QCFBH7Bn.jpg" data-pin-media="https://cdn.mos.cms.futurecdn.net/vmLviEYshaDfB4QCFBH7Bn.jpg"></p><div class="credit">(Image credit: State Farm)</div></figure><div class="fancy-box"><h5>Other auto insurance reviews</h5><div class="fancy_box_body"><p><a href="https://www.toptenreviews.com/best-auto-insurance"><strong>Best Auto Insurance</strong></a><strong> </strong><br>
+<a href="https://www.toptenreviews.com/allstate-auto-insurance-review">Allstate Auto</a> <br>
+<a href="https://www.toptenreviews.com/american-family-auto-insurance-review">American Family</a> <br>
+<a href="https://www.toptenreviews.com/amica-auto-insurance-review">Amica</a> <br>
+<a href="https://www.toptenreviews.com/auto-owners-insurance-review">Auto-Owners</a> <br>
+<a href="https://www.toptenreviews.com/erie-auto-insurance-review">Erie</a> <br>
+<a href="https://www.toptenreviews.com/farmers-auto-insurance-review">Farmers</a> <br>
+<a href="https://www.toptenreviews.com/geico-auto-insurance-review">Geico</a> <br>
+<a href="https://www.toptenreviews.com/progressive-auto-insurance-review">Progressive</a> <br>
+<a href="https://www.toptenreviews.com/travelers-auto-insurance-review">Travelers</a></p></div></div><h2 id="state-farm-auto-insurance-drive-safe-amp-save">State Farm Auto Insurance: Drive Safe &amp; Save</h2><ul><li><strong>System encourages safe driving</strong></li><li><strong>Discounts up to 50% for safe drivers</strong></li></ul><p>State Farm offers a reward system that allows you to enjoy benefits for being a safer driver. This is called Drive Safe &amp; Save which is a usage based program that calculates discounts based on your mileage and safe driving measurements. These include things like your driving speed or the time of day that you're driving most often.</p><p>You can get a discount of up to 50% once your driving behavior has been analyzed. The availability of this service and the discounts that you get from it won't be the same everywhere.</p><figure><p class="vanilla-image-block" data-bordeaux-image-check><img src="https://vanilla.futurecdn.net/toptenreviews/media/img/missing-image.svg" alt="Car damage" class=" lazy-image lazy-image-loading lazyload optional-image" onerror="if(this.src &amp;&amp; this.src.indexOf('missing-image.svg') !== -1){return true;};this.parentNode.replaceChild(window.missingImage(),this)" sizes="auto" data-normal="https://vanilla.futurecdn.net/toptenreviews/media/img/missing-image.svg" data-src="https://cdn.mos.cms.futurecdn.net/pUFoWfW2ewE2L5wySzZJfB-320-80.jpg" data-srcset="https://cdn.mos.cms.futurecdn.net/pUFoWfW2ewE2L5wySzZJfB-320-80.jpg 320w, https://cdn.mos.cms.futurecdn.net/pUFoWfW2ewE2L5wySzZJfB-650-80.jpg 650w" data-sizes="auto" data-original-mos="https://cdn.mos.cms.futurecdn.net/pUFoWfW2ewE2L5wySzZJfB.jpg" data-pin-media="https://cdn.mos.cms.futurecdn.net/pUFoWfW2ewE2L5wySzZJfB.jpg"></p><div class="credit">(Image credit: Pixabay)</div></figure><p class="mid__article"></p><h2 id="state-farm-auto-insurance-steer-clear-driver-program">State Farm Auto Insurance: Steer Clear Driver Program</h2><ul><li><strong>Online refresher course can help young drivers</strong></li><li><strong>Aimed at drivers who are under 25</strong></li></ul><p>Another feature that State Farm offers is the Steer Clear Driver Program which is designed to make you a safe driver. The idea being that if you're a better driver the insurance company can rely on you and so can charge you less on your policy.</p><p>The course itself is a driver refresher course which is available online, through an agent or using the mobile app. This course is aimed at drivers who are under 25 and have had no at-fault accidents or moving violations in the last three years.</p><h2 id="state-farm-auto-insurance-ridesharing-insurance">State Farm Auto Insurance: Ridesharing insurance</h2><ul><li><strong>Ridesharing cover offered in 46 states</strong></li><li><strong>Covers both personal and ridesharing use</strong></li></ul><p>State Farm offers cover for drivers of taxi services that use apps like Uber or Lyft.&nbsp;</p><p>Since some of these companies only give cover when the driver is active in a job there is risk when in between pickups. This policy from State Farm aims to fill in those gaps so you're always covered. The cover is a single policy that covers both personal and ridesharing use.&nbsp;</p><p>This is available for 46 US states and the District of Columbia.</p><h2 id="state-farm-auto-insurance-online-resources">State Farm Auto Insurance: Online resources</h2><ul><li><strong>Website is filled with online resources for you</strong></li><li><strong>Tips on day-to-day responsibilities when owning a vehicle</strong></li></ul><p>If you head over to the <a href="https://www.statefarm.com/insurance/auto/resources" target="_blank">State Farm site</a> it's filled with online resources for you. There's lots available to you, beyond insurance alone. There are lots of articles you can use to inform yourself on how to act in situations like in the event of your car being totaled.&nbsp;</p><p>You can also get simple things like tips on day-to-day responsibilities when owning a vehicle. This includes useful details like how to jump-start a car, how to protect it from sun damage or how to properly use the driver safety systems.</p><h2 id="state-farm-auto-insurance-what-the-users-say">State Farm Auto Insurance: What the users say</h2><ul><li><strong>3 star rating overall from J.D. Power</strong></li><li><strong>4 star rating from</strong>&nbsp;<strong>ConsumerAffairs</strong></li></ul><figure><p class="vanilla-image-block" data-bordeaux-image-check><img src="https://vanilla.futurecdn.net/toptenreviews/media/img/missing-image.svg" alt="JD Power Auto Insurance 2019" class="expandable lazy-image lazy-image-loading lazyload optional-image" onerror="if(this.src &amp;&amp; this.src.indexOf('missing-image.svg') !== -1){return true;};this.parentNode.replaceChild(window.missingImage(),this)" sizes="auto" data-normal="https://vanilla.futurecdn.net/toptenreviews/media/img/missing-image.svg" data-src="https://cdn.mos.cms.futurecdn.net/FB37ybjtiRJqVGP5ZKHQd6-320-80.jpg" data-srcset="https://cdn.mos.cms.futurecdn.net/FB37ybjtiRJqVGP5ZKHQd6-320-80.jpg 320w, https://cdn.mos.cms.futurecdn.net/FB37ybjtiRJqVGP5ZKHQd6-650-80.jpg 650w" data-sizes="auto" data-original-mos="https://cdn.mos.cms.futurecdn.net/FB37ybjtiRJqVGP5ZKHQd6.jpg" data-pin-media="https://cdn.mos.cms.futurecdn.net/FB37ybjtiRJqVGP5ZKHQd6.jpg"></p><div class="credit">(Image credit: JD Power)</div></figure><p>State Farm Auto is a well reviewed service with high financial solvency.</p><div class="fancy-box"><h5>More on Insurance</h5><div class="fancy_box_body"><p><strong>Buying Guides</strong></p><p><a data-event-label="elkInjectedRelatedBlock" href="https://www.toptenreviews.com/best-health-insurance-providers">Best health insurance providers 2019: Get yourself covered</a></p><p><a data-event-label="elkInjectedRelatedBlock" href="https://www.toptenreviews.com/best-auto-insurance">Best auto insurance 2019: Find your perfect car cover</a></p><p><strong>Reviews</strong></p><p><a data-event-label="elkInjectedRelatedBlock" href="https://www.toptenreviews.com/kaiser-permanente-health-insurance-review">Kaiser Permanente Health Insurance review</a></p><p><a data-event-label="elkInjectedRelatedBlock" href="https://www.toptenreviews.com/cigna-health-insurance-review">Cigna Health Insurance review</a></p><p><a data-event-label="elkInjectedRelatedBlock" href="https://www.toptenreviews.com/aetna-health-insurance-review">Aetna Health Insurance review</a></p><p><a data-event-label="elkInjectedRelatedBlock" href="https://www.toptenreviews.com/national-general-insurance-review">National General Health Insurance review</a></p><p><a data-event-label="elkInjectedRelatedBlock" href="https://www.toptenreviews.com/molina-health-insurance-review">Molina Health Insurance review</a></p><p><a data-event-label="elkInjectedRelatedBlock" href="https://www.toptenreviews.com/united-healthcare-health-insurance-review">United Healthcare Health Insurance review</a></p><p><a data-event-label="elkInjectedRelatedBlock" href="https://www.toptenreviews.com/humana-health-insurance-review">Humana Health Insurance review</a></p><p><a data-event-label="elkInjectedRelatedBlock" href="https://www.toptenreviews.com/blue-cross-blue-shield-health-insurance-review">Blue Cross Blue Shield Health Insurance review</a></p></div></div><p>According to the 2018 <a href="https://www.jdpower.com/business/ratings/study/U.S.-Auto-Claims-Satisfaction-Study/10027ENG">J.D. Power study</a>, the overall customer satisfaction score put this up there as one of the highest rated providers.</p><p><a href="https://www.consumeraffairs.com/insurance/allstate_auto.html" target="_blank">ConsumerAffairs</a> gives a four-star rating for average customer reviews with positive for safe driver discounts, basic coverage and online portal access but negatives for no accidental forgiveness and options not spreading across all states.</p><h2 id="state-farm-auto-insurance-verdict">State Farm Auto Insurance: Verdict</h2><p>State Farm Auto is the biggest auto insurer in the US meaning it covers all 50 states and has over 18,000 agents. The service is heavy on the rewards for safe drivers and those that are willing to do training, including students and younger drivers.</p><p>The app isn't great but the online portal has a huge selection of assistive features. The lack of accidental forgiveness as an option may be a deal breaker for some but other than that most features are there.</p><p>Bundle discounts are also another positive feature. There are also lots of options for both basic and comprehensive coverage with the rates just below that of the national average.&nbsp;</p><aside class="hawk-widget" data-link="https://tracking.assurance.com/aff_c?offer_id=220&amp;aff_id=1572&amp;aff_sub={auto}" data-link-text="Compare quotes with Assurance" data-model-name="State Farm Insurance" data-show-fallback="button" data-widget-type="review" data-render-type="editorial"><div class="hawk-affiliate-link-button"><a href="https://tracking.assurance.com/aff_c?offer_id=220&amp;aff_id=1572&amp;aff_sub=%7Bauto%7D" target="_blank" rel="nofollow" class="hawk-affiliate-link-link" data-url="https://tracking.assurance.com/aff_c?offer_id=220&amp;aff_id=1572&amp;aff_sub={auto}"><span>Compare quotes with Assurance</span></a><span class="hawk-tracking-pixel-container"></span></div></aside>
+</div>
+<div id="this-will-be-used-for-mpu-2"></div>
+<div class="read-more-container"></div>
+</section>
+<script>
+window._taboola = window._taboola || [];
+var taboola_lists = [];
+function taboola_is_device(device) {
+if ((! device) || device === null || (typeof device) === 'undefined') return true
+if (device === 'amp') return false
+if (device === 'desktop' && window.screen.width >= 700) return true
+if (device === 'mobile' && window.screen.width < 700) return true
+return false
+}
+</script>
+<footer class="van_taboola" id="taboola-below-article-thumbnails"></footer>
+<script>
+if (taboola_is_device("")) {
+taboola_lists.push({
+mode: "alternating-thumbnails-a",
+container: "taboola-below-article-thumbnails",
+placement: "Below Article Thumbnails",
+target_type: "mix"
+});
+}
+</script>
+<footer class="van_taboola" id=""></footer>
+<script>
+if (taboola_is_device("amp")) {
+taboola_lists.push({
+mode: "thumbnails-a",
+container: "",
+placement: "below-main-column",
+target_type: ""
+});
+}
+</script>
+<script>
+for(var i = 0; i < taboola_lists.length; i++){
+_taboola.push(taboola_lists[i]);
+}
+</script>
+<div class="related-articles-block">
+<div id="expanding-articles"></div> </div>
+<footer id="comment-jump">
+</footer>
+</div>
+</article>
+<aside id="sidebar">
+<section class="box newsletter-signup">
+<h3 class="separator-heading">
+<span>
+<i class="icon icon-envelope white"></i><span class="newsletter-title">Sign Up for e-mail newsletters</span>
+</span>
+</h3>
+<div class="grey-box">
+<p>Get the best reviews, product advice, news and more!</p>
+<iframe style="width:100%" height="100" sandbox="allow-scripts allow-forms" data-lazy-src="/newsletter" data-lazy-priority="low" scrolling="no">
+</iframe>
+<footer>
+<small>No spam, we promise. You can unsubscribe at any time and we'll never share your details without your permission.</small>
+</footer>
+</div>
+</section>
+<section id="our-top-ten">
+<h3>Latest Auto Insurance Reviews</h3>
+<ol>
+<li>
+<h4><a href="https://www.toptenreviews.com/travelers-auto-insurance-review">Travelers Auto Insurance review</a></h4>
+</li>
+<li>
+<h4><a href="https://www.toptenreviews.com/american-family-auto-insurance-review">American Family Auto Insurance review</a></h4>
+</li>
+<li>
+<h4><a href="https://www.toptenreviews.com/progressive-auto-insurance-review">Progressive Auto Insurance review</a></h4>
+</li>
+<li>
+<h4><a href="https://www.toptenreviews.com/allstate-auto-insurance-review">Allstate Auto Insurance review</a></h4>
+</li>
+<li>
+<h4><a href="https://www.toptenreviews.com/geico-auto-insurance-review">Geico Auto Insurance review</a></h4>
+</li>
+<li>
+<h4><a href="https://www.toptenreviews.com/farmers-auto-insurance-review">Farmers Auto Insurance review</a></h4>
+</li>
+<li>
+<h4><a href="https://www.toptenreviews.com/homeowners-insurance-usaa-review">USAA Review</a></h4>
+</li>
+</ol>
+</section>
+<section class="popular-box">
+<div id="popular-box-wrapper" class="style1">
+<div class="most-popular-tab-bar">
+<input type="radio" name="popradio" id="popradio-1" checked>
+<div id="popularcontent">
+<div class="flex-row">
+<label class="poplabel" id="poplabel-1" for="popradio-1">
+<span>More from Top Ten Reviews...</span>
+</label>
+</div>
+<ol class="popular-list active" id="poplist-1">
+<li class="most-popular-item first-article">
+<div style="width:100%">
+<a href="https://www.toptenreviews.com/husqvarna-460-rancher-review" aria-label="Husqvarna 460 Rancher Chainsaw Review">
+<img src="https://vanilla.futurecdn.net/toptenreviews/media/img/missing-image.svg" alt="" class=" lazy-image lazy-image-loading lazyload optional-image" onerror="if(this.src &amp;&amp; this.src.indexOf('missing-image.svg') !== -1){return true;};this.parentNode.replaceChild(window.missingImage(),this)" sizes="auto" data-normal="https://vanilla.futurecdn.net/toptenreviews/media/img/missing-image.svg" data-src="https://cdn.mos.cms.futurecdn.net/Uac4dwVgYqxCSgiTt4YnEn-320-80.png" data-srcset="https://cdn.mos.cms.futurecdn.net/Uac4dwVgYqxCSgiTt4YnEn-320-80.png 320w, https://cdn.mos.cms.futurecdn.net/Uac4dwVgYqxCSgiTt4YnEn-450-80.png 450w, https://cdn.mos.cms.futurecdn.net/Uac4dwVgYqxCSgiTt4YnEn-970-80.png 970w, https://cdn.mos.cms.futurecdn.net/Uac4dwVgYqxCSgiTt4YnEn-1024-80.png 1024w" data-sizes="auto" data-original-mos="https://cdn.mos.cms.futurecdn.net/Uac4dwVgYqxCSgiTt4YnEn.png" data-pin-media="https://cdn.mos.cms.futurecdn.net/Uac4dwVgYqxCSgiTt4YnEn.png" data-pin-nopin="true">
+</a>
+<div class="popular-listings">
+<span class="number-1">1</span><h4><a href="https://www.toptenreviews.com/husqvarna-460-rancher-review">Husqvarna 460 Rancher Chainsaw Review</a></h4>
+</div>
+</div>
+</li>
+<li class="most-popular-item ">
+<div style="width:100%">
+<a href="https://www.toptenreviews.com/delonghi-capsule-compact-ceramic-heater-review" aria-label="De&rsquo;Longhi Capsule Compact Ceramic Heater (HFX30C15) review">
+<img src="https://vanilla.futurecdn.net/toptenreviews/media/img/missing-image.svg" alt="" class=" lazy-image lazy-image-loading lazyload optional-image" onerror="if(this.src &amp;&amp; this.src.indexOf('missing-image.svg') !== -1){return true;};this.parentNode.replaceChild(window.missingImage(),this)" sizes="auto" data-normal="https://vanilla.futurecdn.net/toptenreviews/media/img/missing-image.svg" data-src="https://cdn.mos.cms.futurecdn.net/y4MbdqKdM7AReFHfJH2vZa-320-80.jpg" data-srcset="https://cdn.mos.cms.futurecdn.net/y4MbdqKdM7AReFHfJH2vZa-320-80.jpg 320w, https://cdn.mos.cms.futurecdn.net/y4MbdqKdM7AReFHfJH2vZa-450-80.jpg 450w, https://cdn.mos.cms.futurecdn.net/y4MbdqKdM7AReFHfJH2vZa-970-80.jpg 970w, https://cdn.mos.cms.futurecdn.net/y4MbdqKdM7AReFHfJH2vZa-1024-80.jpg 1024w" data-sizes="auto" data-original-mos="https://cdn.mos.cms.futurecdn.net/y4MbdqKdM7AReFHfJH2vZa.jpg" data-pin-media="https://cdn.mos.cms.futurecdn.net/y4MbdqKdM7AReFHfJH2vZa.jpg" data-pin-nopin="true">
+</a>
+<div class="popular-listings">
+<span class="number-2">2</span><h4><a href="https://www.toptenreviews.com/delonghi-capsule-compact-ceramic-heater-review">De&rsquo;Longhi Capsule Compact Ceramic Heater (HFX30C15) review</a></h4>
+</div>
+</div>
+</li>
+<li class="most-popular-item ">
+<div style="width:100%">
+<a href="https://www.toptenreviews.com/ring-video-doorbell-2-review" aria-label="Ring Video Doorbell 2 review">
+<img src="https://vanilla.futurecdn.net/toptenreviews/media/img/missing-image.svg" alt="" class=" lazy-image lazy-image-loading lazyload optional-image" onerror="if(this.src &amp;&amp; this.src.indexOf('missing-image.svg') !== -1){return true;};this.parentNode.replaceChild(window.missingImage(),this)" sizes="auto" data-normal="https://vanilla.futurecdn.net/toptenreviews/media/img/missing-image.svg" data-src="https://cdn.mos.cms.futurecdn.net/Q3o46kS2HF3PUQjGg8mNtH-320-80.jpg" data-srcset="https://cdn.mos.cms.futurecdn.net/Q3o46kS2HF3PUQjGg8mNtH-320-80.jpg 320w, https://cdn.mos.cms.futurecdn.net/Q3o46kS2HF3PUQjGg8mNtH-450-80.jpg 450w, https://cdn.mos.cms.futurecdn.net/Q3o46kS2HF3PUQjGg8mNtH-970-80.jpg 970w, https://cdn.mos.cms.futurecdn.net/Q3o46kS2HF3PUQjGg8mNtH-1024-80.jpg 1024w" data-sizes="auto" data-original-mos="https://cdn.mos.cms.futurecdn.net/Q3o46kS2HF3PUQjGg8mNtH.jpg" data-pin-media="https://cdn.mos.cms.futurecdn.net/Q3o46kS2HF3PUQjGg8mNtH.jpg" data-pin-nopin="true">
+</a>
+<div class="popular-listings">
+<span class="number-3">3</span><h4><a href="https://www.toptenreviews.com/ring-video-doorbell-2-review">Ring Video Doorbell 2 review</a></h4>
+</div>
+</div>
+</li>
+<li class="most-popular-item ">
+<div style="width:100%">
+<a href="https://www.toptenreviews.com/jaguar-e-pace-review" aria-label="2020 Jaguar E-Pace review">
+<img src="https://vanilla.futurecdn.net/toptenreviews/media/img/missing-image.svg" alt="" class=" lazy-image lazy-image-loading lazyload optional-image" onerror="if(this.src &amp;&amp; this.src.indexOf('missing-image.svg') !== -1){return true;};this.parentNode.replaceChild(window.missingImage(),this)" sizes="auto" data-normal="https://vanilla.futurecdn.net/toptenreviews/media/img/missing-image.svg" data-src="https://cdn.mos.cms.futurecdn.net/yUHdDxLV9czgN6Zm2zwa7G-320-80.jpg" data-srcset="https://cdn.mos.cms.futurecdn.net/yUHdDxLV9czgN6Zm2zwa7G-320-80.jpg 320w, https://cdn.mos.cms.futurecdn.net/yUHdDxLV9czgN6Zm2zwa7G-450-80.jpg 450w, https://cdn.mos.cms.futurecdn.net/yUHdDxLV9czgN6Zm2zwa7G-970-80.jpg 970w, https://cdn.mos.cms.futurecdn.net/yUHdDxLV9czgN6Zm2zwa7G-1024-80.jpg 1024w" data-sizes="auto" data-original-mos="https://cdn.mos.cms.futurecdn.net/yUHdDxLV9czgN6Zm2zwa7G.jpg" data-pin-media="https://cdn.mos.cms.futurecdn.net/yUHdDxLV9czgN6Zm2zwa7G.jpg" data-pin-nopin="true">
+</a>
+<div class="popular-listings">
+<span class="number-4">4</span><h4><a href="https://www.toptenreviews.com/jaguar-e-pace-review">2020 Jaguar E-Pace review</a></h4>
+</div>
+</div>
+</li>
+<li class="most-popular-item ">
+<div style="width:100%">
+<a href="https://www.toptenreviews.com/fafsa-federal-student-loans-review" aria-label="FAFSA: Federal Student Loans review">
+<img src="https://vanilla.futurecdn.net/toptenreviews/media/img/missing-image.svg" alt="" class=" lazy-image lazy-image-loading lazyload optional-image" onerror="if(this.src &amp;&amp; this.src.indexOf('missing-image.svg') !== -1){return true;};this.parentNode.replaceChild(window.missingImage(),this)" sizes="auto" data-normal="https://vanilla.futurecdn.net/toptenreviews/media/img/missing-image.svg" data-src="https://cdn.mos.cms.futurecdn.net/jvJpyp4NDLegSceWXLDRt-320-80.jpg" data-srcset="https://cdn.mos.cms.futurecdn.net/jvJpyp4NDLegSceWXLDRt-320-80.jpg 320w, https://cdn.mos.cms.futurecdn.net/jvJpyp4NDLegSceWXLDRt-450-80.jpg 450w, https://cdn.mos.cms.futurecdn.net/jvJpyp4NDLegSceWXLDRt-970-80.jpg 970w, https://cdn.mos.cms.futurecdn.net/jvJpyp4NDLegSceWXLDRt-1024-80.jpg 1024w" data-sizes="auto" data-original-mos="https://cdn.mos.cms.futurecdn.net/jvJpyp4NDLegSceWXLDRt.jpg" data-pin-media="https://cdn.mos.cms.futurecdn.net/jvJpyp4NDLegSceWXLDRt.jpg" data-pin-nopin="true">
+</a>
+<div class="popular-listings">
+<span class="number-5">5</span><h4><a href="https://www.toptenreviews.com/fafsa-federal-student-loans-review">FAFSA: Federal Student Loans review</a></h4>
+</div>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+</aside>
+</div>
+<script id="hawklinks-script">
+function loadHawklinks(src) {
+!function (e, f, u) {
+e.async = 1;
+e.src = u;
+f.parentNode.insertBefore(e, f);
+}(document.createElement('script'),
+document.getElementsByTagName('script')[0],
+src);
+}
+window.reliableDOMContentLoaded.then(function() {
+loadHawklinks("https://gizmos.hawk-prices.co.uk/hl/hawklinks.js");
+});
+</script>
+<link rel="preload" href="https://gizmos.hawk-prices.co.uk/hl/hawklinks.js" as="script">
+<!-- SP NOPE -->
+<script type="text/javascript">
+window.vanilla.tiberius = {
+enabled: false,
+}
+</script>
+<footer id="document-footer" class="container full">
+<div id="document-footer-content">
+<p>Top Ten Reviews is part of Future US Inc, an international media group and leading digital publisher. <a href="http://www.futureus.com" target="_blank">Visit our corporate site</a>.</p>
+<nav>
+<ul>
+<li><a href="http://www.futureplc.com/terms-conditions/" target="_blank">Terms and conditions</a></li>
+<li><a href="http://www.futureplc.com/privacy-policy/" target="_blank">Privacy policy</a></li>
+<li><a href="http://www.futureplc.com/cookies-policy/" target="_blank">Cookies policy</a></li>
+<li><a href="https://www.toptenreviews.com/archives" target="_blank">Archives</a></li>
+<li><a href="https://www.toptenreviews.com/advertise" target="_blank">Advertise</a></li>
+<li><a href="https://www.toptenreviews.com/about-us" target="_blank">About us</a></li>
+<li><a href="https://www.toptenreviews.com/contact-us" target="_blank">Contact us</a></li>
+</ul>
+</nav>
+<p>&copy;
+<span>
+<span>
+<span>Future US, Inc.</span> </span>
+<span>11 West 42nd Street, 15th Floor</span>,
+<span>New York,</span>
+<span class="region">NY</span> <span>10036</span></span>. </p>
+</div>
+</footer>
+<script>
+window.vanL10N = [];
+</script><script>
+if (document.cookie.indexOf("EuConsent") < 0) {
+if (!window._comscore) {
+window._comscore = window._comscore || [];
+}
+window._comscore.push({
+c1: "2",
+c2: "10055482",
+cs_ucfr: '' });
+(function() {
+var s = document.createElement("script"), el = document.getElementsByTagName("script")[0];
+s.async = true;
+s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+el.parentNode.insertBefore(s, el);
+})();
+} else {
+window.reliableConsentGiven.then(function(value) {
+if (!window._comscore) {
+window._comscore = window._comscore || [];
+}
+var cs_ucfr_value = '';
+if (value.consent && value.consent.purposeConsents[5]) {
+cs_ucfr_value = 1;
+} else {
+cs_ucfr_value = 0;
+}
+window._comscore.push({
+c1: "2",
+c2: "10055482",
+cs_ucfr: cs_ucfr_value });
+(function() {
+var s = document.createElement("script"), el = document.getElementsByTagName("script")[0];
+s.async = true;
+s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+el.parentNode.insertBefore(s, el);
+})();
+});
+}
+</script>
+<script>
+var dfp_config = {
+"keystone": "",
+"ad_unit": "10518929/toptenreviews/",
+"live_ad_unit": "10518929/toptenreviews/",
+"test_ad_unit": "10518929/toptenreviews_Test/",
+"recovery_ad_unit": "",
+"recovery_test_ad_unit": "",
+"incremental": true,
+"gptBeta": "",
+"max_incremental_ads": 20,
+"max_incremental_ads_mobile": 20,
+"max_concurrent_ads": 4,
+"refresh": true,
+"site_platform": "vanilla",
+"tiberius": false,
+"tiberius_mode": "",
+"keywords": "review,van-disable-inbody-ads,serversidehawk,State Farm,auto insurance,car insurance,insurance,State Farm Auto Insurance",
+"article_id": "7HfmLWwiF2qUTyKQZWWvzC",
+"vanilla_article_id": "7HfmLWwiF2qUTyKQZWWvzC",
+"page_type": "review",
+"product_brand": "null",
+"product_category": "Auto Insurance,Auto Insurance",
+"product": "State Farm Auto Insurance",
+"vertical": "",
+"source": "",
+"provertical": "",
+"single_request": true,
+"onscroll": {
+"refresh" : "",
+"mpu": ""
+},
+"jwplayer": "carousel"
+}
+</script> <script>
+dfp_config.gallery_refresh_interval = 2;
+</script> <script>window.vanillaComponents = [{"trackable":[{"type":"click","identifier":".menuitems a","name":"Link clicked","countTotal":true}],"name":"Primary Nav","excludeHidden":false,"identifier":".primary-nav"},{"trackable":[{"type":"click","identifier":".feature-block-item-wrapper a","name":"Article clicked","countTotal":false}],"name":"Featured articles","excludeHidden":false,"identifier":".top-featured"},{"trackable":[{"type":"click","identifier":"a","name":"Logo clicked","countTotal":false}],"name":"Site Logo","identifier":".logo"},{"trackable":[{"type":"click","identifier":".most-popular-item","name":"Most read article clicked","countTotal":true}],"name":"Most Popular - Popular","identifier":"#poplist-1"},{"trackable":[{"type":"click","identifier":".most-popular-item","name":"Most shared article clicked","countTotal":true}],"name":"Most Popular - Shared","identifier":"#poplist-2"},{"trackable":[{"type":"click","identifier":"a","name":"Link clicked","countTotal":false}],"name":"Prev/Next","identifier":".next-prev-container"},{"trackable":[{"type":"click","identifier":"a","name":"Number clicked","countTotal":true}],"name":"Paginated Review Numerical pagination - Number","identifier":".pagination-numerical-list"},{"trackable":[{"type":"click","identifier":".prev,.next","name":"Prev/Next clicked","countTotal":false}],"name":"Paginated Review Numerical pagination - Prev/Next","identifier":".navigation-sequential"},{"trackable":[{"type":"click","identifier":"a","name":"Link clicked","countTotal":true}],"name":"Inline Pagination","identifier":".swipe-pages-wrapper"},{"trackable":[{"type":"click","identifier":"a","name":"Link clicked","countTotal":true}],"name":"Article Tags","identifier":"#articleTag"},{"trackable":[{"type":"click","identifier":".recommended-article a","name":"Link clicked","countTotal":true}],"name":"Recommended article","identifier":".recommendation-articles"},{"trackable":[{"type":"click","identifier":"a","name":"Link clicked","countTotal":true}],"name":"Trending bar","identifier":".trending-items"},{"trackable":[{"type":"click","identifier":"a","name":"Link clicked","countTotal":true}],"name":"Boilerplate-1","identifier":".club-boilerplate-1"},{"trackable":[{"type":"click","identifier":"a","name":"Link clicked","countTotal":true}],"name":"Boilerplate-2","identifier":".club-boilerplate-2"},{"trackable":[{"type":"click","identifier":"a","name":"Link clicked","countTotal":true}],"name":"Boilerplate-3","identifier":".club-boilerplate-3"},{"trackable":[{"type":"click","identifier":"a","name":"Link clicked","countTotal":true}],"name":"Boilerplate-4","identifier":".club-boilerplate-4"},{"trackable":[{"type":"click","identifier":"a","name":"Link clicked","countTotal":true}],"name":"Inline links","identifier":"#article-body"},{"trackable":[{"type":"click","identifier":"a","name":"Link clicked","countTotal":true}],"name":"Social links","identifier":".socialite-widget"},{"trackable":[{"type":"click","identifier":"a","name":"Link clicked","countTotal":true}],"name":"Avatar","identifier":"#club-login"},{"trackable":[{"type":"click","identifier":".fwd-link","name":"FWD link clicked","countTotal":true}],"name":"Forward Linker","identifier":"#article-body"},{"trackable":[{"type":"click","identifier":"div .brands-lead","name":"Extending Trending Bar","countTotal":true}],"name":"Trending Bar Parent","excludeHidden":false,"identifier":"div .trending-bar"},{"trackable":[{"type":"click","identifier":"a[data-event-label=elkInjectedRelatedBlock]","name":"Link clicked","countTotal":true}],"name":"ELK Injected Related Block","identifier":"#article-body"}]</script>
+<script>
+var require = {waitSeconds:0};
+</script> <!-- Google Tag Manager -->
+<script>
+(function(){
+function loadGTM(){
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.defer=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5JL52XZ');
+}
+// Can't be in asset loader until we can call custom loader functions
+;(window.Promise
+? Promise.all([
+window.reliablePageLoad,
+window.reliableConsentGiven
+])
+: window.reliableConsentGiven
+).then(function(){
+setTimeout(loadGTM, 1500);
+});
+})();
+</script>
+<!-- End Google Tag Manager -->
+<script type="text/javascript">
+(function(){
+if(typeof window._taboola !== 'undefined'
+&& typeof taboola_lists !== 'undefined'
+&& Array.isArray(taboola_lists)
+&& taboola_lists.length)
+{
+function loadTaboola()
+{
+!function (e, f, u) {
+e.async = 1;
+e.src = u;
+f.parentNode.insertBefore(e, f);
+}(document.createElement('script'),
+document.getElementsByTagName('script')[0],
+'//cdn.taboola.com/libtrc/futureplc-network/loader.js');
+_taboola.push({article: 'auto'});
+_taboola.push({flush: true});
+}
+// Can't be in asset loader until we can call custom loader functions
+(window.Promise
+? Promise.all([window.reliablePageLoad, window.reliableConsentGiven])
+: window.reliableConsentGiven
+).then(function(){
+setTimeout(loadTaboola, 6000);
+});
+}
+})();
+</script>
+<script>window.addEventListener("load",function(){if(!window.askForConsent){var e=document.createElement("script");e.src="https://vanilla.futurecdn.net/toptenreviews/cookieconsent.min.js",e.onload=function(){var e=window.innerWidth>=700?"bottom":"top";window.cookieconsent.initialise({palette:{popup:{background:"#000"},button:{background:"#666666"}},position:e,content:{message:"We use cookies on this website to deliver content to you, personalise content and ads, provide social media features, and analyse our traffic. Click 'I accept' to consent to the use of cookies. More information on cookies and how to manage them",link:"click here",href:"http://www.futureplc.com/cookies-policy/",dismiss:"I accept"}})},document.body.appendChild(e);var o=document.createElement("link");o.rel="stylesheet",o.type="text/css",o.href="https://vanilla.futurecdn.net/toptenreviews/cookieconsent.min.css",document.body.appendChild(o);var t=document.createElement("style");t.appendChild(document.createTextNode(".cc-window {z-index:10000000}")),document.body.appendChild(t)}});</script>
+<!-- document assets - added by the article itself -->
+<script>
+window.vanilla.addJs({"id":"main-js","src":"\/\/vanilla.futurecdn.net\/toptenreviews\/140351\/media\/js\/main.min.js"}, null, 0)
+window.vanilla.addJs({"id":"ffte-js","src":"\/\/vanilla.futurecdn.net\/toptenreviews\/140351\/media\/shared\/js\/app.js"}, 2000, 1)
+window.vanilla.addCss({"href":"\/\/vanilla.futurecdn.net\/toptenreviews\/140351\/media\/css\/toptenreviews.min.css"})
+</script> <script>
+window.ffte = {"site":"toptenreviews","endpoint":"\/\/api.vanilla.futurecdn.net\/article","locale":"US","gaCode":"UA-72111741-22","debug":[],"serverEnvironment":"live","regionLink":"","isGlobal":false,"properties":{"articleProduct":["State Farm Auto Insurance"],"articleProductHandle":["state-farm-auto-insurance"],"articleType":"review","articleTemplate":"review","articleTagHandle":["state-farm","auto-insurance","car-insurance","insurance","state-farm","auto-insurance","car-insurance","insurance","state-farm-auto-insurance"],"articleTagType":["freeform","freeform","freeform","freeform","freeform","freeform","freeform","freeform","product"],"articleControlTag":["review","van-disable-inbody-ads","review","van-disable-inbody-ads","serversidehawk"],"articleVerticalHandle":[],"articleCategoryHandle":["insurance","travel-and-auto","insurance"],"subSite":"","articleVertical":"","id":"7HfmLWwiF2qUTyKQZWWvzC","legacyId":"7HfmLWwiF2qUTyKQZWWvzC"}}
+</script>
+<script id="parsely-cfg" src="//cdn.parsely.com/keys/toptenreviews.com/p.js"></script>
+<script>
+window.xkeys = ["toptenreviews-platform-responsive","toptenreviews-core-version-20.2.10","toptenreviews-core-ftefrontprodred","toptenreviews-article-7HfmLWwiF2qUTyKQZWWvzC","toptenreviews-articletype-review","toptenreviews-article-age-ancient","toptenreviews-region-US","toptenreviews-language-en","toptenreviews-author-Q5fihFRs5SjfRjfn3KZ2nb","toptenreviews-tag-6xPoy3TvZuticnDFQRqVW3","toptenreviews-tag-HmhJjMTFinoVnKmEwqRGEm","toptenreviews-tag-i7WECWPAA9KpFXZXURkcqT","toptenreviews-tag-L7y29RUjTpjrZED7LMkfMJ","toptenreviews-tag-6V5pz9YQgxRoT6B3iTE3tH","toptenreviews-tag-NCLGoQWvbuWj9GVsb35HB4"];
+window.templateVariables = {};
+</script>
+<div class="stickyFooter">
+<div class="stickyFooterContent">
+<div class="stickyFooter__brand">
+<p class="brand__best"></p>
+<img class="brand__logo">
+</div>
+<p class="stickyFooter__name"></p>
+<a class="stickyFooter__view"></a>
+</div>
+</div> </body>
+<script>
+window.ftr_request_id = "";
+</script> </html>
