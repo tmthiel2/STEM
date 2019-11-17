@@ -1,5 +1,6 @@
 ## Step 0: Creating folders on your desktop ##
-require("svDialogs")
+install.packages("svDialogs")
+library("svDialogs")
 set_up_directories <- function(){
   # Change this to the directory path that leads up to the alias
   base_directory <- "C:/Users/"
@@ -19,10 +20,12 @@ set_up_directories <- function(){
 set_up_directories()
 
 ## Step 1: Practice installation of a package ##
-require("ggplot2")
+install.packages("ggplot2")
+library("ggplot2")
 
 ## Step 2: Reading your dataset into R ##
-require("readr")
+install.packages("readr")
+library("readr")
 urlfile <- "https://github.com/tmthiel2/STEM/raw/master/Example Data.csv"
 All_Data<-as.data.frame(read_csv(url(urlfile)))
 
