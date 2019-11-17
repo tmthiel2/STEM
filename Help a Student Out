@@ -1,0 +1,19 @@
+## Step 0: Creating folders on your desktop ##
+install.packages("svDialogs")
+library("svDialogs")
+help_student <- function(){
+  # Change this to the directory path that leads up to the alias
+  base_directory <- "C:/Users/"
+  # Print out all child folders of "base_directory". One of them should be their alias.
+  get_alias <- function(){dlg_list(list.files(base_directory), multiple = FALSE, title = "\n\nSelect which one is your alias...\nType the number that corresponds and then hit enter...\n\n" ,gui = .GUI)$res}
+  alias <- get_alias()
+  # Create path for new folder to be created
+  path <- paste(base_directory,alias,"/OneDrive/Desktop/state_farm_project",sep="")
+  dir.create(path = path, showWarnings = FALSE)
+  dir.create(path = paste(path,"_demo",sep=""), showWarnings = FALSE)
+
+  download.file("https://raw.githubusercontent.com/tmthiel2/STEM/master/Full Code.R",destfile = paste(path,"_demo/Full Code.R",sep=""))
+
+  cat("\n\nYou now have the full code file in the state farm demo folder. Copy over what the student needs and then close out of this window and delete the full code file.\n\n")
+}
+help_student()
