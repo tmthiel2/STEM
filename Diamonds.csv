@@ -1,0 +1,1001 @@
+Diamond_ID,Price,Cut,Color,Clarity,Length,Width,Depth,Carat,Sim
+1,1637.96,Not Ideal,Worst,Not Clear,4.66,4.52,3.02,1.59,4.45574
+2,3304,Ideal,Best,Clear,5.6,5.31,2.71,1.6,-6.18367
+3,2874.54,Not Ideal,Worst,Clear,5.49,5.74,3.04,1.31,3.24694
+4,2839.05,Ideal,Worst,Not Clear,4.73,4.4,2.63,1.32,-1.39293
+5,1891.61,Ideal,Best,Not Clear,4.85,4.61,3.08,1.2,4.44524
+6,1324.82,Ideal,Worst,Not Clear,4.73,4.77,3.05,1.39,-2.6918
+7,3060.32,Ideal,Worst,Clear,5.42,5.35,3.02,1.78,1.54065
+8,2393.89,Ideal,Best,Not Clear,4.84,4.83,3.18,1.48,-3.59089
+9,2040.52,Not Ideal,Best,Not Clear,4.92,4.89,3.69,2.03,-6.54153
+10,1869.42,Not Ideal,Worst,Not Clear,4.58,4.6,2.77,1.92,-4.48385
+11,1135.6,Not Ideal,Worst,Not Clear,4.75,5,2.69,0.89,-8.1272
+12,2827.64,Not Ideal,Best,Clear,4.73,4.73,2.86,0.6,-8.69404
+13,4272.9,Not Ideal,Worst,Clear,5.83,5.54,3.23,2.13,2.01554
+14,3165.19,Not Ideal,Best,Clear,4.95,4.83,3.19,1.34,0.41708
+15,2860.02,Not Ideal,Worst,Clear,4.98,4.81,3.2,1.48,-0.81519
+16,1961.48,Not Ideal,Best,Not Clear,4.4,4.48,3.45,1.59,-0.49896
+17,2467.56,Not Ideal,Best,Clear,5.07,5,2.69,1.44,-3.25722
+18,1211.1,Not Ideal,Best,Not Clear,5.11,5.17,3.11,0.95,0.98177
+19,3060.55,Ideal,Best,Not Clear,4.75,4.67,3.25,1.97,1.18937
+20,2452.36,Not Ideal,Worst,Clear,4.66,4.58,3.47,1.45,-5.1854
+21,2277.32,Ideal,Best,Not Clear,4.68,4.51,3.18,1.1,-1.76214
+22,1673.95,Not Ideal,Worst,Not Clear,4.52,4.63,3.42,1.69,-1.28812
+23,2557.96,Not Ideal,Worst,Clear,4.78,4.81,3.08,1.28,-0.45542
+24,1953.94,Not Ideal,Worst,Not Clear,4.95,4.88,3.12,1.17,-4.27643
+25,2554.46,Not Ideal,Best,Not Clear,5.63,5.43,3.09,1.6,2.32817
+26,3051.51,Ideal,Worst,Clear,4.83,4.76,3.24,0.63,0.78751
+27,2069.8,Not Ideal,Best,Not Clear,4.57,4.63,2.79,1.05,-1.20321
+28,2858.42,Not Ideal,Best,Clear,4.8,4.6,3.55,1.49,-2.39705
+29,1901.84,Not Ideal,Worst,Not Clear,5.16,5.02,2.75,1.41,-1.76475
+30,3072.21,Not Ideal,Best,Clear,4.89,4.88,2.72,1.49,1.14837
+31,1286.03,Not Ideal,Worst,Not Clear,4.3,4.3,2.21,1.14,6.97638
+32,1581.09,Not Ideal,Worst,Not Clear,5.76,5.51,3.66,1.24,-0.74317
+33,2038.16,Not Ideal,Best,Not Clear,4.37,4.39,2.7,2.27,3.89098
+34,3275.95,Not Ideal,Best,Clear,5,5.09,2.97,1.02,-0.22935
+35,1908.38,Not Ideal,Best,Not Clear,5.08,4.88,2.83,1.23,-1.29809
+36,2312.74,Not Ideal,Best,Not Clear,4.3,4.2,3.16,1.6,-0.55831
+37,2577.32,Ideal,Best,Not Clear,5,5.03,3.49,2.16,-0.67107
+38,2354.78,Not Ideal,Worst,Not Clear,5.45,5.55,3.06,1.46,-2.16224
+39,3345.24,Not Ideal,Best,Clear,4.87,4.8,3.35,1.66,3.79507
+40,1558.56,Not Ideal,Worst,Not Clear,5.11,4.89,2.47,0.59,3.52934
+41,3118.33,Not Ideal,Worst,Clear,5.14,5.44,3.13,1.38,-1.99605
+42,2415.3,Ideal,Best,Not Clear,4.71,4.81,3.05,1.25,3.541
+43,2049.65,Not Ideal,Worst,Not Clear,5.18,5.4,3.44,1.25,-2.82406
+44,3673.37,Not Ideal,Worst,Clear,5.07,5.22,2.73,1.94,2.62806
+45,1367.88,Not Ideal,Worst,Not Clear,4.4,4.32,2.47,1.46,6.33809
+46,2892.71,Ideal,Worst,Clear,5.39,5.19,2.46,1.21,-5.04208
+47,2600.33,Not Ideal,Best,Clear,4.85,4.7,2.61,1.21,1.32034
+48,2385.97,Ideal,Worst,Clear,4.54,4.51,3.19,1.23,-3.24676
+49,2775.34,Not Ideal,Best,Clear,4.77,4.62,3.39,1.81,-3.7411
+50,3247.17,Ideal,Best,Clear,4.85,4.75,2.92,1.38,0.78516
+51,1893.58,Not Ideal,Best,Not Clear,5.25,5.33,2.86,1.36,1.5741
+52,1636.63,Not Ideal,Worst,Not Clear,5.16,4.85,3.07,1.49,5.03147
+53,1968.76,Not Ideal,Best,Not Clear,4.79,4.65,2.76,1.06,-4.67882
+54,2891.51,Not Ideal,Best,Clear,5.29,5.29,2.72,0.99,0.88432
+55,2898.13,Not Ideal,Worst,Not Clear,5.02,5.4,2.91,0.97,-2.39846
+56,3906.07,Ideal,Best,Clear,5.1,4.9,3.46,1.32,0.51405
+57,2182.09,Not Ideal,Best,Not Clear,5.17,4.75,3.16,0.85,-1.27639
+58,3465.86,Ideal,Best,Clear,4.93,4.71,3.55,1.19,-2.93942
+59,2210.89,Not Ideal,Worst,Not Clear,4.9,4.9,2.89,1.49,-4.58535
+60,2410.84,Ideal,Best,Not Clear,4.65,4.58,3.48,1.09,3.45527
+61,3443.98,Not Ideal,Best,Clear,4.77,4.74,2.86,1.81,-4.16256
+62,2999.95,Ideal,Worst,Clear,4.81,4.66,3.26,1.12,2.45698
+63,3124.57,Not Ideal,Best,Clear,4.81,4.92,2.72,2.33,6.43007
+64,2085.27,Not Ideal,Best,Not Clear,4.67,4.67,2.44,1.23,-7.26508
+65,4027.76,Ideal,Best,Clear,4.61,4.74,3.07,0.98,1.5542
+66,916.73,Not Ideal,Worst,Not Clear,4.43,4.37,3.31,1.22,-3.97257
+67,2919.91,Ideal,Worst,Clear,4.63,4.91,3.36,1.41,-1.77656
+68,2351.37,Not Ideal,Worst,Not Clear,4.86,4.71,3.02,1.82,3.52044
+69,4081.18,Ideal,Worst,Clear,4.94,4.8,3.1,1.37,1.68582
+70,2032.81,Not Ideal,Best,Not Clear,4.49,4.62,3.11,1.5,-6.73999
+71,2042.19,Not Ideal,Best,Not Clear,4.97,4.88,3.1,0.96,2.03933
+72,2471.09,Not Ideal,Worst,Clear,4.85,5.05,3.13,0.84,1.43129
+73,1958.89,Ideal,Worst,Not Clear,5.25,5.17,3.75,0.85,4.11327
+74,2574.74,Not Ideal,Worst,Not Clear,4.89,4.78,3.29,2,-1.9022
+75,2488.46,Not Ideal,Worst,Clear,4.39,4.56,3.43,1.32,-2.44365
+76,1904.88,Not Ideal,Worst,Not Clear,5.04,4.74,3.18,1.27,-6.61331
+77,2925.21,Not Ideal,Best,Clear,5.01,4.83,3.03,1.05,-2.66571
+78,2303.98,Ideal,Best,Not Clear,4.95,4.82,2.86,1.08,4.01211
+79,2846.84,Ideal,Worst,Clear,5.01,4.92,3.27,0.67,0.78879
+80,2861.92,Not Ideal,Best,Clear,4.59,4.68,2.61,0.92,-4.0291
+81,2541.3,Not Ideal,Worst,Clear,4.64,4.65,2.46,1.23,6.82296
+82,3320.24,Not Ideal,Worst,Clear,5.01,4.71,2.95,1.22,-1.2814
+83,3495.63,Not Ideal,Best,Clear,4.69,5.2,2.85,2.41,1.75381
+84,1822.91,Not Ideal,Best,Not Clear,5.13,4.8,3.31,1.25,0.30582
+85,3757.39,Not Ideal,Best,Clear,5.46,5.68,3.35,1.1,-0.47184
+86,2552.4,Not Ideal,Worst,Not Clear,5.21,5,3.33,1.1,1.34075
+87,3664.83,Ideal,Best,Clear,5.17,5.05,3.09,1.31,-2.46313
+88,2722.04,Not Ideal,Worst,Clear,4.98,5,3.11,1.33,4.46296
+89,2229.4,Not Ideal,Best,Not Clear,4.7,4.9,3.18,1.92,-1.6999
+90,1488.45,Not Ideal,Best,Not Clear,4.71,4.73,3.14,1.23,-1.82514
+91,1942.82,Not Ideal,Best,Not Clear,4.7,4.81,3.15,0.82,-0.75616
+92,2707.17,Not Ideal,Best,Clear,5.32,5.14,3.08,1.23,-5.80224
+93,2796.69,Not Ideal,Best,Not Clear,5.47,5.64,3.6,1.67,-1.74027
+94,2617.52,Not Ideal,Best,Not Clear,4.75,4.83,2.55,1.95,-1.15742
+95,3662.24,Not Ideal,Best,Clear,5.08,5.11,2.98,1.6,0.09215
+96,1262.93,Not Ideal,Best,Not Clear,4.44,4.45,2.93,1.06,-0.44196
+97,1344.37,Not Ideal,Worst,Not Clear,4.55,4.51,2.73,1.54,1.69901
+98,3767.39,Not Ideal,Best,Clear,5.5,5.49,3.12,1.61,1.03497
+99,2846.92,Ideal,Best,Clear,4.57,4.58,3.34,1.56,-2.95798
+100,2884.06,Ideal,Best,Not Clear,5.33,4.95,2.94,1.68,0.07839
+101,2458.94,Not Ideal,Worst,Not Clear,5.25,5.21,3.18,1.43,-4.24545
+102,1752.68,Not Ideal,Worst,Not Clear,5.01,5.09,3.66,1.57,0.85892
+103,3452.56,Ideal,Worst,Clear,5.11,5,3.26,1.86,-1.92775
+104,2731.47,Not Ideal,Worst,Clear,4.97,4.77,3.19,1.56,-0.45041
+105,2978.75,Not Ideal,Worst,Clear,5.2,5.15,2.78,1.07,-3.55889
+106,2277.26,Not Ideal,Best,Not Clear,6.23,5.29,3.04,1.31,-3.03621
+107,1673.69,Ideal,Best,Not Clear,5.15,4.95,2.21,1.26,-0.94003
+108,2632.16,Ideal,Best,Clear,4.41,4.54,3.25,1.29,2.11693
+109,1997.1,Not Ideal,Best,Not Clear,5.02,5.18,2.85,0.87,-3.62063
+110,3084.87,Not Ideal,Best,Clear,5,5.03,2.98,1.86,-3.90872
+111,3254.51,Not Ideal,Best,Clear,5.37,5.31,2.7,1.35,1.40633
+112,2313.04,Not Ideal,Best,Not Clear,4.99,4.86,2.09,0.75,-0.03865
+113,2401.28,Not Ideal,Best,Clear,4.77,4.77,3.12,1.31,-0.48778
+114,2053.43,Not Ideal,Best,Not Clear,5.24,5.44,2.83,1.09,-7.1121
+115,2572.01,Not Ideal,Worst,Not Clear,5.4,5.33,3.24,1.81,-2.69352
+116,3182.36,Not Ideal,Best,Clear,5.23,5.26,3.41,0.68,0.8231
+117,3322.34,Not Ideal,Worst,Clear,5.26,6.07,2.99,1.53,-0.05494
+118,1553.16,Not Ideal,Worst,Not Clear,4.4,4.37,2.55,0.65,3.42085
+119,2172.02,Not Ideal,Worst,Clear,4.69,4.83,3.14,0.68,0.05791
+120,1389.19,Not Ideal,Best,Not Clear,4.99,4.74,3.27,1.07,-1.05767
+121,2803.67,Ideal,Worst,Clear,4.11,4.34,2.68,1.35,4.04121
+122,3332.41,Not Ideal,Worst,Clear,5.16,5.21,3.22,1.35,-7.94724
+123,3186.64,Ideal,Worst,Clear,4.48,4.52,3.14,1.75,1.75322
+124,2678.66,Not Ideal,Worst,Clear,4.75,4.59,2.82,1.39,-2.15474
+125,2586.91,Not Ideal,Worst,Not Clear,5.15,5.04,2.43,1.68,6.70493
+126,2338.34,Not Ideal,Worst,Not Clear,5.35,5.6,2.84,1.49,-4.27019
+127,2385.38,Ideal,Best,Not Clear,4.66,4.41,3.19,1.34,-3.95575
+128,2453.57,Not Ideal,Worst,Not Clear,5.14,5.11,3.75,1.89,3.84078
+129,1764.81,Not Ideal,Worst,Not Clear,5.15,5.04,3.22,2.2,-4.54531
+130,1489.32,Ideal,Worst,Not Clear,5.09,4.74,2.64,1.96,-0.31609
+131,1274.97,Not Ideal,Worst,Not Clear,4.64,4.75,3.5,1.27,-3.9463
+132,2836.72,Not Ideal,Worst,Clear,5.12,5.36,3.4,1.25,-2.5234
+133,2898.13,Not Ideal,Best,Clear,4.68,4.91,2.84,0.96,5.1169
+134,3600.34,Not Ideal,Best,Clear,5.38,5.37,3.04,1.3,0.32678
+135,3160.57,Ideal,Worst,Clear,5.34,5.38,3.35,1.09,-2.28394
+136,3556.98,Ideal,Best,Clear,4.74,4.8,2.95,1,-1.3534
+137,2024.59,Not Ideal,Best,Not Clear,4.49,4.74,2.74,1.63,-0.23485
+138,3042.94,Not Ideal,Worst,Clear,4.92,4.64,2.14,1.74,-0.2554
+139,4113.75,Ideal,Best,Clear,5.39,5.02,3.28,1.26,2.2598
+140,1547.78,Not Ideal,Worst,Not Clear,5.13,5.21,2.85,0.62,1.86991
+141,2549,Ideal,Worst,Not Clear,5.21,5.33,2.91,1.07,-3.18141
+142,2334.9,Not Ideal,Worst,Clear,4.51,4.48,3.1,1.12,-0.6824
+143,2770.67,Ideal,Worst,Not Clear,4.95,5.36,3.1,1.53,-1.12377
+144,2318.83,Not Ideal,Worst,Not Clear,4.92,5.09,2.94,1.95,1.6107
+145,2069.88,Not Ideal,Best,Not Clear,5.13,4.94,3.03,1.29,3.41383
+146,3207.41,Ideal,Best,Clear,4.68,4.77,2.95,1.55,-4.59899
+147,2991.12,Not Ideal,Worst,Clear,4.65,4.74,3.68,1.3,-0.57266
+148,2409.63,Ideal,Best,Not Clear,4.49,4.44,2.79,1.75,1.43778
+149,1670.06,Not Ideal,Worst,Not Clear,4.85,5.02,2.43,1.97,1.96635
+150,3278.59,Ideal,Best,Clear,4.85,4.7,2.91,0.8,-5.71309
+151,2277.45,Not Ideal,Worst,Not Clear,4.93,4.72,3.11,1.56,-1.65921
+152,1510.07,Not Ideal,Best,Not Clear,4.83,4.92,2.7,1.59,-1.6809
+153,2309.6,Not Ideal,Worst,Not Clear,5.59,5.73,3.24,1.77,3.82152
+154,1946.58,Not Ideal,Best,Not Clear,5.05,4.95,3.2,1.1,-0.84308
+155,3378.44,Ideal,Worst,Clear,5.21,5.05,3.23,1.75,-3.9918
+156,2383.43,Not Ideal,Worst,Not Clear,5.41,5.56,2.96,1.47,3.86593
+157,1842.88,Not Ideal,Worst,Not Clear,5.33,5.17,3.01,2.16,-3.74518
+158,2448.69,Not Ideal,Best,Not Clear,5.44,5.48,3.08,1.34,-1.22729
+159,1680.62,Ideal,Best,Not Clear,4.2,4.36,2.9,1.15,-0.55817
+160,1973.69,Not Ideal,Worst,Not Clear,5.11,4.97,3.21,1.73,0.30557
+161,3032.29,Ideal,Best,Not Clear,5.26,5.21,2.93,1.31,0.08439
+162,1664.87,Not Ideal,Best,Not Clear,4.98,4.87,2.6,1.51,4.90662
+163,3021.71,Not Ideal,Best,Clear,4.68,4.89,2.9,1.16,-0.61016
+164,3532.65,Not Ideal,Worst,Clear,5.76,5.66,2.71,1.16,-1.7904
+165,2272.45,Not Ideal,Best,Not Clear,5.09,5.09,2.43,1.51,-3.78309
+166,1015.85,Not Ideal,Worst,Not Clear,4.44,4.44,3.26,0.91,-3.03758
+167,1650.35,Not Ideal,Worst,Not Clear,4.46,4.66,2.53,0.54,3.46644
+168,2282.57,Not Ideal,Worst,Clear,4.96,4.95,2.74,0.91,-1.5862
+169,2180.99,Ideal,Best,Not Clear,4.51,4.61,2.85,0.96,-5.36003
+170,1608.82,Not Ideal,Worst,Not Clear,4.7,4.59,3.23,1.67,-6.78134
+171,2740.46,Ideal,Best,Not Clear,5.08,4.88,2.85,1.59,-3.92623
+172,1353.35,Not Ideal,Worst,Not Clear,4.91,4.71,3.05,0.91,5.62635
+173,2700.05,Not Ideal,Best,Not Clear,4.72,5.1,2.94,1.4,1.4696
+174,3297.35,Ideal,Best,Not Clear,5.15,5.12,3.12,1.48,1.47713
+175,1924.14,Not Ideal,Worst,Not Clear,5.4,5.03,3.45,1.33,-3.13333
+176,2349.4,Not Ideal,Worst,Not Clear,5.43,5.36,2.72,1.34,-3.53874
+177,2208.12,Not Ideal,Best,Not Clear,5.53,5.27,2.86,0.77,2.74238
+178,2504.8,Ideal,Worst,Not Clear,4.97,4.92,3.65,1.65,0.53851
+179,2728.38,Ideal,Best,Clear,4.8,4.87,2.82,1.32,-0.93137
+180,1955.98,Ideal,Worst,Not Clear,4.59,4.63,3.45,1.19,-3.4495
+181,3304.24,Not Ideal,Worst,Clear,5.76,6,2.66,1.61,-4.89365
+182,3116.19,Not Ideal,Best,Not Clear,5.25,5.23,2.41,1.24,-1.06149
+183,2084.98,Not Ideal,Worst,Not Clear,5.42,5.21,3.49,1.49,-3.16763
+184,2246.3,Not Ideal,Best,Not Clear,5.26,5.34,3.3,0.71,-1.0905
+185,3225.34,Not Ideal,Best,Clear,5.4,5.23,3.25,1.31,1.40076
+186,864.02,Not Ideal,Worst,Not Clear,4.63,4.73,2.75,1.16,0.42406
+187,1951.33,Ideal,Worst,Not Clear,5.07,5.09,2.67,0.82,-0.04508
+188,1987.94,Not Ideal,Worst,Not Clear,4.68,4.59,2.95,1.19,-0.46917
+189,3749.16,Ideal,Best,Clear,5.14,5.37,3.03,1.79,-3.67156
+190,2071.04,Not Ideal,Best,Not Clear,5.34,5.21,3.25,1.8,-3.93464
+191,2058.86,Ideal,Best,Not Clear,4.81,4.82,3.42,1.4,-2.84686
+192,2862.86,Not Ideal,Best,Clear,4.17,4.08,2.86,0.57,5.51034
+193,3029.33,Not Ideal,Best,Clear,5.18,5.25,2.8,2.08,-5.53323
+194,3211.88,Not Ideal,Worst,Clear,6.15,5.34,2.88,1.04,-5.3254
+195,3877.22,Ideal,Worst,Clear,5.14,5.43,3.25,1.58,-1.56619
+196,2887.6,Not Ideal,Worst,Clear,5.38,5.12,2.95,1.42,-2.78142
+197,1852.19,Not Ideal,Best,Not Clear,4.48,4.6,2.76,1.19,-2.60922
+198,1633.14,Not Ideal,Worst,Not Clear,4.61,4.69,2.73,1.62,3.01929
+199,2581.05,Ideal,Worst,Not Clear,4.69,4.55,2.96,1.51,2.0667
+200,3459.02,Ideal,Worst,Clear,4.69,4.54,3.27,1.31,-1.38811
+201,3558.71,Not Ideal,Best,Clear,5.25,5.06,3.14,1.35,-1.89827
+202,1041.19,Not Ideal,Worst,Not Clear,4.52,4.57,2.97,1.42,-3.78767
+203,3507.95,Not Ideal,Best,Clear,5.26,5.1,2.58,1.7,2.06828
+204,3002.25,Not Ideal,Worst,Clear,4.94,4.98,3.17,1.38,-0.34564
+205,2316.73,Ideal,Best,Not Clear,5.04,5.23,2.72,1.37,-0.04135
+206,2412.16,Not Ideal,Worst,Clear,4.52,4.46,2.76,1.45,-0.57682
+207,2777.37,Ideal,Best,Not Clear,5.17,5.22,2.74,1.25,-0.98145
+208,1615.92,Not Ideal,Worst,Not Clear,5.24,5.24,3.26,0.87,-6.08273
+209,2792.87,Not Ideal,Best,Not Clear,4.84,4.81,3.08,1.6,-4.98635
+210,2067.31,Not Ideal,Worst,Not Clear,4.62,4.5,3.4,1.27,0.7956
+211,3393.8,Ideal,Best,Clear,5.05,5.06,2.75,1.71,1.61188
+212,2134.06,Not Ideal,Worst,Not Clear,4.73,4.62,2.67,1.97,0.83037
+213,2591.77,Not Ideal,Best,Clear,5.21,6.32,3.3,1.98,1.52954
+214,2874.48,Not Ideal,Worst,Clear,5.06,4.9,2.62,0.94,0.5878
+215,2294.33,Ideal,Best,Not Clear,5.17,5.04,2.9,1.97,3.64001
+216,2735.54,Ideal,Best,Clear,4.61,4.57,2.64,1.81,0.0427
+217,2170.8,Not Ideal,Best,Not Clear,5.51,5.16,2.81,1.14,-0.15284
+218,2946.89,Not Ideal,Worst,Clear,5.19,5.34,3.39,1.31,1.42834
+219,4190.45,Not Ideal,Worst,Clear,5.75,5.51,2.83,1.22,-1.57123
+220,1887.4,Not Ideal,Best,Not Clear,5.02,4.93,2.45,1.46,2.59485
+221,1860.91,Not Ideal,Worst,Not Clear,4.62,4.64,3.11,1.41,-5.22872
+222,2941.5,Not Ideal,Worst,Clear,4.99,4.83,3,0.71,-4.52142
+223,3159.01,Not Ideal,Best,Clear,4.85,5.02,3.5,1.83,0.71868
+224,2667.09,Ideal,Best,Clear,4.52,4.64,2.22,1.48,-1.64152
+225,3210.27,Ideal,Worst,Not Clear,5.39,5.25,3.68,1.91,1.98368
+226,3003.19,Not Ideal,Best,Clear,5.19,5.36,2.74,1.19,3.59869
+227,1408.31,Not Ideal,Worst,Not Clear,4.65,4.53,3.18,1.13,0.08497
+228,2095.41,Ideal,Best,Not Clear,4.65,4.56,3.33,2.14,-1.38666
+229,1621.55,Not Ideal,Best,Not Clear,4.44,4.53,2.91,1.3,3.06316
+230,1431.92,Not Ideal,Best,Not Clear,4.86,4.87,3.03,1.43,1.02871
+231,3026.79,Ideal,Best,Clear,4.57,4.7,3.12,2.03,0.84151
+232,3107.89,Ideal,Worst,Clear,4.47,4.59,2.93,1.91,-2.60855
+233,2590.6,Ideal,Best,Clear,4.76,4.74,2.82,0.83,-0.10185
+234,4390.66,Not Ideal,Best,Clear,5.51,5.43,2.86,1.17,-1.53183
+235,2297.09,Not Ideal,Best,Not Clear,4.67,4.66,3.16,1.5,-5.01872
+236,1955.78,Ideal,Worst,Not Clear,5.21,5.05,3.18,1.61,4.414
+237,2087.05,Not Ideal,Worst,Not Clear,4.95,5.06,2.63,1.01,3.858
+238,2585.69,Ideal,Worst,Not Clear,4.35,4.25,2.76,1.01,1.04145
+239,2213.52,Not Ideal,Best,Not Clear,4.98,4.73,3.02,1.19,-4.526
+240,3182.55,Not Ideal,Worst,Clear,5.09,4.95,2.13,1.75,-1.90932
+241,1794.3,Not Ideal,Best,Not Clear,4.64,4.64,2.61,1.82,-4.72245
+242,2064.2,Not Ideal,Best,Not Clear,4.89,4.86,2.44,1.73,0.90252
+243,2714.22,Ideal,Worst,Clear,5.47,5.41,2.74,1.99,0.72225
+244,3511.58,Ideal,Best,Not Clear,4.96,5.1,2.75,1.56,1.96223
+245,1811.1,Not Ideal,Worst,Not Clear,4.82,4.49,2.63,1.51,2.18668
+246,3316.67,Not Ideal,Worst,Clear,5.38,5.25,3.34,1.76,-2.26666
+247,1731.44,Not Ideal,Best,Not Clear,4.86,5.04,3.03,1.81,-3.39105
+248,2513.78,Ideal,Best,Not Clear,4.77,4.84,2.94,1.47,1.38982
+249,1684,Not Ideal,Worst,Not Clear,4.88,5.03,2.79,1.18,-2.68232
+250,1590.73,Ideal,Worst,Not Clear,4.57,4.55,2.83,1.78,-1.93739
+251,2037.49,Not Ideal,Best,Not Clear,4.66,4.67,3.4,1.22,-2.58442
+252,1332.35,Not Ideal,Best,Not Clear,4.87,4.83,2.36,1.2,-4.82323
+253,3306.21,Not Ideal,Worst,Clear,4.71,4.86,3.31,1.39,-0.64397
+254,3073.59,Not Ideal,Best,Clear,5.52,5.63,3.19,1.21,1.93439
+255,3484.87,Ideal,Best,Clear,4.83,5.02,2.98,1.64,-6.5928
+256,2561.58,Not Ideal,Worst,Clear,4.62,4.94,3.3,0.74,1.82001
+257,1732.03,Ideal,Worst,Not Clear,5.14,5.15,2.38,1.16,0.4007
+258,3727.69,Not Ideal,Worst,Clear,5.3,5.39,2.89,1.03,-1.32529
+259,3119.17,Ideal,Worst,Clear,5.13,5.1,3.02,1.75,2.62933
+260,2405.24,Not Ideal,Worst,Clear,5.11,5.18,2.85,1.36,2.5961
+261,2022.34,Not Ideal,Worst,Not Clear,5.26,5.28,3.03,1.5,0.67735
+262,1652,Not Ideal,Worst,Not Clear,5.12,5.15,3.44,1.76,-2.44017
+263,1311.71,Not Ideal,Worst,Not Clear,4.33,4.6,2.99,1.71,0.53398
+264,2368.42,Not Ideal,Best,Not Clear,5.44,5.53,3.26,1.34,5.64852
+265,2082.19,Not Ideal,Worst,Not Clear,5.68,5.68,3.36,1.86,-1.89117
+266,3167.04,Not Ideal,Best,Clear,5.08,5.26,2.41,1.63,0.57737
+267,2392.55,Not Ideal,Worst,Not Clear,4.86,5.11,2.67,0.49,-0.93309
+268,3164.05,Ideal,Best,Not Clear,5.04,4.87,3.86,2.24,3.16428
+269,1979.64,Not Ideal,Best,Not Clear,4.66,4.83,3.05,1.99,2.20375
+270,2747.31,Not Ideal,Best,Not Clear,5.37,5.27,2.92,1.38,-3.50979
+271,2574.26,Ideal,Best,Not Clear,5.07,4.91,3.44,1.43,4.21264
+272,2510.61,Not Ideal,Best,Not Clear,4.92,4.85,3.46,2.07,0.7077
+273,3163.96,Ideal,Best,Clear,5.26,5.31,3.18,2.13,-4.05602
+274,1688.13,Not Ideal,Best,Not Clear,4.91,4.91,2.58,1.23,-0.84579
+275,3120.88,Not Ideal,Best,Clear,4.63,5.1,2.82,1.78,-7.81284
+276,2901.43,Not Ideal,Best,Not Clear,5.26,5.27,3.04,1.69,0.41045
+277,3305.71,Ideal,Best,Not Clear,5.36,5.34,2.96,0.99,3.79013
+278,3220.96,Ideal,Worst,Clear,4.97,4.62,2.87,1.38,-5.98358
+279,1520.98,Not Ideal,Worst,Not Clear,4.71,4.91,2.45,1.11,-0.76195
+280,3185.26,Ideal,Worst,Clear,5.15,5.35,3.11,1.1,-2.78601
+281,2793.7,Not Ideal,Best,Not Clear,5.43,5.59,3.52,0.95,1.54363
+282,1227.52,Not Ideal,Best,Not Clear,4.23,4.12,3.32,1.4,1.45639
+283,2590.37,Not Ideal,Best,Clear,4.93,4.64,3.07,1.1,0.93835
+284,1710.97,Ideal,Worst,Not Clear,5.43,5.34,2.79,0.83,-1.88607
+285,4374.23,Not Ideal,Best,Clear,5.39,5.46,3.27,0.8,2.29227
+286,2854.59,Not Ideal,Worst,Clear,4.47,4.62,2.83,1.02,1.38053
+287,3866.41,Not Ideal,Best,Clear,5.11,5.14,3.02,1.93,1.6815
+288,2160.04,Not Ideal,Worst,Not Clear,5.04,5,3.03,1.37,5.68213
+289,1132.09,Not Ideal,Worst,Not Clear,4.51,3.79,3.34,0.85,0.48071
+290,3481.62,Not Ideal,Best,Clear,5.14,4.87,2.93,1.69,-1.10934
+291,3936.55,Ideal,Worst,Clear,5.29,5.38,3.26,1.48,5.97916
+292,1433.25,Not Ideal,Best,Not Clear,5.45,5.38,2.81,1.21,7.98058
+293,2502.38,Not Ideal,Best,Clear,4.54,4.66,2.67,0.72,5.84895
+294,3440.74,Ideal,Best,Clear,5.27,5.27,3.12,2.39,4.22382
+295,1988.53,Not Ideal,Best,Not Clear,4.5,4.55,3.51,1.13,-0.93491
+296,2661.52,Not Ideal,Best,Clear,4.85,4.68,2.84,1.96,-4.94773
+297,3251.29,Not Ideal,Worst,Clear,4.87,4.99,3.5,1.31,2.25531
+298,1539.64,Not Ideal,Best,Not Clear,4.43,4.39,2.92,1.35,1.72414
+299,1572.86,Ideal,Worst,Not Clear,4.67,4.5,3.04,1.54,4.59416
+300,2189.15,Not Ideal,Worst,Not Clear,5.17,5,2.67,1.36,-2.37789
+301,1191.63,Not Ideal,Worst,Not Clear,5.09,4.92,2.92,1.09,-3.8618
+302,2757.66,Ideal,Best,Not Clear,4.96,5.02,3.16,1.19,-0.89066
+303,2322.71,Not Ideal,Worst,Clear,4.95,4.84,2.96,1.39,-2.19529
+304,1149.17,Not Ideal,Worst,Not Clear,5.31,5.38,3.41,1.68,-1.62758
+305,2058.53,Not Ideal,Best,Not Clear,5.19,5.27,2.82,1.18,1.64607
+306,2201.27,Not Ideal,Worst,Not Clear,4.81,4.71,3.14,1.7,1.04335
+307,3362.9,Ideal,Best,Not Clear,5.28,5.26,3.23,1.95,5.56301
+308,2010.09,Not Ideal,Best,Not Clear,5.04,4.87,3.04,0.59,-1.70353
+309,3000.15,Not Ideal,Best,Not Clear,5.39,5.67,3.06,1.41,-1.15159
+310,3095.73,Not Ideal,Worst,Clear,5.04,5.16,3.12,1.73,-1.2369
+311,2297.18,Not Ideal,Worst,Not Clear,4.74,4.69,2.91,1.69,-1.90927
+312,3290,Not Ideal,Best,Clear,4.34,4.74,2.87,1.8,8.44404
+313,3483.35,Not Ideal,Best,Clear,5.58,5.42,2.41,1.35,-1.86899
+314,2820.61,Not Ideal,Worst,Clear,5.09,5.31,3,1.49,1.13475
+315,2975.23,Ideal,Best,Not Clear,5.09,5.42,3.56,1.42,5.66341
+316,2741.53,Not Ideal,Worst,Not Clear,4.88,4.98,3.02,1.67,1.05062
+317,3091.88,Ideal,Best,Not Clear,5.7,5.72,3.68,1.7,3.96745
+318,2110.14,Ideal,Worst,Not Clear,5.68,5.31,3.02,1.07,-0.59883
+319,1824.13,Not Ideal,Worst,Not Clear,5.07,4.92,3.73,1.31,-2.55692
+320,2618.95,Not Ideal,Worst,Clear,5.03,5.09,2.84,1.02,7.02277
+321,2855.4,Not Ideal,Worst,Clear,5.29,5.5,3.05,1.63,3.31654
+322,1973.35,Not Ideal,Best,Not Clear,5.48,5.47,3.16,0.54,1.86268
+323,3531.97,Not Ideal,Best,Clear,5.07,5.1,2.7,1.66,2.08753
+324,2718.47,Ideal,Worst,Not Clear,4.95,5.04,2.76,1.52,-4.37117
+325,1450.8,Not Ideal,Worst,Not Clear,5.13,5.21,3.41,0.87,-3.4698
+326,2819.39,Ideal,Worst,Clear,5.18,4.99,3.96,1.61,0.1744
+327,2064.45,Not Ideal,Worst,Not Clear,4.8,4.68,2.37,1.24,-1.06304
+328,3111.96,Not Ideal,Worst,Clear,4.99,5.26,3.4,1.79,-3.07538
+329,1628.86,Not Ideal,Best,Not Clear,4.43,4.34,2.58,1.77,-1.06622
+330,2267.71,Not Ideal,Worst,Not Clear,4.97,5.03,3.51,0.99,-0.21537
+331,2395.11,Not Ideal,Best,Not Clear,5.61,5.5,2.55,0.87,2.60601
+332,1378.64,Ideal,Worst,Not Clear,4.77,4.86,3.43,1.28,2.02441
+333,1805.95,Ideal,Worst,Not Clear,4.48,4.62,2.31,1.77,-1.73994
+334,2487.03,Not Ideal,Best,Not Clear,4.8,5.06,2.94,1.26,-5.06283
+335,2589.43,Not Ideal,Best,Not Clear,5.31,5.17,3.42,1.14,1.0374
+336,1413.97,Not Ideal,Best,Not Clear,4.84,4.62,2.95,1.59,-1.61474
+337,1806.46,Not Ideal,Worst,Not Clear,5.19,5.11,2.51,1.36,-3.10614
+338,3373.76,Not Ideal,Worst,Clear,5.35,5.29,3.15,1.39,-4.50071
+339,3588.3,Ideal,Worst,Clear,4.9,4.73,3.08,1.91,1.78726
+340,2013.28,Ideal,Worst,Not Clear,5.12,5.16,3.24,0.91,-5.80728
+341,2519.41,Not Ideal,Best,Clear,4.55,4.37,2.82,0.78,1.39008
+342,3118.37,Not Ideal,Worst,Clear,4.61,4.67,3.18,1.79,5.42535
+343,2541.96,Ideal,Best,Not Clear,4.94,4.83,3.3,0.89,-1.57491
+344,3325.08,Ideal,Best,Not Clear,5.03,5.11,3.13,0.88,-1.31418
+345,1951.73,Ideal,Best,Not Clear,4.8,4.84,2.74,1.19,-1.93314
+346,3467.59,Ideal,Best,Clear,5.02,4.99,3.58,1.26,-1.79158
+347,2485.03,Not Ideal,Best,Not Clear,4.69,4.74,3.16,1.85,-4.36334
+348,3708.23,Ideal,Best,Clear,5.23,5.41,2.98,1.88,4.15656
+349,3294.36,Not Ideal,Worst,Clear,5.04,4.9,3.52,1.4,-8.88665
+350,3651.54,Not Ideal,Best,Clear,5.27,5.34,2.63,1.23,2.78111
+351,1821.92,Not Ideal,Best,Not Clear,5,5.21,3.17,1.65,-6.25848
+352,2624.87,Not Ideal,Worst,Clear,5.4,5.36,3.18,1.1,-4.47767
+353,2398.86,Ideal,Best,Clear,4.36,4.5,3.75,0.75,-2.05798
+354,2159.58,Not Ideal,Worst,Not Clear,4.84,4.88,2.99,1.08,-1.97985
+355,2656.94,Not Ideal,Worst,Clear,4.68,4.86,2.78,1.51,0.29606
+356,2076.19,Not Ideal,Worst,Not Clear,5.26,5.24,3.1,1.84,-4.88052
+357,1210.37,Not Ideal,Worst,Not Clear,4.32,4.25,2.77,1.71,0.71129
+358,4164.35,Not Ideal,Best,Clear,5,5.06,2.92,2.03,3.21841
+359,2412.06,Not Ideal,Best,Clear,4.58,4.64,2.37,1.25,0.59637
+360,2448.41,Ideal,Best,Not Clear,4.97,5.04,3.46,1.93,-2.20314
+361,1680.21,Not Ideal,Best,Not Clear,4.64,4.13,2.47,1.49,2.26586
+362,1502.08,Not Ideal,Best,Not Clear,5.09,5.29,3.01,1.74,-3.67281
+363,2292.2,Ideal,Worst,Not Clear,4.84,4.7,3.73,1.44,-2.09659
+364,1137.59,Not Ideal,Worst,Not Clear,4.72,4.69,2.8,1.45,0.82248
+365,2911.15,Not Ideal,Worst,Clear,5.73,5.75,2.66,1.46,7.00877
+366,3027.65,Not Ideal,Worst,Clear,4.69,4.62,2.74,2.34,4.01738
+367,2573.03,Not Ideal,Worst,Not Clear,5.59,5.51,3.17,1.14,0.5686
+368,3153.27,Not Ideal,Worst,Clear,5.04,5.24,2.73,1.18,-2.19988
+369,1713.13,Ideal,Worst,Not Clear,4.81,4.93,2.98,0.99,6.06754
+370,1799.15,Not Ideal,Best,Not Clear,4.85,4.86,3.52,1.44,-3.45182
+371,1439.4,Not Ideal,Worst,Not Clear,5.15,5.2,3.54,1.25,0.05644
+372,2163.08,Not Ideal,Best,Not Clear,4.79,4.96,2.96,1.26,-0.27015
+373,3685.97,Not Ideal,Best,Clear,5.57,5.34,3.71,2.33,-2.80606
+374,3388.77,Not Ideal,Best,Clear,4.92,5.12,3.38,1.05,2.00778
+375,2872.78,Ideal,Worst,Not Clear,4.83,4.89,3.25,1.54,-0.36783
+376,2321.89,Ideal,Worst,Not Clear,4.81,4.84,3.05,1.61,1.48986
+377,3176.6,Not Ideal,Best,Clear,4.95,4.83,3.66,1.2,2.92992
+378,3496.9,Ideal,Best,Clear,4.97,4.72,2.7,1.57,-1.22359
+379,1470.25,Ideal,Best,Not Clear,4.39,4.09,2.84,0.83,1.67509
+380,2934.44,Not Ideal,Worst,Clear,4.99,4.89,2.62,0.84,-1.26134
+381,1227.61,Not Ideal,Best,Not Clear,4.15,4.21,2.83,0.67,2.18332
+382,1659.61,Not Ideal,Best,Not Clear,4.68,4.34,3.45,1.62,-3.10422
+383,2345.29,Ideal,Worst,Not Clear,4.51,4.57,3.19,2.02,-3.75951
+384,1945.51,Not Ideal,Best,Not Clear,4.47,4.46,3.54,1.23,1.86017
+385,2412.39,Not Ideal,Best,Clear,4.61,4.77,2.92,1.22,6.8372
+386,2767.06,Not Ideal,Best,Clear,4.91,4.89,3.17,0.95,-5.4932
+387,2000.34,Not Ideal,Worst,Not Clear,4.61,4.32,3.33,1.1,1.47157
+388,2567.26,Not Ideal,Best,Not Clear,5.14,5.07,3.32,1.97,-0.28749
+389,2583.26,Not Ideal,Worst,Not Clear,5.4,5.18,3.86,1.1,-1.98098
+390,3167.06,Ideal,Best,Clear,4.5,4.37,3.38,1.76,-2.63177
+391,2756.01,Ideal,Best,Not Clear,5,5.04,2.97,1.69,-6.08931
+392,2955.66,Not Ideal,Worst,Clear,5.3,5.29,3.3,1.06,0.77616
+393,1600.69,Not Ideal,Worst,Not Clear,4.34,4.28,3.64,1.45,0.83308
+394,2226.1,Ideal,Best,Not Clear,4.63,5.01,2.53,1.33,-0.71868
+395,3190.06,Ideal,Worst,Clear,4.84,4.83,2,1.35,-1.49644
+396,2024.18,Not Ideal,Worst,Not Clear,4.77,4.89,2.5,1.64,-2.38256
+397,1756.92,Not Ideal,Worst,Not Clear,4.66,4.46,3.02,0.86,2.59039
+398,2228.46,Ideal,Best,Not Clear,4.6,4.61,2.94,1.73,-4.08883
+399,2296.08,Ideal,Best,Not Clear,5.09,5.32,2.99,1.78,-0.2658
+400,1754.37,Not Ideal,Best,Not Clear,5.1,4.96,2.76,1.4,-1.30161
+401,2133.95,Not Ideal,Best,Not Clear,4.74,4.97,2.58,1.76,0.36056
+402,1142.07,Not Ideal,Worst,Not Clear,4.58,4.83,3.25,1.24,-0.71133
+403,2573.52,Ideal,Best,Not Clear,5.58,5.17,3.23,1.57,-2.28467
+404,2213.03,Not Ideal,Best,Not Clear,4.8,4.91,2.88,1.26,-1.92871
+405,1612.14,Ideal,Best,Not Clear,4.54,4.52,3.05,1.73,-0.0411
+406,1949.82,Not Ideal,Worst,Not Clear,5.13,5.1,3.24,1.44,-1.1839
+407,1094.13,Ideal,Worst,Not Clear,4.47,4.32,3.41,1.24,-3.4277
+408,2721.88,Ideal,Worst,Not Clear,5.12,5.22,3.27,1.34,-0.09625
+409,2571.81,Not Ideal,Worst,Not Clear,5.44,5.53,2.88,1.84,4.60709
+410,970.97,Not Ideal,Worst,Not Clear,4.88,4.85,2.68,1.6,-5.17861
+411,3308.68,Not Ideal,Best,Clear,5.12,5.13,2.89,1.26,-1.29261
+412,3960.83,Ideal,Best,Clear,5.74,5.75,3.6,1.2,-1.38333
+413,2415.91,Ideal,Best,Not Clear,5.06,4.91,2.39,1.36,-3.07671
+414,2779.49,Ideal,Worst,Clear,5.2,5.14,2.89,0.97,-1.70762
+415,2123.54,Not Ideal,Worst,Not Clear,5.21,5.09,2.98,0.91,-4.3645
+416,1729.04,Not Ideal,Best,Not Clear,4.17,4.01,3.14,1.58,3.66301
+417,2848.55,Ideal,Worst,Clear,4.72,4.71,3.13,1.3,2.12296
+418,2968.57,Ideal,Best,Not Clear,4.59,4.52,2.69,1.55,-0.62464
+419,1817.34,Not Ideal,Worst,Not Clear,4.81,4.87,3.04,1.05,0.09994
+420,3047.86,Not Ideal,Worst,Clear,5.33,5.27,2.93,2.5,-0.22466
+421,2294.34,Not Ideal,Best,Not Clear,4.93,4.62,3.21,0.87,-1.57152
+422,3824.53,Not Ideal,Worst,Clear,4.96,4.85,2.86,1.56,0.01191
+423,3686.75,Not Ideal,Worst,Clear,5.29,5.48,3.42,1.18,4.9073
+424,3687.48,Ideal,Worst,Clear,4.94,4.78,3.38,1.39,-5.20647
+425,2647.38,Not Ideal,Best,Clear,4.55,4.62,2.63,0.92,4.95672
+426,2794.28,Not Ideal,Best,Clear,5.17,5.08,3.14,1,-8.57844
+427,2277.88,Ideal,Worst,Not Clear,5.33,5.24,2.88,1.03,-0.71713
+428,1702.37,Not Ideal,Best,Not Clear,4.44,4.35,2.76,1.29,1.03358
+429,2638.92,Ideal,Best,Clear,4.62,4.59,3.26,1.25,1.71076
+430,3278.04,Not Ideal,Best,Clear,5.64,5.58,2.67,1.2,-1.69413
+431,3118.12,Ideal,Best,Clear,5.1,4.92,2.29,1.73,-0.99575
+432,3074.4,Ideal,Best,Clear,4.45,4.47,2.21,1.73,-3.37247
+433,2291.45,Not Ideal,Best,Not Clear,4.93,4.74,3.25,0.91,1.09838
+434,3036.26,Ideal,Worst,Clear,4.72,4.63,2.71,1.77,-0.89218
+435,1114.52,Not Ideal,Worst,Not Clear,4.71,4.59,3,1.04,-2.81226
+436,2453.87,Not Ideal,Best,Clear,4.65,4.67,3.12,1.14,-0.34519
+437,3054.07,Ideal,Best,Clear,4.72,4.89,2.31,1.6,-3.1623
+438,1474.79,Not Ideal,Best,Not Clear,4.58,4.37,2.67,1.52,-5.35918
+439,2668.07,Not Ideal,Best,Clear,5.3,5.29,2.87,1.58,0.93464
+440,1785.14,Not Ideal,Best,Not Clear,4.98,5,2.97,1.14,3.06049
+441,1738.15,Ideal,Worst,Not Clear,4.35,4.56,2.93,1.42,0.57276
+442,2705.89,Not Ideal,Best,Not Clear,5.64,5.72,2.67,1.36,-2.58453
+443,3618.38,Ideal,Worst,Clear,5.04,4.88,2.4,1.31,-0.7512
+444,2098.61,Ideal,Worst,Not Clear,5.24,5.01,3.22,1.15,0.31674
+445,2178.86,Not Ideal,Best,Not Clear,5.05,5.09,3.13,1.6,0.32523
+446,3470.62,Not Ideal,Best,Clear,4.95,4.67,2.7,1.75,1.7178
+447,2114.61,Not Ideal,Worst,Not Clear,4.75,4.7,2.83,1.18,0.10035
+448,2601.65,Not Ideal,Worst,Clear,4.77,4.74,3.78,1.43,2.04533
+449,1980.73,Ideal,Worst,Not Clear,4.46,4.46,2.13,1.75,-1.34313
+450,2522.19,Not Ideal,Best,Not Clear,5.28,5.24,2.77,0.98,3.19384
+451,2669.04,Ideal,Worst,Not Clear,4.66,4.45,2.58,0.92,-0.25088
+452,2869.03,Ideal,Worst,Not Clear,5.48,5.55,2.59,1.08,1.1606
+453,1070.34,Not Ideal,Worst,Not Clear,5.09,4.91,3.5,1.09,-0.36437
+454,1215.65,Not Ideal,Worst,Not Clear,4.64,4.72,3.17,2.27,-1.57703
+455,1702.64,Not Ideal,Best,Not Clear,4.68,4.37,3.52,1.68,-3.35483
+456,2078.39,Not Ideal,Best,Not Clear,5.04,5.12,2.69,1.22,0.17037
+457,1635.86,Not Ideal,Worst,Not Clear,4.81,4.59,2.76,1.69,-0.86815
+458,2636.77,Not Ideal,Worst,Clear,4.23,4.63,2.83,2.06,3.98195
+459,2256.49,Not Ideal,Best,Not Clear,5.02,5,2.95,1.02,-0.83105
+460,2297.84,Ideal,Worst,Not Clear,5.26,5.23,3.48,1.65,5.2024
+461,2867.24,Not Ideal,Best,Clear,5,4.72,2.59,0.89,-0.22605
+462,2917.42,Ideal,Worst,Clear,4.77,4.48,2.65,0.81,-0.69804
+463,3467.29,Not Ideal,Best,Clear,5.13,5.12,2.51,1.29,-1.62697
+464,1380.1,Not Ideal,Best,Not Clear,4.39,4.26,2.44,2.14,-1.14626
+465,2773.94,Not Ideal,Worst,Clear,4.95,4.86,2.82,1.23,1.18596
+466,2736.6,Not Ideal,Best,Not Clear,5.16,5.27,2.6,1.35,1.02053
+467,2446.05,Not Ideal,Worst,Clear,4.81,4.89,2.89,1.09,2.5842
+468,2511.81,Ideal,Best,Not Clear,5.08,5.17,3.4,1.12,1.53927
+469,1387.29,Not Ideal,Best,Not Clear,5.09,5.07,2.94,0.91,3.85971
+470,1970.76,Not Ideal,Best,Not Clear,5.2,5.25,2.94,1.06,1.30435
+471,3971.59,Not Ideal,Best,Clear,5.58,5.65,2.31,1.25,-2.81363
+472,2026,Not Ideal,Worst,Not Clear,4.83,4.2,3.33,1.51,0.76424
+473,3406.43,Not Ideal,Worst,Clear,5.03,5.19,3.38,2.02,-0.14745
+474,2312.18,Ideal,Worst,Not Clear,5.41,5.25,2.79,1.46,-0.92541
+475,1400.38,Not Ideal,Worst,Not Clear,4.52,4.62,2.85,1.44,5.9682
+476,1784.21,Not Ideal,Best,Not Clear,4.99,4.82,3.39,1.48,-0.55496
+477,2090.03,Not Ideal,Worst,Clear,4.63,4.33,2.96,1.43,2.73666
+478,2960.7,Not Ideal,Best,Clear,5.33,5.34,2.93,1.41,5.67997
+479,2084.72,Not Ideal,Worst,Not Clear,4.27,4.76,3.18,1.09,1.57395
+480,3812.37,Ideal,Best,Clear,5.91,5.79,3.15,0.73,-4.4873
+481,1070.96,Not Ideal,Best,Not Clear,5.18,5.02,3.18,1.29,0.6117
+482,3046.38,Not Ideal,Best,Clear,5.19,5.4,3.13,1.3,0.78332
+483,3116.95,Ideal,Worst,Clear,4.7,4.59,2.86,1.99,2.70943
+484,2291.81,Not Ideal,Worst,Clear,5.21,5.29,3.07,1.7,3.26785
+485,1633,Not Ideal,Best,Not Clear,4.97,4.88,3.05,1.53,2.68184
+486,3087.41,Not Ideal,Best,Not Clear,4.69,4.78,2.8,0.91,4.11638
+487,1757.28,Not Ideal,Worst,Not Clear,4.46,4.52,2.82,1.86,2.01983
+488,1973.55,Not Ideal,Best,Not Clear,4.44,4.39,2.9,1.49,-2.32307
+489,2503.22,Ideal,Worst,Clear,4.66,4.42,2.99,1.16,1.94166
+490,2465.63,Not Ideal,Best,Clear,5.6,5.42,3.01,0.91,-2.25565
+491,2100.5,Not Ideal,Best,Not Clear,4.73,4.73,2.97,2.01,3.14831
+492,2320.85,Ideal,Best,Not Clear,4.91,4.93,2.54,1.7,-3.02762
+493,2300.76,Not Ideal,Worst,Clear,4.82,4.6,3.1,1.18,1.11914
+494,1160.91,Not Ideal,Worst,Not Clear,4.03,4,2.78,1.33,-3.92915
+495,2053.73,Not Ideal,Worst,Not Clear,4.58,4.45,2.85,1.9,1.78799
+496,1301.99,Ideal,Worst,Not Clear,4.87,4.76,2.91,0.96,-2.43389
+497,3462.59,Not Ideal,Worst,Clear,4.82,4.81,2.61,1.35,-1.51453
+498,2910.01,Ideal,Best,Not Clear,5.25,5,3.75,1.41,-3.14673
+499,1308.58,Ideal,Worst,Not Clear,4.91,5.02,3.11,0.3,4.03381
+500,1741.82,Not Ideal,Worst,Not Clear,4.71,4.67,3.38,1.36,-2.9819
+501,3433.29,Ideal,Worst,Clear,5.02,4.94,3.33,1.09,0.51222
+502,1959.9,Not Ideal,Best,Not Clear,5.19,5.15,2.9,1.26,1.1123
+503,2429.23,Not Ideal,Best,Not Clear,5.24,5.54,2.86,0.63,-0.14058
+504,1828.15,Not Ideal,Best,Not Clear,4.87,4.88,2.26,1.03,-1.36095
+505,2474.83,Ideal,Best,Not Clear,5.29,5.25,3.13,1.75,7.46097
+506,3677.37,Not Ideal,Worst,Clear,5.63,5.51,3.19,1.71,2.8216
+507,3010.25,Ideal,Best,Clear,4.42,4.42,2.73,2.23,0.88429
+508,2204.67,Not Ideal,Best,Not Clear,4.99,4.97,2.47,1.19,-5.59291
+509,2240.58,Not Ideal,Worst,Not Clear,4.97,5.04,2.91,1.89,-1.56384
+510,3532.8,Not Ideal,Best,Clear,4.87,4.96,3.01,1.5,2.18611
+511,3431.42,Not Ideal,Best,Clear,5.39,5.3,3.22,1.84,-1.63708
+512,2794.8,Not Ideal,Best,Clear,4.65,4.63,2.83,0.86,-1.16318
+513,2196.94,Not Ideal,Worst,Not Clear,5.21,4.92,3.08,0.86,2.48507
+514,2883.15,Not Ideal,Best,Clear,4.59,4.61,2.76,1.17,0.06156
+515,3732.81,Not Ideal,Best,Clear,5.55,5.84,2.96,1.75,-6.15374
+516,2654.46,Not Ideal,Worst,Clear,5.12,4.82,3.09,0.99,3.00831
+517,2019.13,Not Ideal,Best,Not Clear,5.08,5.26,3.01,1.59,3.40411
+518,2982.97,Not Ideal,Worst,Clear,4.85,4.64,3.49,1.49,-5.58238
+519,1339.36,Not Ideal,Worst,Not Clear,4.74,4.49,2.79,0.76,-1.26325
+520,3045.96,Ideal,Worst,Not Clear,4.8,4.55,2.82,1.12,-4.89804
+521,1700.04,Not Ideal,Best,Clear,4.59,4.44,2.23,1.43,-4.45615
+522,2417.04,Not Ideal,Worst,Not Clear,5.22,5.35,3.3,1.21,3.88374
+523,2479.58,Not Ideal,Best,Not Clear,5.59,5.47,2.8,0.43,-1.69849
+524,2860.33,Not Ideal,Worst,Not Clear,5.45,5.3,3.14,1.73,2.77883
+525,2339.06,Not Ideal,Best,Not Clear,4.82,4.91,2.92,1.06,1.61568
+526,1327.7,Not Ideal,Worst,Not Clear,5.03,5.2,3.04,1.28,3.38071
+527,2606.28,Not Ideal,Worst,Clear,4.92,5.13,3.15,2.05,2.06282
+528,1069.39,Not Ideal,Worst,Not Clear,4.38,4.06,2.94,1.64,0.41434
+529,2058.58,Not Ideal,Worst,Not Clear,5.02,5.04,3.41,1.44,-2.35415
+530,3048.98,Not Ideal,Best,Clear,6.08,5.66,3.01,1.08,-1.28015
+531,3044.78,Ideal,Worst,Clear,5,4.67,3.15,0.89,0.54811
+532,3024.43,Ideal,Best,Not Clear,5.02,5.05,3.21,1.38,1.07508
+533,2138.67,Not Ideal,Worst,Not Clear,5.1,5.14,2.53,1.54,4.07114
+534,1415.51,Not Ideal,Worst,Not Clear,4.37,4.65,2.65,1.51,1.51136
+535,2115.73,Not Ideal,Best,Not Clear,4.58,4.56,2.78,1.04,5.19786
+536,1838,Ideal,Best,Not Clear,4.66,4.82,3.04,1.23,-2.11629
+537,1691.81,Not Ideal,Worst,Not Clear,4.87,4.83,3.14,1.36,-1.87464
+538,1369.15,Not Ideal,Best,Not Clear,4.81,4.69,3.15,1.65,-2.13552
+539,3606.19,Ideal,Best,Clear,5.3,5.21,3.08,0.53,-4.087
+540,1717.4,Not Ideal,Worst,Not Clear,5.09,4.89,2.79,1.15,2.60258
+541,2327.84,Not Ideal,Best,Not Clear,4.57,4.41,2.65,1.56,1.85732
+542,1041.99,Not Ideal,Best,Not Clear,4.69,4.27,2.66,1.31,1.65901
+543,1795.46,Not Ideal,Best,Not Clear,4.88,4.86,3.16,0.38,-0.76193
+544,2338.45,Not Ideal,Worst,Clear,4.78,4.69,2.94,2.18,-1.44478
+545,2387,Not Ideal,Worst,Not Clear,5.17,4.8,2.75,1.66,2.92226
+546,2199.56,Not Ideal,Worst,Clear,5.06,5.01,2.99,1,3.34423
+547,2461.87,Not Ideal,Worst,Clear,4.41,4.33,3.18,1.42,6.04343
+548,3593.96,Not Ideal,Best,Clear,4.91,4.81,2.95,1.56,-1.33555
+549,1795.86,Not Ideal,Worst,Not Clear,4.7,4.59,2.5,1.54,3.04629
+550,2193.95,Not Ideal,Best,Not Clear,5.03,5.13,3.06,1.26,-4.65528
+551,2334.5,Not Ideal,Worst,Not Clear,4.85,5.14,2.28,2.14,-5.1614
+552,2617.88,Ideal,Best,Clear,4.98,5.13,2.71,1.21,-1.58065
+553,1701.07,Not Ideal,Best,Not Clear,4.99,5.07,2.54,1.69,-1.2013
+554,2882.11,Ideal,Worst,Not Clear,5.18,5,2.32,1.54,-3.68649
+555,2671.24,Not Ideal,Best,Not Clear,4.99,4.76,2.69,1.56,0.65706
+556,2058.57,Ideal,Worst,Not Clear,5.23,5.16,2.9,1.87,1.65096
+557,2963.46,Not Ideal,Best,Clear,4.37,4.31,3.18,1.32,-1.66532
+558,2345.99,Not Ideal,Worst,Not Clear,5.02,5,3.18,0.76,-4.79164
+559,2526.96,Not Ideal,Worst,Clear,4.49,4.57,3.33,1.97,-0.58258
+560,4472.53,Ideal,Best,Clear,4.93,4.77,2.97,1.63,0.13495
+561,2718.74,Ideal,Worst,Clear,4.59,4.31,3.28,1.14,-4.83998
+562,2706.91,Ideal,Best,Not Clear,5.17,5.23,2.83,1.57,0.93531
+563,3398.27,Ideal,Worst,Clear,5.2,5.18,2.42,1.19,-2.88751
+564,2518.81,Not Ideal,Best,Not Clear,5.14,5.2,2.84,2.02,-0.85263
+565,2249.11,Not Ideal,Worst,Clear,4.63,4.6,2.3,1.04,2.74002
+566,1209.69,Not Ideal,Worst,Not Clear,4.59,4.48,2.76,1.7,0.46284
+567,2133.38,Not Ideal,Best,Not Clear,4.94,4.91,2.77,1.62,0.67663
+568,2469.92,Not Ideal,Best,Not Clear,5.45,5.5,2.73,1.08,-2.14234
+569,2084.74,Not Ideal,Best,Not Clear,5.27,4.99,2.3,1.53,-1.47469
+570,2916.63,Not Ideal,Best,Clear,5.42,5.18,3.19,1.69,1.0142
+571,3936.91,Not Ideal,Best,Clear,4.93,4.62,2.85,1.58,2.04796
+572,2400.32,Not Ideal,Worst,Not Clear,5.2,5.41,3.39,1.41,-4.68411
+573,2747.01,Ideal,Worst,Clear,4.88,4.89,3.16,1.29,-0.40376
+574,2969.23,Ideal,Best,Clear,4.35,4.44,3.25,1.4,-2.95798
+575,2338.9,Not Ideal,Worst,Not Clear,5.45,5.31,2.81,1.3,-4.8367
+576,1768.58,Ideal,Worst,Not Clear,4.57,4.8,2.99,1.39,-2.6482
+577,1468.76,Not Ideal,Best,Not Clear,4.8,4.81,2.27,1.99,2.79637
+578,3429.3,Not Ideal,Worst,Clear,5.54,5.52,3.03,1.67,3.77381
+579,3443.27,Not Ideal,Best,Clear,5.36,5.29,3.2,1.21,-2.95509
+580,2144.61,Not Ideal,Best,Not Clear,5.24,4.99,3.41,1.08,2.83931
+581,2344.14,Not Ideal,Best,Not Clear,4.58,4.55,2.72,1.16,-6.40985
+582,3005.93,Not Ideal,Worst,Clear,4.86,4.7,2.66,1.66,-3.16164
+583,1484.43,Not Ideal,Best,Not Clear,4.63,4.75,2.32,1.51,5.10434
+584,2662.58,Not Ideal,Worst,Clear,4.06,4.57,3.42,1.28,-0.49353
+585,1478.68,Not Ideal,Worst,Not Clear,4.77,4.55,3,1.64,-1.59584
+586,3162.59,Not Ideal,Best,Clear,4.94,5.16,3.07,1.11,-2.59739
+587,3421.55,Not Ideal,Worst,Clear,5.17,5.1,3.24,1.46,2.75102
+588,2183.2,Ideal,Worst,Not Clear,4.7,4.79,3.8,1.19,-0.14758
+589,2504.32,Not Ideal,Best,Not Clear,5.95,5.86,3.38,1.7,-2.97263
+590,2676.78,Not Ideal,Worst,Not Clear,5.88,5.72,3.18,1.18,1.13218
+591,3544.49,Not Ideal,Best,Clear,4.59,4.67,3.42,1.78,1.87631
+592,1788.98,Not Ideal,Best,Not Clear,4.78,4.72,2.56,1.46,2.69503
+593,2079.87,Not Ideal,Worst,Not Clear,5.06,5.08,3.22,1.45,-0.47206
+594,2874.34,Ideal,Best,Clear,5.37,5.21,2.73,0.97,2.64206
+595,3559.11,Ideal,Best,Clear,4.84,4.84,3.11,1.66,1.37778
+596,2721.95,Not Ideal,Worst,Clear,5.42,5.37,2.72,1.3,0.45166
+597,3093.68,Not Ideal,Worst,Clear,4.93,5.11,2.92,1.3,-0.39199
+598,3616.94,Ideal,Worst,Clear,4.57,4.62,3.17,0.5,3.18437
+599,3621.57,Ideal,Best,Clear,4.84,4.93,2.57,1.75,-3.75386
+600,2188.61,Not Ideal,Worst,Not Clear,5.47,5.16,3.46,1.16,-1.77081
+601,3620.41,Ideal,Worst,Clear,5.23,5.24,3.04,1.8,-0.61017
+602,2194.81,Not Ideal,Worst,Not Clear,5.2,5.21,2.62,1.4,-3.27107
+603,1586.52,Not Ideal,Worst,Not Clear,4.49,4.32,3.09,1.23,-0.89023
+604,1625.18,Not Ideal,Worst,Not Clear,4.93,4.86,3.12,1.04,-0.29576
+605,3761.25,Ideal,Best,Clear,4.99,5.08,2.5,1.27,-0.81614
+606,1264.42,Not Ideal,Worst,Not Clear,4.75,4.64,2.69,1.29,-1.82464
+607,2644.16,Ideal,Best,Not Clear,5.44,5.45,2.78,1.58,-1.4508
+608,3563.11,Ideal,Best,Clear,4.79,4.69,3.58,1.66,-3.81279
+609,3870.37,Not Ideal,Best,Clear,5,4.8,3.1,1.62,0.65519
+610,2140,Ideal,Worst,Clear,5.64,5.4,2.87,0.8,3.72334
+611,3410.77,Not Ideal,Worst,Clear,4.86,5.08,3.08,1.4,0.1974
+612,2113.74,Ideal,Best,Not Clear,5.57,5.54,2.84,1.05,-2.10901
+613,2411.86,Not Ideal,Worst,Clear,4.97,5.21,3.54,1.46,2.88326
+614,1095.33,Not Ideal,Worst,Not Clear,4.51,4.43,2.25,1.16,1.26406
+615,680.68,Ideal,Best,Not Clear,4.44,4.36,2.37,1.77,-3.03024
+616,1946.11,Not Ideal,Best,Not Clear,4.82,4.67,3.16,1.13,2.13807
+617,3182.09,Not Ideal,Worst,Clear,5.49,5.33,3.01,0.84,4.40209
+618,3577.06,Ideal,Worst,Clear,5.13,4.85,3.06,1.57,-0.44026
+619,2042.99,Not Ideal,Worst,Not Clear,4.56,4.62,3.48,1.41,3.10552
+620,3006.17,Not Ideal,Best,Clear,5.46,5.36,2.9,2.01,-1.45668
+621,3627.85,Not Ideal,Best,Clear,5.41,5.27,3.36,1.64,-1.55423
+622,2774.52,Ideal,Best,Not Clear,5.23,4.97,3.09,0.98,-0.22705
+623,3795.9,Not Ideal,Best,Clear,5.42,5.19,3.19,1.61,0.66928
+624,2200.7,Not Ideal,Best,Clear,4.98,4.94,2.53,1.62,-0.17034
+625,2827.21,Not Ideal,Worst,Not Clear,5.33,5.31,3.21,1.48,-1.67661
+626,3547.9,Not Ideal,Best,Clear,5.13,5.23,3.08,1.77,7.01896
+627,3143.84,Not Ideal,Best,Clear,4.9,4.79,2.35,1.19,-1.84063
+628,1797.31,Not Ideal,Best,Not Clear,4.82,4.68,3.41,1.7,-5.25455
+629,1720.55,Ideal,Worst,Not Clear,4.7,4.86,2.98,1.24,0.83437
+630,1866.85,Not Ideal,Worst,Not Clear,4.56,4.65,3.16,1.55,-5.60264
+631,1823.9,Not Ideal,Best,Not Clear,5.43,5.41,2.73,0.78,0.10477
+632,2166.89,Ideal,Best,Not Clear,5,5.16,3,1.26,-1.9869
+633,2359.48,Ideal,Best,Not Clear,4.82,4.78,3.43,1.25,-1.40474
+634,1812.98,Not Ideal,Worst,Not Clear,4.62,4.51,2.81,1.16,4.3961
+635,2986.83,Ideal,Best,Clear,4.63,4.49,3.13,1.28,1.821
+636,2031.63,Not Ideal,Best,Not Clear,4.65,4.77,2.88,1.48,-2.34731
+637,3639.53,Ideal,Best,Clear,4.73,4.83,3.31,0.85,5.12278
+638,3766.79,Ideal,Best,Clear,5.09,5.06,2.7,1.46,0.52424
+639,1358.54,Not Ideal,Best,Not Clear,4.67,4.71,3.37,1.02,-0.78406
+640,2141.34,Not Ideal,Worst,Clear,4.29,4.25,2.82,1.48,-2.27358
+641,544.44,Not Ideal,Worst,Not Clear,4.51,4.5,2.68,1.19,-1.87294
+642,3509.23,Not Ideal,Worst,Clear,5.1,5.06,3.02,1.88,-2.07449
+643,2045.04,Not Ideal,Worst,Not Clear,4.78,4.49,3.4,0.72,-5.98372
+644,2056.51,Not Ideal,Best,Not Clear,4,4.14,3.27,1.47,3.80801
+645,2724.26,Ideal,Worst,Not Clear,4.89,5.13,3.06,1.81,0.4153
+646,961.55,Not Ideal,Worst,Not Clear,4.35,4.46,3.17,1.27,-1.88017
+647,2311.91,Not Ideal,Best,Clear,5.22,5.22,2.63,1.26,-3.14077
+648,2700.07,Ideal,Worst,Not Clear,5.62,5.65,3.84,1.47,0.99151
+649,3364.8,Ideal,Worst,Clear,4.67,4.54,3.01,1.72,-0.71347
+650,2718.84,Not Ideal,Best,Not Clear,5.49,5.33,3.35,1.18,3.08784
+651,1766.51,Not Ideal,Best,Not Clear,5.22,5.02,3.46,1.8,-1.06756
+652,2957.37,Not Ideal,Worst,Clear,4.62,4.65,2.98,1.44,2.98404
+653,3056.6,Not Ideal,Worst,Clear,4.93,4.84,2.68,1.59,-2.59726
+654,1469.91,Not Ideal,Worst,Not Clear,4.64,4.44,2.88,2.27,-1.40432
+655,2652.21,Not Ideal,Best,Clear,5.32,5.37,3.62,1.35,-0.44639
+656,3926.09,Not Ideal,Worst,Clear,5.6,5.58,2.75,1.29,-3.94164
+657,2671.74,Not Ideal,Worst,Not Clear,5.2,4.78,2.75,1.75,-4.06992
+658,2494.17,Not Ideal,Best,Not Clear,4.96,5.01,3.32,1.55,-0.84124
+659,2591,Not Ideal,Best,Not Clear,5.17,5.03,3.57,0.28,3.23995
+660,1689.9,Not Ideal,Worst,Not Clear,5.06,4.96,3.25,0.9,-9.4869
+661,3622.03,Ideal,Best,Clear,5.12,5.27,3.31,0.86,-2.69772
+662,1957.39,Not Ideal,Worst,Not Clear,4.89,4.87,2.92,1.24,-2.92783
+663,1684.7,Not Ideal,Worst,Not Clear,5.18,5.18,3.49,1.02,1.06141
+664,2319.15,Ideal,Worst,Not Clear,4.69,4.93,3.3,1.86,-0.80683
+665,3204.55,Not Ideal,Best,Clear,5.07,5.26,1.79,1.55,0.13693
+666,1252.01,Not Ideal,Worst,Not Clear,4.33,4.33,3.27,1.42,-5.02358
+667,1390.87,Not Ideal,Worst,Not Clear,4.51,4.39,3.11,1.09,3.36568
+668,1637.3,Not Ideal,Worst,Not Clear,4.6,4.76,3.36,1.81,-0.86668
+669,3121.46,Ideal,Best,Not Clear,4.87,4.95,2.85,1.29,-1.61229
+670,2714.19,Not Ideal,Best,Not Clear,5.15,4.98,2.91,1.75,-2.9844
+671,2693.48,Not Ideal,Best,Clear,5.02,5.09,2.87,1.42,-1.67295
+672,3541.2,Not Ideal,Best,Clear,5.34,4.99,2.33,1.42,0.71174
+673,1193.58,Not Ideal,Best,Not Clear,4.68,4.57,2.79,1.46,2.12634
+674,2869.47,Not Ideal,Worst,Clear,4.77,4.75,2.58,1.85,3.10193
+675,1640.52,Ideal,Worst,Not Clear,4.85,4.81,3.12,1.71,-6.73923
+676,3353.57,Not Ideal,Best,Clear,5.02,4.96,2.57,1.36,0.16677
+677,2297.53,Ideal,Worst,Not Clear,4.99,5.28,3.24,1.34,1.19624
+678,1228.99,Not Ideal,Worst,Not Clear,4.3,4.25,2.76,1.44,-4.83834
+679,3346.08,Not Ideal,Best,Clear,4.95,4.75,2.84,1.71,-2.16174
+680,1227.81,Not Ideal,Worst,Not Clear,4.82,4.7,3.05,1.56,-2.50225
+681,2613.66,Not Ideal,Best,Clear,4.97,4.92,2.54,1.11,5.13095
+682,2145.9,Ideal,Worst,Not Clear,5.17,4.98,2.98,0.79,6.66139
+683,2758.63,Ideal,Best,Not Clear,5.72,5.27,3.24,1.73,7.08213
+684,2634.34,Not Ideal,Best,Clear,4.62,4.61,2.56,1.5,-3.34749
+685,2261.63,Not Ideal,Best,Not Clear,5.33,5.34,3.26,0.89,0.25049
+686,1532.72,Not Ideal,Best,Not Clear,4.34,4.3,3.39,0.74,1.8798
+687,2336.52,Not Ideal,Worst,Not Clear,5.39,5.45,3.61,1.33,2.79185
+688,3107.66,Ideal,Best,Clear,4.66,4.72,2.9,1.78,-5.59846
+689,2199,Not Ideal,Best,Not Clear,4.69,4.65,2.72,1.41,-2.26507
+690,1951.59,Not Ideal,Best,Not Clear,5.42,5.32,3.07,1.31,-0.91097
+691,2593.07,Not Ideal,Best,Clear,5.69,5.4,2.91,1.43,2.70238
+692,3139.29,Ideal,Best,Clear,4.99,4.67,2.86,0.77,4.80141
+693,2521.28,Not Ideal,Best,Not Clear,5.14,4.95,2.8,1.18,-0.87762
+694,3308.12,Not Ideal,Best,Clear,5.2,4.89,3.7,1.49,4.66698
+695,2036.9,Not Ideal,Worst,Not Clear,5.11,5.09,2.62,1.24,-1.09808
+696,1469.48,Not Ideal,Best,Not Clear,4.77,4.55,3.28,0.92,-0.30728
+697,1735.78,Not Ideal,Best,Not Clear,4.78,4.86,3.05,1.52,0.73061
+698,2427.29,Not Ideal,Best,Clear,5.33,4.96,2.78,1.67,1.98444
+699,1507.32,Not Ideal,Worst,Not Clear,5.01,5.03,2.79,1.7,0.76186
+700,2013.16,Ideal,Best,Not Clear,5.17,4.97,2.29,1.15,1.03032
+701,2667.29,Not Ideal,Worst,Not Clear,4.38,4.46,3,2.06,0.35998
+702,2804.25,Not Ideal,Best,Clear,5.12,5.16,2.99,0.93,-0.99225
+703,2053.81,Not Ideal,Worst,Not Clear,4.97,5.04,3.39,1.69,-7.06639
+704,2126.43,Ideal,Worst,Not Clear,4.63,4.9,2.87,1.19,-3.87913
+705,1880.8,Not Ideal,Worst,Not Clear,4.79,4.77,2.77,1.62,2.40141
+706,1693.83,Ideal,Best,Not Clear,5,4.94,2.14,1.39,-1.02855
+707,3268.67,Not Ideal,Worst,Clear,4.83,4.87,2.35,1.49,-2.50241
+708,2353.96,Ideal,Best,Not Clear,5.29,5.05,3.11,0.25,1.50506
+709,2534.8,Ideal,Worst,Not Clear,5.63,5.64,2.7,0.91,-3.97497
+710,1105.24,Not Ideal,Worst,Not Clear,4.49,4.51,3.1,1.22,-4.18459
+711,3347.89,Ideal,Worst,Clear,5.2,4.97,3.22,1.62,4.60066
+712,3541.65,Not Ideal,Worst,Clear,5.23,5.09,3.36,1.43,-2.92848
+713,2936.97,Ideal,Best,Not Clear,5.2,4.96,3.01,1.63,2.94818
+714,2650.95,Not Ideal,Best,Clear,4.71,4.9,3.28,0.92,-4.3674
+715,2293.18,Ideal,Worst,Not Clear,4.91,5.01,3.25,1.96,1.84181
+716,2365.58,Not Ideal,Worst,Not Clear,5.33,5.3,3.76,1.37,-6.8768
+717,3082.94,Ideal,Worst,Clear,5.06,4.89,2.77,1.25,-2.04816
+718,4161.9,Not Ideal,Best,Clear,5.37,5.41,3.4,1.36,-2.55299
+719,3345.3,Ideal,Worst,Clear,5.15,5.28,3.24,1.82,-0.44258
+720,1830.19,Ideal,Best,Not Clear,4.88,4.95,2.89,1.66,-1.16315
+721,3609.1,Not Ideal,Best,Clear,5.14,5.13,3.07,2.13,2.88271
+722,2397.56,Ideal,Best,Not Clear,4.79,4.9,3.07,1.26,-0.27533
+723,2147.47,Not Ideal,Worst,Clear,4.57,4.49,3.32,1.09,-1.09344
+724,2764.12,Ideal,Worst,Clear,5.15,5.28,2.65,0.61,-5.12974
+725,3534.46,Not Ideal,Best,Clear,5.39,5.55,2.63,1.31,-2.33406
+726,3864.62,Ideal,Best,Clear,4.91,4.97,2.82,1.52,0.77384
+727,2655.78,Ideal,Worst,Not Clear,4.94,4.75,2.49,1.47,-3.50689
+728,3177.23,Not Ideal,Best,Clear,5.1,5.01,3.08,1.17,0.00745
+729,1957.67,Not Ideal,Best,Not Clear,4.78,4.71,2.79,0.97,-0.27796
+730,2988.17,Ideal,Worst,Not Clear,5.08,5.1,3.44,1.75,1.28008
+731,2962.27,Not Ideal,Worst,Clear,5.68,5.85,3,0.97,-3.30075
+732,1759.48,Not Ideal,Worst,Not Clear,5.36,5.6,2.94,1.43,-3.21577
+733,2849.99,Ideal,Worst,Clear,4.82,4.77,3.13,1.64,-1.41273
+734,1024.19,Ideal,Worst,Not Clear,4.41,4.42,2.49,1.06,-2.56447
+735,2264.69,Not Ideal,Worst,Not Clear,5.57,5.55,2.98,1.38,-1.06014
+736,2783.58,Not Ideal,Worst,Clear,4.72,4.62,3.04,1.64,-2.62599
+737,2111.38,Not Ideal,Worst,Not Clear,5.02,4.78,3.18,0.7,-0.86077
+738,1806.12,Not Ideal,Worst,Not Clear,4.95,5.2,3.29,1.63,-0.19686
+739,3069.33,Not Ideal,Worst,Clear,4.96,5.01,3.04,1.51,2.73207
+740,2382.6,Ideal,Best,Not Clear,5.21,5.34,2.79,1.33,0.06273
+741,3142.57,Not Ideal,Best,Clear,5.2,5.2,2.88,1.09,3.26532
+742,3281.37,Ideal,Best,Clear,4.59,4.79,2.67,1.46,3.74596
+743,1782.84,Ideal,Best,Not Clear,4.77,4.58,3.2,1.16,4.21852
+744,3130.89,Ideal,Worst,Clear,5.13,5.05,2.99,1.05,-3.52124
+745,1431.99,Not Ideal,Worst,Not Clear,4.78,4.82,2.74,1.17,5.32998
+746,3580.87,Ideal,Best,Clear,5.09,5.32,2.84,1.6,1.89269
+747,2205.58,Not Ideal,Best,Not Clear,5.27,5.37,3.23,1.5,-2.1147
+748,2223.7,Not Ideal,Best,Not Clear,5.37,5.21,3.11,1.03,-2.16867
+749,2804.64,Not Ideal,Worst,Not Clear,5.12,5.2,3.74,1.35,1.18873
+750,4014.02,Ideal,Best,Clear,4.99,5.12,3.34,1.37,-3.16958
+751,2982.76,Ideal,Best,Clear,4.59,4.84,2.69,1.92,-6.31503
+752,1844.36,Not Ideal,Best,Not Clear,4.62,4.72,3.2,0.95,-6.86373
+753,3285.47,Not Ideal,Best,Clear,4.97,4.92,3.08,1.35,1.02098
+754,1731.75,Not Ideal,Best,Not Clear,4.83,4.75,2.83,0.86,-3.7997
+755,2918.62,Not Ideal,Worst,Clear,5.56,5.62,3.82,0.52,1.94945
+756,2077.2,Not Ideal,Best,Not Clear,5.29,5.35,2.64,2.04,3.43231
+757,2124.7,Not Ideal,Best,Not Clear,4.84,5,2.58,1.17,2.0967
+758,1296.76,Not Ideal,Worst,Not Clear,5.12,5.28,2.54,1.74,-0.29274
+759,2509.69,Not Ideal,Best,Clear,4.5,4.33,3.58,1.14,-3.37124
+760,2330.36,Ideal,Worst,Clear,4.53,4.59,3.14,1.13,0.44382
+761,2678.93,Not Ideal,Worst,Clear,4.99,4.97,2.39,1,2.33003
+762,1985.63,Not Ideal,Worst,Not Clear,5.76,5.58,2.9,1.26,0.49945
+763,1917.16,Not Ideal,Worst,Not Clear,4.49,4.48,2.9,1.48,-4.42221
+764,4211.63,Not Ideal,Best,Clear,5.04,5.31,2.28,1.31,-4.35035
+765,1884.52,Not Ideal,Best,Not Clear,4.99,5.16,2.79,1.18,2.37466
+766,1780.47,Ideal,Best,Not Clear,4.67,4.79,3.14,1.11,-9.7041
+767,1904.53,Not Ideal,Worst,Not Clear,5.2,5.22,3.07,1.3,-1.13688
+768,1620.46,Not Ideal,Worst,Not Clear,4.53,4.43,3.67,1.56,-1.53095
+769,2958.01,Ideal,Worst,Not Clear,5.18,5.31,3.7,1.36,1.4267
+770,3443.07,Not Ideal,Worst,Clear,5.15,5.22,2.95,1.79,1.97842
+771,1477.12,Not Ideal,Worst,Not Clear,4.78,4.66,3.45,1.8,-3.35669
+772,2134.25,Not Ideal,Worst,Not Clear,5.34,5.34,3.25,1.61,-5.46043
+773,3256.06,Ideal,Best,Not Clear,4.69,4.75,3.42,1.82,-4.08346
+774,2747.86,Not Ideal,Worst,Not Clear,5.22,5.01,3.02,1.78,1.79273
+775,2885.99,Not Ideal,Best,Clear,5.13,5.03,3.11,1.48,2.54357
+776,1259.26,Not Ideal,Best,Not Clear,4.77,4.86,3.36,1.85,-5.17278
+777,1888.22,Not Ideal,Best,Not Clear,4.71,4.31,3.01,1.1,0.40272
+778,1642.97,Ideal,Worst,Not Clear,4.91,4.9,3.54,1.19,2.71384
+779,2393.48,Not Ideal,Best,Clear,4.89,4.93,2.96,2.31,-0.89129
+780,2494.85,Not Ideal,Best,Not Clear,5.22,5.04,3.17,1.41,-2.16952
+781,3799.07,Ideal,Worst,Clear,5.15,5.1,2.87,1.2,1.25959
+782,2181.01,Ideal,Best,Not Clear,4.46,4.45,3.09,1.36,-6.71758
+783,3837.5,Ideal,Worst,Clear,5.4,5.39,2.87,1.68,-1.62016
+784,2616.84,Not Ideal,Worst,Not Clear,4.68,4.68,2.83,1.33,-0.53609
+785,1740.09,Ideal,Best,Not Clear,4.84,4.93,2.32,1.16,5.1039
+786,2879.35,Not Ideal,Worst,Clear,5.15,5.23,3.12,1.74,-3.73152
+787,3023.9,Ideal,Best,Clear,4.22,4.05,3.22,1.57,3.17645
+788,2663.23,Ideal,Worst,Clear,5.02,5.15,3.22,0.96,1.10708
+789,3273.39,Ideal,Best,Clear,4.69,4.7,3.01,0.92,-1.84211
+790,3133.2,Not Ideal,Worst,Clear,5.64,5.72,3.07,1.8,1.50328
+791,2589.1,Not Ideal,Worst,Clear,4.7,4.68,3.1,0.91,4.71524
+792,3536.45,Not Ideal,Best,Clear,5.34,5.33,2.89,0.97,3.09465
+793,1134.31,Not Ideal,Worst,Not Clear,4.62,4.37,3.01,0.58,-3.39398
+794,2768.7,Not Ideal,Worst,Clear,5.26,5.12,3.05,1.39,3.79459
+795,2802.31,Not Ideal,Best,Clear,5.26,4.9,2.66,1.3,-4.60274
+796,2597.65,Not Ideal,Best,Not Clear,4.87,4.94,2.74,1.1,-3.22558
+797,2377.71,Not Ideal,Worst,Not Clear,5.25,5.15,2.68,1.49,2.01482
+798,3065.25,Not Ideal,Worst,Clear,5.07,5.1,2.5,1.93,-0.25459
+799,1851.62,Not Ideal,Worst,Not Clear,4.79,4.58,3.07,2.01,-0.22722
+800,2306.08,Not Ideal,Worst,Not Clear,5.19,5.2,2.84,1.39,-4.47098
+801,2939.86,Ideal,Best,Not Clear,5.49,5.38,2.8,1.72,-1.69449
+802,3517.08,Ideal,Best,Clear,5.33,5.17,3.48,1.29,-3.11291
+803,1561.98,Not Ideal,Best,Not Clear,5.11,5.2,3.05,0.8,2.64897
+804,3417.8,Not Ideal,Worst,Clear,5.76,5.54,3.68,1.81,-3.7088
+805,4197.07,Not Ideal,Best,Clear,5.67,5.68,2.9,1.78,1.97057
+806,2629.07,Not Ideal,Best,Not Clear,4.65,4.82,3.37,1.64,-0.30968
+807,1750.37,Not Ideal,Best,Not Clear,5.22,5.05,3.1,1.56,3.04084
+808,2152.91,Not Ideal,Worst,Not Clear,5.41,5.34,3.75,1.37,-4.5161
+809,2358.75,Not Ideal,Best,Not Clear,5.41,5.46,2.93,1.88,-1.01471
+810,3108.14,Ideal,Worst,Clear,5.18,5.49,2.67,1.21,4.00325
+811,2093.12,Not Ideal,Worst,Not Clear,4.95,4.94,2.95,1.06,-4.58785
+812,1986.18,Not Ideal,Best,Not Clear,4.97,4.85,3.41,1,2.69412
+813,1968.41,Not Ideal,Best,Not Clear,4.47,4.42,3.2,1.95,-5.40688
+814,3069.84,Ideal,Worst,Clear,4.7,4.75,3.8,1.17,0.3553
+815,2655.56,Not Ideal,Best,Clear,4.54,4.39,3.25,1.53,-2.34542
+816,3216.89,Ideal,Worst,Clear,4.86,4.75,2.91,1.71,1.14465
+817,3474.46,Not Ideal,Best,Not Clear,5.21,5.16,2.81,2.12,-2.41982
+818,3225.8,Ideal,Worst,Clear,4.93,4.81,3.02,0.73,-1.6839
+819,1673.27,Not Ideal,Worst,Not Clear,4.77,4.71,2.28,1.75,3.85374
+820,2624.21,Not Ideal,Best,Not Clear,5.08,5.07,2.83,1.37,-0.98607
+821,3055.29,Not Ideal,Best,Clear,5.06,4.99,2.45,1.54,0.3899
+822,2189,Not Ideal,Worst,Not Clear,5.2,4.94,3.39,1.85,-8.24743
+823,2792.97,Not Ideal,Best,Clear,5.25,5.17,3.15,1.38,-1.56117
+824,1716.49,Not Ideal,Best,Not Clear,5.34,5.28,3.09,1.62,-2.00443
+825,3940.95,Ideal,Best,Clear,5.03,5.07,3.09,2.01,0.46201
+826,2398.33,Ideal,Worst,Not Clear,5.48,5.53,3.04,1.66,10
+827,1894.42,Not Ideal,Worst,Not Clear,4.93,4.91,3.4,1.41,2.28462
+828,1476.88,Not Ideal,Worst,Not Clear,4.81,4.67,2.89,1.32,1.62432
+829,1579.58,Not Ideal,Best,Not Clear,4.72,4.59,2.68,1.61,-3.23142
+830,2755.56,Not Ideal,Best,Not Clear,4.7,4.74,2.96,1.33,-1.33107
+831,3774.83,Ideal,Best,Clear,5.15,5.1,3.25,1.44,0.26263
+832,1399.37,Not Ideal,Best,Not Clear,5.2,5.33,3.17,1.7,1.2296
+833,1427.28,Ideal,Worst,Not Clear,4.64,4.71,2.38,0.72,-5.30056
+834,3719.75,Ideal,Worst,Clear,4.62,4.72,2.65,1.7,-3.51109
+835,2581.05,Ideal,Worst,Clear,4.54,4.52,3.29,1.84,-1.58933
+836,3349.81,Ideal,Worst,Clear,5,4.89,2.63,1.14,-5.18881
+837,3750.52,Ideal,Best,Clear,5.25,5.42,3.74,2.17,0.61751
+838,2853.67,Not Ideal,Worst,Clear,5.2,4.91,2.87,1.35,-4.389
+839,1994.42,Not Ideal,Worst,Not Clear,4.8,4.8,3.01,1.58,2.72845
+840,2079.21,Not Ideal,Best,Not Clear,5.02,4.93,3.02,1.51,-2.18348
+841,2395.94,Ideal,Worst,Not Clear,4.72,4.54,2.6,1.21,-3.51652
+842,2907.03,Not Ideal,Best,Clear,4.67,4.74,3.06,1.08,-0.10906
+843,3896.42,Not Ideal,Worst,Clear,5.31,5.07,2.94,1.1,-4.20368
+844,2269.12,Ideal,Best,Not Clear,5.28,5.25,2.7,1.66,-2.17586
+845,3682.47,Ideal,Worst,Clear,4.78,4.6,2.68,1.46,5.71178
+846,2140.14,Not Ideal,Best,Not Clear,4.69,4.51,3.33,1.28,-3.15211
+847,3505.1,Ideal,Best,Clear,5.01,4.68,2.42,1.11,0.49068
+848,2398.96,Ideal,Worst,Not Clear,5.85,5.69,2.92,0.97,-0.91957
+849,2247.74,Not Ideal,Worst,Not Clear,5.37,5.4,2.78,1.95,-3.07375
+850,3327.98,Not Ideal,Best,Clear,4.9,5.09,2.7,1.61,2.1181
+851,2150.98,Not Ideal,Worst,Clear,5.02,4.79,3.22,1.84,2.30661
+852,1797.3,Not Ideal,Worst,Not Clear,4.51,4.67,2.94,1.48,0.60186
+853,1851.45,Not Ideal,Best,Not Clear,4.72,4.83,3.02,1.53,0.7942
+854,3964.89,Not Ideal,Worst,Clear,5.56,5.57,3.21,1.84,1.35801
+855,2307.02,Ideal,Worst,Not Clear,4.45,4.65,2.96,1.65,1.64132
+856,1644.77,Not Ideal,Worst,Not Clear,4.97,5.08,2.77,1.62,-3.7033
+857,2952.13,Ideal,Worst,Clear,5.21,5.18,3.18,1.72,-0.39818
+858,3607.54,Not Ideal,Worst,Clear,5.01,5.17,3.05,1.45,-4.46393
+859,2180.21,Not Ideal,Best,Not Clear,4.8,4.7,3.56,1.17,0.56917
+860,2013.82,Not Ideal,Best,Not Clear,4.65,4.57,3,1.48,-4.8001
+861,2972.73,Ideal,Best,Not Clear,4.95,4.69,2.94,1.56,-0.89573
+862,2939.39,Ideal,Best,Clear,4.9,4.91,3.28,1.82,0.42986
+863,4227.77,Ideal,Worst,Clear,5.48,5.42,2.86,1.03,-4.66887
+864,2574.53,Ideal,Best,Not Clear,5.39,5.35,3.54,1.03,-0.54146
+865,3006.03,Not Ideal,Worst,Clear,5.2,5.27,3.13,1.25,-0.46252
+866,3334.15,Ideal,Best,Clear,4.7,4.77,2.83,1.94,-0.0159
+867,2006.12,Ideal,Worst,Not Clear,4.77,4.68,3.25,2.44,1.2852
+868,3669.36,Ideal,Worst,Clear,5.31,5.37,2.93,1.97,3.48843
+869,2018.59,Not Ideal,Worst,Not Clear,5.55,5.29,3.02,1.31,4.54336
+870,2020.45,Not Ideal,Worst,Not Clear,4.86,4.68,3.29,2.19,2.94247
+871,2934.21,Not Ideal,Worst,Clear,4.76,4.81,2.79,0.71,3.16292
+872,2220.66,Not Ideal,Worst,Clear,4.39,4.27,2.77,1.41,-4.17759
+873,3325.39,Not Ideal,Worst,Clear,5.05,4.86,3.23,1.34,2.03724
+874,2563.93,Ideal,Worst,Not Clear,5.15,5.02,3.07,1.54,-1.35174
+875,1874.23,Ideal,Best,Not Clear,4.89,4.84,2.37,1.17,8.21517
+876,3074.3,Not Ideal,Best,Clear,5.01,4.98,4,1.34,7.84929
+877,2702.22,Not Ideal,Worst,Not Clear,5,4.97,3.44,0.93,-3.67869
+878,2793.25,Not Ideal,Worst,Clear,5.31,5.49,2.67,1.05,-6.77654
+879,2283.19,Not Ideal,Worst,Not Clear,5.34,5.41,2.74,1.29,-0.48002
+880,1649.33,Not Ideal,Worst,Not Clear,5.06,5.14,2.59,1.09,2.53878
+881,1808.53,Not Ideal,Worst,Not Clear,4.94,4.86,2.68,1.89,-4.13442
+882,3177.88,Not Ideal,Best,Not Clear,5.33,5.43,3.6,1.36,-2.40364
+883,2111.42,Ideal,Best,Clear,4.51,4.6,2.76,1.98,2.48539
+884,3780.04,Ideal,Best,Clear,5.27,5.31,3.42,1.73,5.29525
+885,2203.31,Not Ideal,Worst,Not Clear,4.97,4.76,3.26,1.82,-0.25445
+886,3622.25,Ideal,Worst,Clear,5.07,5.16,2.85,1.53,-0.85112
+887,2309.14,Not Ideal,Best,Not Clear,4.93,5.03,2.94,2.05,-2.16007
+888,2039.11,Not Ideal,Worst,Not Clear,4.6,4.67,2.79,1.76,-1.64663
+889,2890.89,Not Ideal,Best,Clear,4.7,4.9,3.8,1.54,2.53865
+890,3059.29,Not Ideal,Worst,Clear,5.14,5.16,4.12,1.12,1.1183
+891,1406.43,Not Ideal,Best,Not Clear,4.76,4.79,3.06,1.28,3.96615
+892,3599.86,Not Ideal,Best,Clear,4.77,4.59,3.48,1.43,-1.85731
+893,2054.46,Not Ideal,Best,Not Clear,5.4,5.32,3.3,2.05,5.85523
+894,2055.78,Not Ideal,Worst,Not Clear,4.68,4.77,2.3,1.44,-3.20606
+895,3411.57,Not Ideal,Worst,Clear,5.46,5.63,2.91,1.22,3.8568
+896,1927.75,Not Ideal,Worst,Not Clear,4.85,4.77,3.41,1.44,5.15752
+897,2794.47,Not Ideal,Best,Clear,5.38,5.38,3,1.07,-0.87118
+898,1938.69,Not Ideal,Worst,Not Clear,5.09,4.94,3.52,1.51,-4.24905
+899,1747.07,Not Ideal,Best,Not Clear,4.45,4.62,2.98,1.35,7.69287
+900,2940.56,Not Ideal,Worst,Clear,4.64,4.62,2.62,1.4,-5.70756
+901,3473.62,Not Ideal,Best,Clear,5.45,5.41,3.08,1.23,7.24766
+902,2082.01,Not Ideal,Best,Not Clear,5.06,5.05,3.38,1.38,0.36392
+903,3434.94,Ideal,Worst,Not Clear,5.24,5.38,3.32,1.43,-1.83094
+904,2881.71,Ideal,Worst,Clear,4.93,4.82,2.86,1.53,-0.65437
+905,3226.66,Ideal,Worst,Clear,5.58,5.67,2.99,1.58,-0.15302
+906,3321.2,Ideal,Worst,Clear,5.23,5.2,2.51,1.45,-6.11703
+907,1634.25,Not Ideal,Best,Not Clear,4.61,4.65,2.34,1.35,-0.24111
+908,3309.06,Ideal,Worst,Clear,4.88,4.95,2.94,1.32,-4.4531
+909,2665.7,Ideal,Worst,Clear,5,5.04,2.64,1,-2.50934
+910,2104.78,Not Ideal,Best,Not Clear,5.11,5.07,3.04,1.7,-0.36301
+911,2718.01,Not Ideal,Worst,Clear,5,4.95,3.28,0.77,-4.91857
+912,2584.04,Not Ideal,Worst,Not Clear,5.44,5.46,2.75,2.03,-2.32436
+913,1604.33,Ideal,Worst,Not Clear,4.93,4.96,2.67,1.06,-1.03951
+914,3531.72,Not Ideal,Best,Clear,4.82,4.56,3.38,1.53,-4.07174
+915,2990.1,Not Ideal,Worst,Not Clear,6,5.74,3.09,1.7,-0.43738
+916,3488.85,Not Ideal,Worst,Clear,4.91,4.97,3.18,2.05,-3.67888
+917,2318.43,Ideal,Worst,Not Clear,4.92,4.97,3.45,1.62,-1.06544
+918,2327.33,Not Ideal,Worst,Clear,5.37,5.35,2.91,0.83,3.5277
+919,3118.09,Not Ideal,Worst,Clear,4.6,4.63,2.95,1.96,0.18571
+920,3015.01,Not Ideal,Best,Clear,4.74,4.75,3.11,1.6,1.90994
+921,3026.34,Not Ideal,Worst,Clear,5.03,4.96,3.39,1.29,-1.96076
+922,2236.81,Not Ideal,Worst,Clear,4.99,5.03,2.75,1.81,1.55568
+923,3224.19,Ideal,Worst,Clear,5,4.77,2.05,1.14,3.16967
+924,3068.99,Ideal,Best,Clear,4.93,4.99,3.17,1.41,3.08737
+925,2114.24,Not Ideal,Best,Not Clear,4.83,4.86,2.91,1.1,1.939
+926,3697.76,Ideal,Worst,Clear,5.34,5.41,3.32,1.34,6.04917
+927,3095.7,Ideal,Best,Not Clear,5.63,5.81,3.33,1.37,-0.28352
+928,3075.33,Ideal,Best,Clear,5.14,5.05,3.01,1.48,-0.55966
+929,1530.33,Not Ideal,Worst,Not Clear,4.31,4.43,3.22,1.22,1.3968
+930,939.66,Not Ideal,Worst,Not Clear,4.81,4.9,2.56,1.2,1.91577
+931,2877.9,Not Ideal,Worst,Not Clear,5.39,5.38,3.14,1.46,-0.77273
+932,3725.77,Ideal,Best,Clear,4.89,4.76,3.57,1.34,-4.08351
+933,3298.45,Not Ideal,Worst,Clear,5.1,4.93,2.95,2.16,-0.94085
+934,3107.19,Not Ideal,Worst,Clear,5.2,4.8,2.51,1.54,0.87813
+935,3850.66,Ideal,Best,Clear,5.53,5.39,3.06,1.49,-3.36262
+936,2516.25,Not Ideal,Best,Clear,4.78,4.82,3.05,1.48,2.53488
+937,3984.97,Ideal,Worst,Clear,4.89,4.93,2.71,1.02,-1.63247
+938,769.98,Not Ideal,Best,Not Clear,4.95,5,3.46,1.26,-10
+939,2883.05,Not Ideal,Worst,Clear,5.26,5.25,2.9,1.3,-4.2621
+940,2998.55,Not Ideal,Worst,Clear,5.32,5.17,3.39,1.32,-0.31257
+941,1835.81,Not Ideal,Worst,Not Clear,5.04,4.81,2.97,2.13,-7.78469
+942,3404.82,Not Ideal,Worst,Clear,4.88,4.89,3.02,1.84,-5.4671
+943,2818.58,Not Ideal,Worst,Clear,4.92,5.03,3.22,1.71,-2.91229
+944,899.42,Not Ideal,Best,Not Clear,4.68,4.75,3.54,0.63,-4.73457
+945,1705.88,Not Ideal,Worst,Not Clear,5.48,5.39,2.58,2.24,1.39368
+946,2866.59,Not Ideal,Best,Clear,4.93,5.01,3.35,0.67,1.41061
+947,1241.72,Not Ideal,Worst,Not Clear,4.51,4.33,2.83,1.39,2.54444
+948,2227.76,Ideal,Best,Not Clear,4.92,5.02,3.01,0.74,2.4683
+949,2627.68,Not Ideal,Best,Clear,5.36,5.01,2.99,1.14,-4.90938
+950,1556.93,Not Ideal,Worst,Not Clear,4.5,4.35,2.47,1.66,-1.02156
+951,1353.76,Not Ideal,Best,Not Clear,4.96,5,3.22,1.66,-0.25411
+952,2611.55,Ideal,Worst,Not Clear,5.08,5,3.59,1.38,-4.92031
+953,1876.82,Not Ideal,Worst,Not Clear,5.54,5.77,3.54,1.24,-1.34367
+954,2490.02,Not Ideal,Best,Clear,5.11,5.13,3.24,1.03,-0.05431
+955,2183.64,Not Ideal,Worst,Clear,4.26,4.47,2.88,0.91,-1.14189
+956,2995.08,Ideal,Worst,Clear,5.25,5.04,3.5,1.08,-0.4067
+957,3596.35,Not Ideal,Best,Clear,5.35,5.36,3.49,2.17,-0.63147
+958,2388.38,Ideal,Worst,Not Clear,5.59,5.44,2.78,1.9,-0.52749
+959,3484.7,Ideal,Best,Clear,4.95,4.47,2.61,1.37,-0.69549
+960,2429.04,Not Ideal,Worst,Clear,4.78,4.69,3.36,2.19,-2.46211
+961,1916.39,Ideal,Worst,Not Clear,5.03,5.03,2.4,0.62,3.2165
+962,2305.36,Not Ideal,Worst,Not Clear,5.08,5.25,2.86,1.06,-2.45394
+963,2318.86,Not Ideal,Best,Not Clear,5.21,5.28,3.15,1.51,4.32868
+964,1460.9,Ideal,Best,Not Clear,4.47,4.42,2.82,1.42,-1.60566
+965,1182.27,Not Ideal,Worst,Not Clear,4.57,4.74,3.04,1.17,-1.60795
+966,3301.25,Not Ideal,Best,Clear,5.09,4.91,2.61,1.7,-2.45886
+967,3133.69,Not Ideal,Best,Clear,5.19,4.95,2.8,1.29,1.7947
+968,2018.2,Not Ideal,Best,Not Clear,5.03,5.07,3.09,1.03,3.08614
+969,3091.77,Not Ideal,Worst,Clear,5.26,5.26,3.21,0.96,0.15651
+970,2160.54,Not Ideal,Worst,Not Clear,5.32,5,3.56,1.78,2.31579
+971,1877.16,Not Ideal,Worst,Not Clear,5.11,4.97,2.82,2.05,1.55504
+972,1815.44,Not Ideal,Worst,Not Clear,4.82,4.83,3.07,1.09,-3.67809
+973,2434.42,Ideal,Worst,Not Clear,5.6,5.47,2.85,2.16,-1.61303
+974,1813.2,Ideal,Worst,Not Clear,4.98,4.76,2.46,0.9,-3.91593
+975,2341.91,Not Ideal,Worst,Not Clear,5.12,4.61,2.79,1.3,-4.52857
+976,3786.92,Ideal,Worst,Clear,5.38,5.15,3.51,1.34,0.81789
+977,1450.52,Not Ideal,Worst,Not Clear,4.95,4.72,3.42,1.61,-0.05433
+978,2184.18,Ideal,Best,Not Clear,4.75,4.67,3.22,1.68,-5.598
+979,1816.35,Ideal,Worst,Not Clear,4.85,4.99,2.92,1.61,-3.18352
+980,2821.16,Ideal,Worst,Not Clear,5.4,5.14,2.93,1.58,0.53937
+981,1789.03,Not Ideal,Worst,Not Clear,5.22,4.88,2.88,1.53,-1.56241
+982,3252.02,Ideal,Best,Not Clear,5.38,5.31,2.95,1.5,-2.12993
+983,2556.9,Not Ideal,Best,Not Clear,4.75,4.74,3.08,1.71,6.47173
+984,2604.32,Not Ideal,Worst,Not Clear,5.43,5.42,2.65,2.31,6.15446
+985,1231.41,Not Ideal,Worst,Not Clear,5.19,5.23,3.03,1.46,0.14755
+986,1928.66,Ideal,Worst,Not Clear,4.7,4.68,3.33,1.7,4.59184
+987,3743.05,Ideal,Best,Clear,5.03,4.95,2.37,1.16,1.64208
+988,3890.51,Not Ideal,Best,Clear,4.93,4.93,2.58,0.88,2.49243
+989,2038.78,Not Ideal,Worst,Not Clear,4.78,5.1,3.38,1.38,-0.7113
+990,1828.82,Not Ideal,Best,Not Clear,4.95,4.84,3.15,0.74,-0.57261
+991,3419.08,Not Ideal,Best,Clear,5.36,5.41,2.63,1.16,-0.42043
+992,1051.36,Not Ideal,Worst,Not Clear,4.85,4.59,2.46,1.07,-1.70554
+993,1853.11,Not Ideal,Best,Not Clear,5.13,5.03,3.5,0.93,-2.85388
+994,1417.25,Not Ideal,Worst,Not Clear,4.6,4.5,2.46,1.01,2.19596
+995,3160.77,Ideal,Worst,Clear,5,4.87,2.67,0.63,3.59007
+996,3120.03,Not Ideal,Worst,Clear,5.51,5.6,2.98,1.26,1.49909
+997,3076.14,Not Ideal,Best,Not Clear,5.22,5.24,3.02,1.42,-0.73751
+998,2419.91,Not Ideal,Best,Not Clear,4.92,4.91,3.21,1.54,-3.97471
+999,1568.19,Ideal,Worst,Clear,4.98,4.68,3.68,1.58,-2.65982
+1000,2409.9,Not Ideal,Best,Clear,4.58,5.1,3.58,1.69,-3.25683

@@ -1,0 +1,1001 @@
+room_id,room_type,price,reviews,overall_satisfaction,accomodates,num_bedrooms,neighborhood,air_conditioning,sim
+1,Shared Room,160.1,38,4.21,4,2,North Side,No,0.53623
+2,Shared Room,113.29,52,3.62,2,2,South Side,Yes,0.82049
+3,Shared Room,223.19,40,4.63,5,4,North Side,Yes,0.28172
+4,Shared Room,126.42,35,3.96,4,2,South Side,Yes,0.4105
+5,Shared Room,157.58,9,3.91,4,2,North Side,Yes,0.41912
+6,Shared Room,210.54,31,4.33,5,4,North Side,Yes,0.75466
+7,Shared Room,139.42,7,3.91,4,2,North Side,Yes,0.47892
+8,Shared Room,192.09,38,4.05,5,4,South Side,Yes,0.83896
+9,Shared Room,97.54,57,5.11,1,2,South Side,No,0.96841
+10,Shared Room,62.61,33,3.73,3,1,South Side,No,0.3068
+11,Not Shared Room,155.53,43,4.32,4,2,South Side,Yes,0.78686
+12,Not Shared Room,38.77,41,3.82,1,1,South Side,No,0.82037
+13,Shared Room,80.89,29,4.31,1,2,South Side,No,0.79016
+14,Shared Room,131.62,31,3.23,4,2,North Side,No,0.77371
+15,Shared Room,135.18,54,4.25,4,2,South Side,Yes,0.6809
+16,Shared Room,78.23,17,4.21,4,2,North Side,No,0.75125
+17,Shared Room,87.45,66,4.47,1,2,South Side,No,0.86441
+18,Shared Room,120.84,42,4.14,2,2,South Side,Yes,0.93659
+19,Not Shared Room,141.51,52,3.29,4,2,North Side,Yes,0.03087
+20,Shared Room,112.43,51,4.33,4,2,South Side,Yes,0.18713
+21,Shared Room,243.44,20,3.42,6,4,North Side,Yes,0.26422
+22,Shared Room,169.72,27,2.86,4,3,North Side,Yes,0.64179
+23,Not Shared Room,242.79,29,4.72,6,4,North Side,Yes,0.41148
+24,Shared Room,43.53,21,3.3,1,1,North Side,No,0.37114
+25,Shared Room,130.99,56,3.98,4,2,North Side,Yes,0.14874
+26,Shared Room,133.52,55,4.24,4,2,North Side,No,0.9565
+27,Shared Room,128.99,54,4.54,4,2,South Side,Yes,0.53675
+28,Shared Room,118.31,47,3.84,2,2,North Side,No,0.29569
+29,Shared Room,225.24,40,4.53,5,4,North Side,No,0.4521
+30,Shared Room,279.58,35,4.15,6,4,North Side,Yes,0.77741
+31,Shared Room,210.6,35,3.98,5,4,North Side,Yes,0.0683
+32,Shared Room,69.51,56,4.48,2,1,North Side,No,0.97455
+33,Shared Room,237.46,49,4.69,6,4,North Side,No,0.25138
+34,Shared Room,265.95,44,3.68,6,4,North Side,Yes,0.34891
+35,Shared Room,50.75,43,3.5,2,1,North Side,No,0.02396
+36,Shared Room,30.18,35,4.21,3,1,South Side,Yes,0.84606
+37,Shared Room,56.56,30,3.39,4,1,South Side,Yes,0.1762
+38,Shared Room,144.74,72,4.57,4,2,North Side,Yes,0.92825
+39,Shared Room,142.6,23,3.28,4,2,South Side,Yes,0.61373
+40,Shared Room,104.18,20,3.18,3,2,North Side,No,0.07254
+41,Shared Room,153.96,51,4.42,4,2,South Side,Yes,0.58778
+42,Shared Room,82.51,13,4.05,3,2,South Side,No,0.53502
+43,Shared Room,62.75,31,4.03,3,1,South Side,Yes,0.49409
+44,Not Shared Room,89.46,36,3.84,3,2,South Side,No,0.464
+45,Shared Room,201.49,30,3.63,5,4,North Side,Yes,0.61269
+46,Shared Room,67.53,50,4.45,4,1,South Side,Yes,0.81119
+47,Shared Room,208.71,25,3.6,5,4,North Side,Yes,0.91283
+48,Shared Room,160.74,66,4.23,4,2,North Side,No,0.7277
+49,Shared Room,137.29,21,3.72,4,2,South Side,Yes,0.44744
+50,Shared Room,34.83,46,4.14,2,1,South Side,No,0.6211
+51,Not Shared Room,96.16,23,4.33,2,2,South Side,Yes,0.77966
+52,Shared Room,99.8,47,3.61,2,2,North Side,No,0.29483
+53,Shared Room,204.47,56,4.56,5,4,North Side,Yes,0.70971
+54,Shared Room,193.67,40,4.16,5,4,North Side,Yes,0.68267
+55,Shared Room,143.51,16,3.26,4,2,North Side,Yes,0.46099
+56,Not Shared Room,64.88,31,4.49,2,1,South Side,Yes,0.9567
+57,Shared Room,165.71,56,4.09,4,3,North Side,Yes,0.77521
+58,Not Shared Room,165.07,46,4.59,4,3,North Side,Yes,0.56177
+59,Shared Room,133.81,65,4.72,4,2,South Side,No,0.38566
+60,Shared Room,71.54,32,3.96,4,1,North Side,No,0.97537
+61,Shared Room,34.62,10,4.15,1,1,South Side,No,0.66593
+62,Shared Room,26.83,26,4.25,2,1,South Side,No,0.56337
+63,Shared Room,111.29,41,4.29,1,2,North Side,Yes,0.21966
+64,Shared Room,171.03,48,3.95,4,3,South Side,Yes,0.30053
+65,Shared Room,194.97,62,4.25,5,4,North Side,Yes,0.63621
+66,Shared Room,174.04,34,4.22,5,3,North Side,Yes,0.60024
+67,Shared Room,123.68,7,3.46,4,2,South Side,Yes,0.52373
+68,Not Shared Room,78.67,35,4.46,3,2,South Side,Yes,0.49292
+69,Not Shared Room,209.72,48,4.73,5,4,North Side,Yes,0.23524
+70,Shared Room,29.59,26,3.92,2,1,South Side,No,0.96681
+71,Shared Room,219.94,53,3.6,5,4,North Side,Yes,0.82305
+72,Shared Room,70.29,46,3.63,3,1,South Side,No,0.64573
+73,Shared Room,124.77,33,3.5,4,2,North Side,No,0.43424
+74,Shared Room,106.92,39,4.12,4,2,South Side,Yes,0.0499
+75,Shared Room,83.22,40,4.23,4,2,North Side,No,0.14697
+76,Not Shared Room,189.87,17,3.94,5,4,North Side,Yes,0.48414
+77,Shared Room,115.62,34,3.93,2,2,North Side,Yes,0.35457
+78,Not Shared Room,103.82,36,4.14,3,2,South Side,Yes,0.16734
+79,Shared Room,72.1,66,4.41,1,1,South Side,Yes,0.85537
+80,Shared Room,138.25,57,4.68,4,2,North Side,No,0.54535
+81,Shared Room,123.13,38,3.82,4,2,South Side,Yes,0.72061
+82,Shared Room,86.44,23,4.04,3,2,North Side,No,0.15406
+83,Shared Room,108.29,35,4.14,2,2,North Side,Yes,0.37153
+84,Not Shared Room,159.53,31,4.12,4,2,South Side,No,0.94324
+85,Shared Room,113.56,41,3.92,2,2,North Side,No,0.43145
+86,Shared Room,26.65,3,3.88,4,1,South Side,No,0.54756
+87,Not Shared Room,88.82,36,4.48,3,2,South Side,No,0.16514
+88,Shared Room,46.71,61,4.55,2,1,South Side,No,0.5698
+89,Not Shared Room,124.09,59,4.53,4,2,North Side,No,0.97718
+90,Shared Room,125.67,58,4.09,4,2,North Side,No,0.21005
+91,Shared Room,90.94,59,4.25,4,2,South Side,Yes,0.14018
+92,Shared Room,112,40,3.91,4,2,South Side,No,0.11099
+93,Shared Room,114.2,60,3.87,2,2,South Side,No,0.95818
+94,Shared Room,227.93,50,3.63,5,4,North Side,Yes,0.02798
+95,Shared Room,233.26,68,4.52,5,4,North Side,Yes,0.89665
+96,Not Shared Room,190.25,54,3.99,5,4,South Side,Yes,0.20119
+97,Shared Room,131.67,34,3.69,4,2,North Side,Yes,0.22354
+98,Not Shared Room,166.65,53,4.67,4,3,South Side,Yes,0.63657
+99,Shared Room,79.57,35,3.91,1,2,North Side,No,0.43425
+100,Shared Room,39.62,27,3.54,1,1,South Side,No,0.52968
+101,Shared Room,186.23,25,4.5,5,3,South Side,Yes,0.53655
+102,Shared Room,60.26,2,4.1,1,1,South Side,Yes,0.20628
+103,Not Shared Room,178.93,14,3.73,5,3,North Side,Yes,0.03977
+104,Shared Room,136.41,19,3.45,4,2,North Side,Yes,0.22127
+105,Shared Room,82.33,45,3.66,4,2,North Side,No,0.53845
+106,Not Shared Room,66.89,39,4.27,3,1,South Side,No,0.51826
+107,Not Shared Room,157.8,59,4.5,4,2,South Side,No,0.5571
+108,Shared Room,171.91,32,3.99,4,3,North Side,Yes,0.20466
+109,Shared Room,142.14,61,4.13,4,2,North Side,No,0.55602
+110,Shared Room,96.58,36,4.19,4,2,North Side,No,0.86418
+111,Not Shared Room,86.01,44,4.82,4,2,South Side,No,0.94717
+112,Not Shared Room,233.84,33,4.09,5,4,North Side,Yes,0.88709
+113,Shared Room,119.05,46,4.42,4,2,North Side,No,0.05273
+114,Shared Room,61.06,35,3.42,2,1,South Side,Yes,0.81702
+115,Not Shared Room,179.13,37,4.42,5,3,North Side,Yes,0.79926
+116,Shared Room,86.86,23,4.11,2,2,South Side,Yes,0.76801
+117,Shared Room,77.86,39,4.1,3,2,South Side,Yes,0.5973
+118,Shared Room,60.73,42,4.17,4,1,South Side,No,0.50962
+119,Shared Room,98.3,41,4.86,2,2,South Side,No,0.79499
+120,Shared Room,179.02,41,3.81,5,3,North Side,Yes,0.03873
+121,Shared Room,222.3,39,4.42,5,4,North Side,Yes,0.71121
+122,Shared Room,133.22,81,3.79,4,2,North Side,Yes,0.57999
+123,Shared Room,130.55,62,4.1,4,2,North Side,Yes,0.02868
+124,Shared Room,155.58,46,4.27,4,2,North Side,No,0.32171
+125,Shared Room,82.5,42,4.01,3,2,South Side,No,0.33257
+126,Shared Room,78.93,27,4.17,3,2,South Side,Yes,0.5747
+127,Shared Room,99.39,39,4.53,4,2,South Side,No,0.46405
+128,Shared Room,278.77,52,4.95,6,4,North Side,Yes,0.19562
+129,Not Shared Room,156.74,45,3.27,4,2,North Side,Yes,0.65527
+130,Shared Room,98.48,58,4.12,3,2,South Side,No,0.20662
+131,Shared Room,33.46,28,3.31,1,1,South Side,Yes,0.41583
+132,Shared Room,120.13,34,3.7,3,2,South Side,No,0.94147
+133,Shared Room,127.44,37,4.09,4,2,South Side,No,0.58485
+134,Shared Room,59.04,43,3.41,1,1,South Side,No,0.23896
+135,Shared Room,151.83,41,3.56,4,2,North Side,Yes,0.23384
+136,Shared Room,165.29,45,4.07,4,3,North Side,Yes,0.64901
+137,Shared Room,129.87,55,4.4,4,2,South Side,No,0.353
+138,Shared Room,119.32,29,3.27,1,2,North Side,Yes,0.04584
+139,Shared Room,59.7,26,4.02,1,1,South Side,Yes,0.26549
+140,Shared Room,117.78,32,3.33,2,2,North Side,No,0.59642
+141,Shared Room,185.03,38,3.6,5,3,North Side,Yes,0.5374
+142,Shared Room,76.86,44,4.06,1,2,North Side,No,0.81854
+143,Shared Room,121.87,36,3.43,4,2,North Side,Yes,0.87418
+144,Shared Room,116.83,47,4.76,2,2,North Side,No,0.30112
+145,Shared Room,292.55,46,4.32,6,4,North Side,Yes,0.86841
+146,Shared Room,137.94,45,4.05,4,2,North Side,No,0.928
+147,Shared Room,58.6,11,3.66,2,1,South Side,No,0.2095
+148,Shared Room,161.11,16,4.15,4,2,South Side,Yes,0.70342
+149,Shared Room,235.61,52,4.03,5,4,North Side,Yes,0.00305
+150,Shared Room,77.24,42,4.47,3,2,South Side,No,0.58499
+151,Shared Room,27.64,29,3.86,1,1,South Side,No,0.29343
+152,Shared Room,187.52,53,4.22,5,4,North Side,No,0.70832
+153,Not Shared Room,125.73,44,4.7,4,2,South Side,Yes,0.32616
+154,Shared Room,97.06,36,4.11,2,2,North Side,No,0.18817
+155,Shared Room,202.03,61,3.79,5,4,South Side,Yes,0.12318
+156,Shared Room,64.04,24,3.53,3,1,South Side,Yes,0.64262
+157,Shared Room,95.1,45,4.71,1,2,South Side,No,0.50811
+158,Not Shared Room,167.93,45,4.25,4,3,North Side,No,0.50758
+159,Shared Room,141.51,37,3.96,4,2,North Side,Yes,0.24781
+160,Shared Room,139.33,53,4,4,2,North Side,No,0.01984
+161,Shared Room,206.07,27,3.71,5,4,South Side,Yes,0.4836
+162,Shared Room,67.24,23,3.15,1,1,North Side,No,0.23302
+163,Shared Room,101.84,17,3.54,4,2,South Side,No,0.18496
+164,Shared Room,101.65,39,3.65,1,2,South Side,No,0.14104
+165,Not Shared Room,142.03,49,4.11,4,2,North Side,No,0.52613
+166,Not Shared Room,148.68,39,4.04,4,2,South Side,Yes,0.03336
+167,Shared Room,228.07,62,3.92,5,4,North Side,Yes,0.22996
+168,Shared Room,57.27,45,3.99,1,1,South Side,No,0.65425
+169,Shared Room,147.87,38,4.45,4,2,North Side,No,0.01234
+170,Shared Room,57.12,15,0.47,2,1,South Side,Yes,0.44737
+171,Not Shared Room,169.07,23,3.82,4,3,North Side,Yes,0.01667
+172,Shared Room,190.57,46,3.96,5,4,North Side,Yes,0.52332
+173,Shared Room,76.45,20,4.15,2,2,North Side,No,0.09011
+174,Shared Room,111.09,30,3.48,3,2,North Side,Yes,0.3279
+175,Shared Room,102.73,40,4.31,1,2,North Side,No,0.90954
+176,Not Shared Room,216.83,78,3.54,5,4,North Side,Yes,0.4184
+177,Shared Room,95.48,18,3.52,4,2,North Side,No,0.19639
+178,Shared Room,52.74,49,3.71,4,1,South Side,Yes,0.65898
+179,Not Shared Room,117.78,56,4.29,4,2,North Side,No,0.03972
+180,Shared Room,74.42,39,4.03,3,1,South Side,Yes,0.33113
+181,Shared Room,87.04,29,4.33,3,2,North Side,No,0.71378
+182,Shared Room,91.17,44,4.18,4,2,South Side,Yes,0.32994
+183,Shared Room,140.62,62,3.89,4,2,North Side,No,0.70908
+184,Shared Room,74.8,44,4.2,3,1,South Side,No,0.94389
+185,Shared Room,90.32,62,4.41,4,2,North Side,No,0.79809
+186,Not Shared Room,111.96,10,3.97,1,2,South Side,No,0.57563
+187,Shared Room,106.3,31,4.06,2,2,South Side,Yes,0.48018
+188,Shared Room,56.34,13,2.7,3,1,South Side,Yes,0.59769
+189,Shared Room,122.03,36,4.22,4,2,North Side,No,0.92359
+190,Shared Room,76.88,39,4.67,2,2,South Side,Yes,0.69027
+191,Not Shared Room,204.17,25,3.91,5,4,North Side,Yes,0.94902
+192,Shared Room,123.36,61,4.75,4,2,North Side,Yes,0.31916
+193,Shared Room,69.29,38,4.52,2,1,South Side,No,0.70251
+194,Shared Room,61.55,59,3.63,3,1,North Side,No,0.37796
+195,Shared Room,118.61,79,4.91,1,2,South Side,Yes,0.02929
+196,Shared Room,219.21,34,4.12,5,4,North Side,Yes,0.62909
+197,Not Shared Room,168.49,35,3.75,4,3,South Side,Yes,0.28953
+198,Not Shared Room,185.67,30,4.12,5,3,North Side,Yes,0.74257
+199,Shared Room,294.21,47,3.92,6,4,North Side,Yes,0.85707
+200,Shared Room,169.28,41,4.74,4,3,South Side,No,0.02157
+201,Shared Room,108.66,29,3.92,2,2,North Side,Yes,0.21085
+202,Not Shared Room,97.68,41,4.09,1,2,North Side,No,0.04084
+203,Shared Room,146.03,61,4.22,4,2,North Side,No,0.54405
+204,Shared Room,165.95,31,3.79,4,3,North Side,Yes,0.04705
+205,Shared Room,231.4,25,4.33,5,4,North Side,Yes,0.8781
+206,Shared Room,158.5,47,4.78,4,2,North Side,No,0.09405
+207,Shared Room,96.07,63,4.33,3,2,South Side,Yes,0.629
+208,Shared Room,216.34,38,3.76,5,4,North Side,Yes,0.80965
+209,Shared Room,113.12,67,4.19,2,2,South Side,Yes,0.16627
+210,Shared Room,76.07,50,3.94,3,2,North Side,No,0.96723
+211,Shared Room,105.05,29,4.28,4,2,North Side,No,0.25765
+212,Shared Room,123.31,48,4.16,4,2,South Side,No,0.33271
+213,Shared Room,72.59,30,3.47,3,1,North Side,No,0.7535
+214,Shared Room,138.25,56,4.24,4,2,South Side,Yes,0.49594
+215,Shared Room,84.33,57,4.31,4,2,North Side,No,0.62686
+216,Shared Room,191.95,47,3.96,5,4,North Side,Yes,0.17136
+217,Not Shared Room,84.18,9,3.86,3,2,North Side,No,0.68868
+218,Shared Room,152.1,26,4.22,4,2,South Side,Yes,0.7633
+219,Shared Room,216.2,24,3.99,5,4,North Side,No,0.33983
+220,Not Shared Room,108.5,40,4.02,2,2,South Side,Yes,0.22037
+221,Shared Room,162.31,66,4,4,2,North Side,Yes,0.90186
+222,Shared Room,213.86,46,4.24,5,4,North Side,Yes,0.38703
+223,Shared Room,156.88,36,4.14,4,2,North Side,No,0.01262
+224,Shared Room,113.61,46,4.38,1,2,North Side,No,0.30246
+225,Shared Room,34.21,63,3.83,4,1,North Side,No,0.96969
+226,Shared Room,134.97,43,4.53,4,2,North Side,Yes,0.49421
+227,Shared Room,230.46,10,4.1,5,4,North Side,Yes,0.21323
+228,Shared Room,142.56,44,4.17,4,2,North Side,Yes,0.70238
+229,Not Shared Room,89.66,30,4.1,2,2,South Side,Yes,0.01888
+230,Not Shared Room,192.91,39,3.71,5,4,South Side,Yes,0.4169
+231,Shared Room,120.34,51,4.67,1,2,North Side,Yes,0.06473
+232,Shared Room,178.62,47,5.09,5,3,South Side,Yes,0.14553
+233,Shared Room,152.79,43,3.4,4,2,North Side,Yes,0.30231
+234,Shared Room,159.78,71,4.07,4,2,North Side,Yes,0.64137
+235,Not Shared Room,138.46,42,4.32,4,2,South Side,Yes,0.73024
+236,Shared Room,190.85,62,4.68,5,4,North Side,Yes,0.89944
+237,Shared Room,129.98,67,3.96,4,2,South Side,Yes,0.45766
+238,Not Shared Room,96.23,51,3.9,4,2,South Side,Yes,0.47172
+239,Not Shared Room,87.2,7,3.88,3,2,South Side,No,0.1481
+240,Not Shared Room,207.26,53,4.05,5,4,North Side,Yes,0.51973
+241,Shared Room,175.48,21,3.73,5,3,North Side,Yes,0.43152
+242,Shared Room,137.8,40,3.62,4,2,North Side,Yes,0.04476
+243,Shared Room,39.06,44,3.55,2,1,South Side,No,0.22958
+244,Not Shared Room,96.88,53,3.97,3,2,South Side,Yes,0.49252
+245,Shared Room,94.38,46,4.2,4,2,South Side,Yes,0.07716
+246,Shared Room,93.8,53,3.66,4,2,South Side,Yes,0.78884
+247,Shared Room,251.99,39,4,6,4,North Side,Yes,0.19401
+248,Shared Room,45.88,40,3.48,1,1,South Side,Yes,0.87289
+249,Shared Room,100.78,25,3.27,1,2,South Side,No,0.76363
+250,Shared Room,161.81,36,3.87,4,2,South Side,Yes,0.41364
+251,Shared Room,54.87,33,3.89,3,1,South Side,No,0.88433
+252,Shared Room,276.45,55,3.83,6,4,North Side,Yes,0.4891
+253,Shared Room,97.63,31,3.32,1,2,North Side,Yes,0.81796
+254,Shared Room,170.27,23,4.01,4,3,South Side,Yes,0.49458
+255,Shared Room,242.71,28,4.17,6,4,North Side,No,0.6843
+256,Shared Room,211.47,41,3.77,5,4,South Side,Yes,0.54622
+257,Not Shared Room,107.82,26,3.97,1,2,North Side,No,0.27091
+258,Shared Room,74.71,22,3.89,2,1,South Side,Yes,0.4559
+259,Shared Room,188.14,70,4.74,5,4,South Side,No,0.00973
+260,Not Shared Room,235.27,49,3.96,5,4,North Side,Yes,0.25687
+261,Shared Room,86.3,31,3.05,2,2,South Side,No,0.60018
+262,Shared Room,80.74,27,3.39,4,2,South Side,Yes,0.20382
+263,Shared Room,80.65,26,3.28,3,2,South Side,Yes,0.25744
+264,Shared Room,114.14,51,4.63,4,2,North Side,No,0.38089
+265,Shared Room,37.46,34,4.26,4,1,South Side,No,0.31107
+266,Shared Room,102.99,47,3.87,1,2,South Side,Yes,0.34031
+267,Shared Room,101.37,33,4.03,1,2,North Side,Yes,0.01849
+268,Shared Room,62.37,29,3.76,4,1,North Side,No,0.00186
+269,Shared Room,56.72,61,4.32,1,1,North Side,No,0.34501
+270,Shared Room,181.31,49,4.5,5,3,North Side,Yes,0.85145
+271,Shared Room,201.49,91,5.44,5,4,South Side,Yes,0.82523
+272,Shared Room,50.79,44,4.08,1,1,South Side,No,0.45482
+273,Shared Room,119.24,58,4.47,2,2,South Side,No,0.6417
+274,Not Shared Room,228.66,32,3.91,5,4,North Side,Yes,0.70436
+275,Shared Room,329,38,3.61,6,4,North Side,Yes,0.78141
+276,Shared Room,212.35,46,3.99,5,4,North Side,Yes,0.09239
+277,Not Shared Room,289.65,52,4.86,6,4,North Side,Yes,0.187
+278,Shared Room,113.88,44,4.67,2,2,North Side,No,0.64678
+279,Shared Room,57.31,48,3.85,1,1,North Side,No,0.94837
+280,Shared Room,40.92,29,4.12,4,1,South Side,Yes,0.47945
+281,Shared Room,108.17,38,7.74,3,2,South Side,Yes,0.57709
+282,Shared Room,81.76,65,3.9,2,2,North Side,No,0.60812
+283,Shared Room,97.62,18,3.53,1,2,South Side,Yes,0.75577
+284,Not Shared Room,126.96,31,4.08,4,2,North Side,Yes,0.98957
+285,Shared Room,159.67,55,4.33,4,2,South Side,Yes,0.8501
+286,Shared Room,110.54,58,4.31,1,2,North Side,Yes,0.61588
+287,Shared Room,66.21,48,4.86,2,1,South Side,No,0.73138
+288,Shared Room,60.68,72,4.04,2,1,South Side,No,0.16838
+289,Shared Room,104.07,38,4.17,2,2,North Side,Yes,0.74367
+290,Shared Room,144.33,33,4.13,4,2,North Side,No,0.98783
+291,Not Shared Room,182.63,30,3.78,5,3,North Side,Yes,0.73678
+292,Shared Room,102.91,31,3.16,1,2,South Side,Yes,0.70271
+293,Shared Room,155.12,31,3.79,4,2,North Side,Yes,0.77865
+294,Shared Room,44.37,33,3.43,4,1,South Side,Yes,0.46581
+295,Shared Room,169.05,51,4.13,4,3,North Side,No,0.03493
+296,Not Shared Room,219.8,59,3.86,5,4,North Side,Yes,0.06224
+297,Shared Room,194.94,28,3.15,5,4,North Side,Yes,0.74066
+298,Shared Room,88.12,37,4.31,4,2,North Side,No,0.87705
+299,Shared Room,141.12,21,4.2,4,2,North Side,No,0.38054
+300,Shared Room,67.47,59,4.1,1,1,South Side,No,0.19435
+301,Not Shared Room,192.19,33,3.59,5,4,North Side,Yes,0.83633
+302,Shared Room,176.02,61,3.84,5,3,North Side,No,0.37163
+303,Shared Room,134.09,40,4.51,4,2,North Side,No,0.5122
+304,Shared Room,224.45,51,4.13,5,4,South Side,Yes,0.66238
+305,Shared Room,65.29,42,3.71,4,1,South Side,No,0.17249
+306,Shared Room,37.82,31,3.47,3,1,South Side,Yes,0.89125
+307,Shared Room,31.69,24,3.66,4,1,North Side,No,0.97875
+308,Shared Room,61.75,27,3.52,4,1,South Side,No,0.66714
+309,Shared Room,111.17,60,3.88,4,2,North Side,Yes,0.89161
+310,Shared Room,95.88,50,4.85,2,2,North Side,No,0.68371
+311,Not Shared Room,157.71,18,4.47,4,2,North Side,Yes,0.74008
+312,Shared Room,162.43,63,3.76,4,2,North Side,Yes,0.94757
+313,Shared Room,174.84,75,4.98,5,3,North Side,Yes,0.33845
+314,Shared Room,143.65,51,3.52,4,2,North Side,No,0.09916
+315,Not Shared Room,56.88,52,3.93,2,1,South Side,No,0.63055
+316,Shared Room,159.42,53,3.68,4,2,North Side,Yes,0.78853
+317,Shared Room,166.88,39,3.84,4,3,North Side,Yes,0.0675
+318,Shared Room,100.67,42,3.6,1,2,North Side,No,0.41074
+319,Shared Room,41.79,33,4.24,1,1,South Side,Yes,0.25745
+320,Shared Room,89.55,31,3.82,1,2,North Side,No,0.55308
+321,Shared Room,220.6,50,3.62,5,4,South Side,Yes,0.66548
+322,Shared Room,117.74,57,3.5,4,2,North Side,Yes,0.50295
+323,Not Shared Room,92.57,38,4.29,1,2,South Side,Yes,0.62585
+324,Shared Room,87.58,62,3.62,1,2,North Side,No,0.3591
+325,Not Shared Room,183.42,29,4.1,5,3,South Side,Yes,0.09731
+326,Shared Room,43.46,69,4.14,3,1,South Side,No,0.97196
+327,Shared Room,107.86,41,3.59,2,2,South Side,Yes,0.06348
+328,Not Shared Room,105.99,11,3.54,2,2,South Side,Yes,0.68495
+329,Shared Room,240.54,58,4.41,6,4,North Side,Yes,0.74794
+330,Shared Room,217.67,49,4.74,5,4,North Side,Yes,0.0797
+331,Shared Room,194.53,22,4.02,5,4,South Side,Yes,0.02826
+332,Shared Room,185.1,54,4.25,5,3,North Side,Yes,0.48808
+333,Shared Room,27.93,67,3.67,2,1,South Side,No,0.04605
+334,Shared Room,165.23,50,3.85,4,3,North Side,No,0.83019
+335,Shared Room,60.51,50,3.54,2,1,South Side,Yes,0.34872
+336,Not Shared Room,112.9,42,3.56,1,2,South Side,Yes,0.17958
+337,Shared Room,138.84,34,3.68,4,2,South Side,Yes,0.76481
+338,Shared Room,43.58,30,4.24,4,1,South Side,No,0.02743
+339,Shared Room,150.72,37,3.04,4,2,North Side,No,0.42314
+340,Not Shared Room,163.83,51,4.05,4,3,North Side,Yes,0.97803
+341,Not Shared Room,102.26,14,3.91,4,2,South Side,Yes,0.66198
+342,Shared Room,123.13,50,3.5,4,2,North Side,No,0.4727
+343,Shared Room,176.72,47,4.28,5,3,North Side,Yes,0.71839
+344,Shared Room,57.19,86,4.66,3,1,South Side,No,0.42762
+345,Not Shared Room,135.33,47,3.91,4,2,North Side,Yes,0.28168
+346,Shared Room,210.64,88,4.4,5,4,North Side,Yes,0.59414
+347,Not Shared Room,170.87,51,4.07,4,3,North Side,Yes,0.79239
+348,Shared Room,90.77,54,4.28,4,2,South Side,No,0.45132
+349,Shared Room,198.43,70,4.49,5,4,North Side,No,0.32435
+350,Shared Room,143.34,44,3.42,4,2,North Side,Yes,0.53382
+351,Shared Room,108.44,57,3.56,2,2,North Side,No,0.79208
+352,Shared Room,239.17,54,3.4,6,4,North Side,Yes,0.64412
+353,Shared Room,44.13,47,3.79,4,1,South Side,No,0.94641
+354,Not Shared Room,172.91,41,4.08,5,3,North Side,Yes,0.56356
+355,Not Shared Room,187.28,52,4.14,5,3,North Side,Yes,0.041
+356,Not Shared Room,247.57,46,4.52,6,4,North Side,Yes,0.43343
+357,Shared Room,103.71,68,4.11,1,2,North Side,No,0.49841
+358,Shared Room,167.46,29,3.96,4,3,North Side,Yes,0.66395
+359,Shared Room,241.25,22,4.04,6,4,North Side,Yes,0.0652
+360,Not Shared Room,271.55,57,4.34,6,4,North Side,Yes,0.98913
+361,Shared Room,130.88,48,4.06,4,2,South Side,Yes,0.20775
+362,Shared Room,195.17,61,4.71,5,4,North Side,Yes,0.25888
+363,Shared Room,164.05,45,3.23,4,3,South Side,Yes,0.13346
+364,Shared Room,78.01,26,4.45,1,2,South Side,Yes,0.3577
+365,Not Shared Room,176.93,27,3.86,5,3,South Side,No,0.40767
+366,Not Shared Room,103.63,15,3.84,2,2,North Side,No,0.16606
+367,Not Shared Room,163.67,8,3.27,4,2,South Side,Yes,0.801
+368,Shared Room,78.61,24,4,3,2,South Side,No,0.84843
+369,Shared Room,71.95,70,3.21,2,1,South Side,No,0.06502
+370,Shared Room,117.03,33,3.99,3,2,North Side,Yes,0.93314
+371,Shared Room,133.35,57,4.24,4,2,North Side,Yes,0.28464
+372,Not Shared Room,160.73,66,3.29,4,2,North Side,Yes,0.77653
+373,Shared Room,133.96,20,4.27,4,2,North Side,No,0.3044
+374,Shared Room,237.55,31,4.26,6,4,North Side,No,0.97149
+375,Shared Room,57.63,64,3.44,1,1,South Side,No,0.26968
+376,Shared Room,77.17,48,7.64,1,2,South Side,No,0.26091
+377,Not Shared Room,32.45,45,3.88,2,1,South Side,No,0.727
+378,Not Shared Room,105.99,44,3.67,3,2,South Side,Yes,0.45116
+379,Shared Room,65.21,53,4.39,2,1,South Side,Yes,0.57598
+380,Shared Room,185.34,55,4.8,5,3,North Side,Yes,0.58222
+381,Shared Room,179.46,55,3.72,5,3,North Side,No,0.86902
+382,Shared Room,130.78,24,3.45,4,2,South Side,Yes,0.75396
+383,Shared Room,190.32,44,4.03,5,4,North Side,No,0.43734
+384,Not Shared Room,43.3,29,3.55,3,1,South Side,Yes,0.79254
+385,Shared Room,116.93,7,3.74,3,2,South Side,Yes,0.69743
+386,Shared Room,85.76,28,4.25,4,2,South Side,No,0.7533
+387,Shared Room,122.5,19,3.46,4,2,North Side,No,0.53102
+388,Shared Room,203.3,52,4.29,5,4,North Side,Yes,0.62634
+389,Shared Room,218.68,46,3.51,5,4,North Side,No,0.60241
+390,Not Shared Room,135.39,14,3.23,4,2,North Side,Yes,0.53724
+391,Not Shared Room,216.71,14,4.31,5,4,North Side,Yes,0.84243
+392,Not Shared Room,30.18,59,3.99,3,1,South Side,No,0.35836
+393,Shared Room,109.41,61,4.33,2,2,North Side,No,0.4254
+394,Shared Room,118.42,35,3.77,3,2,South Side,Yes,0.5732
+395,Shared Room,32.08,45,3.81,1,1,South Side,No,0.43076
+396,Shared Room,201.12,29,3.61,5,4,South Side,Yes,0.42296
+397,Shared Room,73.74,45,3.85,2,1,South Side,Yes,0.85358
+398,Shared Room,101.01,43,4.07,2,2,North Side,No,0.13634
+399,Shared Room,102.36,25,4.01,2,2,South Side,Yes,0.30298
+400,Shared Room,74.59,52,3.95,2,1,North Side,No,0.8868
+401,Shared Room,102.89,49,4.06,4,2,South Side,Yes,0.38336
+402,Shared Room,165.85,27,3.84,4,3,North Side,Yes,0.52892
+403,Shared Room,189.07,17,3.35,5,4,South Side,Yes,0.87045
+404,Not Shared Room,202.61,61,4.45,5,4,South Side,Yes,0.28648
+405,Shared Room,64.61,16,3.13,3,1,South Side,No,0.66623
+406,Shared Room,43.34,66,3.08,2,1,North Side,No,0.54504
+407,Shared Room,137.67,59,4.36,4,2,South Side,Yes,0.61198
+408,Shared Room,195.92,23,4.27,5,4,North Side,Yes,0.13388
+409,Not Shared Room,99.75,42,3.73,3,2,South Side,Yes,0.39053
+410,Shared Room,131.7,35,4.25,4,2,South Side,No,0.21104
+411,Shared Room,159.43,50,4.34,4,2,South Side,Yes,0.17583
+412,Not Shared Room,30.39,23,3.48,2,1,South Side,No,0.17287
+413,Shared Room,93.21,15,4.33,2,2,South Side,Yes,0.22792
+414,Shared Room,230.68,30,4.6,5,4,North Side,Yes,0.86692
+415,Not Shared Room,44.13,22,3.76,4,1,South Side,Yes,0.0758
+416,Shared Room,118.94,29,3.8,3,2,South Side,Yes,0.2947
+417,Not Shared Room,130.99,38,4.53,4,2,South Side,No,0.75203
+418,Shared Room,160.57,46,4.43,4,2,South Side,Yes,0.13055
+419,Not Shared Room,245.28,66,4.32,6,4,North Side,Yes,0.79521
+420,Not Shared Room,156.51,56,4.02,4,2,North Side,No,0.86693
+421,Shared Room,167.7,32,3.8,4,3,North Side,No,0.49631
+422,Shared Room,228.28,53,3.75,5,4,North Side,Yes,0.68006
+423,Not Shared Room,253.48,31,4.01,6,4,North Side,Yes,0.78304
+424,Shared Room,126.35,33,3.57,4,2,North Side,Yes,0.70401
+425,Shared Room,121.09,61,3.9,3,2,North Side,Yes,0.00786
+426,Shared Room,173.89,24,4.11,5,3,North Side,Yes,0.2857
+427,Shared Room,120.74,17,3.28,3,2,North Side,Yes,0.35247
+428,Not Shared Room,106.67,17,3.45,3,2,South Side,Yes,0.26386
+429,Shared Room,80.32,47,4.14,3,2,South Side,No,0.38587
+430,Shared Room,33.41,31,3.92,3,1,South Side,Yes,0.89586
+431,Shared Room,159.32,56,3.84,4,2,North Side,No,0.5677
+432,Shared Room,189.78,51,4.09,5,4,North Side,No,0.8444
+433,Shared Room,42.41,35,3.92,4,1,South Side,No,0.08292
+434,Shared Room,140.26,66,3.47,4,2,North Side,No,0.21275
+435,Shared Room,83.32,60,4.11,3,2,North Side,No,0.37226
+436,Shared Room,93.55,53,4.34,2,2,South Side,Yes,0.60841
+437,Shared Room,54.26,19,3.71,2,1,South Side,Yes,0.81058
+438,Shared Room,44.89,66,4.4,2,1,South Side,Yes,0.82621
+439,Shared Room,126.02,57,4.13,4,2,North Side,No,0.12304
+440,Not Shared Room,255.14,12,3.96,6,4,North Side,Yes,0.41922
+441,Shared Room,34,64,4.06,3,1,South Side,Yes,0.22182
+442,Shared Room,54.36,24,3.95,1,1,South Side,Yes,0.29627
+443,Shared Room,149.2,51,4.08,4,2,North Side,Yes,0.2675
+444,Shared Room,101.2,20,3.93,4,2,South Side,Yes,0.78029
+445,Shared Room,172.74,25,3.54,4,3,South Side,Yes,0.85294
+446,Shared Room,69.94,48,3.6,2,1,South Side,Yes,0.57482
+447,Not Shared Room,177.77,1,3.6,5,3,North Side,Yes,0.76964
+448,Shared Room,74.03,25,3.82,4,1,South Side,Yes,0.29061
+449,Shared Room,176.95,31,3.63,5,3,North Side,Yes,0.88045
+450,Shared Room,126.78,39,3.96,4,2,South Side,Yes,0.56531
+451,Shared Room,105.71,36,4.09,1,2,North Side,Yes,0.82454
+452,Shared Room,53.01,25,4,1,1,South Side,Yes,0.86589
+453,Not Shared Room,172.25,56,4.33,4,3,North Side,No,0.30584
+454,Shared Room,56.84,50,4.64,1,1,South Side,No,0.68669
+455,Not Shared Room,212.49,49,4.32,5,4,North Side,No,0.33789
+456,Shared Room,184.77,60,3.94,5,3,North Side,Yes,0.60937
+457,Shared Room,132.38,58,4.18,4,2,North Side,Yes,0.38955
+458,Shared Room,146.57,58,3.33,4,2,North Side,Yes,0.37552
+459,Shared Room,37.25,39,3.49,3,1,South Side,No,0.4285
+460,Shared Room,37.66,50,4.18,4,1,South Side,No,0.06614
+461,Shared Room,89.05,32,3.53,3,2,North Side,No,0.16367
+462,Shared Room,100.3,31,4.17,3,2,North Side,Yes,0.76215
+463,Not Shared Room,167.14,64,4.37,4,3,North Side,Yes,0.15096
+464,Shared Room,114.17,9,3.72,3,2,South Side,No,0.46429
+465,Not Shared Room,135.97,27,3.22,4,2,North Side,Yes,0.80109
+466,Shared Room,150.49,61,4.04,4,2,North Side,Yes,0.92609
+467,Shared Room,152.67,52,3.95,4,2,South Side,Yes,0.52843
+468,Shared Room,67.22,35,3.77,3,1,South Side,Yes,0.25401
+469,Shared Room,78.34,50,4.61,4,2,South Side,Yes,0.89779
+470,Shared Room,176.45,59,4.05,5,3,South Side,Yes,0.27273
+471,Shared Room,68.88,41,4.08,4,1,South Side,Yes,0.57396
+472,Shared Room,78.8,21,3.76,1,2,South Side,Yes,0.59771
+473,Not Shared Room,152.21,29,4.24,4,2,South Side,Yes,0.96962
+474,Not Shared Room,229.98,41,3.84,5,4,North Side,Yes,0.61344
+475,Shared Room,191.31,38,4.03,5,4,North Side,Yes,0.04014
+476,Shared Room,58.61,46,4.65,4,1,South Side,Yes,0.06484
+477,Shared Room,41.83,30,4.16,2,1,South Side,Yes,0.77382
+478,Shared Room,124.94,20,3.23,4,2,South Side,No,0.82289
+479,Shared Room,49.54,46,4.34,3,1,South Side,Yes,0.50698
+480,Shared Room,199.15,47,4.28,5,4,North Side,Yes,0.17983
+481,Shared Room,129.21,53,4.26,4,2,South Side,Yes,0.51772
+482,Shared Room,220.75,42,4,5,4,North Side,Yes,0.91872
+483,Shared Room,76.63,7,3.92,1,2,North Side,No,0.12226
+484,Shared Room,182.81,48,4.14,5,3,South Side,Yes,0.86697
+485,Not Shared Room,205.88,53,3.78,5,4,North Side,Yes,0.96407
+486,Not Shared Room,175.08,21,3.84,5,3,South Side,Yes,0.65404
+487,Shared Room,143.52,52,4.11,4,2,North Side,Yes,0.71297
+488,Not Shared Room,249.21,40,4.37,6,4,North Side,Yes,0.79611
+489,Not Shared Room,184.74,50,4.01,5,3,North Side,Yes,0.92338
+490,Not Shared Room,188.5,25,3.56,5,4,South Side,Yes,0.02926
+491,Shared Room,78.81,35,4.16,2,2,South Side,No,0.96097
+492,Shared Room,118.17,55,4.15,3,2,South Side,No,0.36676
+493,Shared Room,56.46,47,3.34,1,1,South Side,No,0.91961
+494,Shared Room,123.75,49,3.53,4,2,North Side,Yes,0.78885
+495,Shared Room,129.97,53,4.01,4,2,South Side,Yes,0.69178
+496,Shared Room,108.66,28,4.83,1,2,South Side,Yes,0.14599
+497,Shared Room,86.03,7,2.95,2,2,North Side,Yes,0.41047
+498,Not Shared Room,111.61,31,3.19,3,2,South Side,Yes,0.31202
+499,Shared Room,74.97,24,3.8,1,1,South Side,No,0.1647
+500,Shared Room,121.7,11,4.28,3,2,South Side,Yes,0.36578
+501,Shared Room,97.24,53,4.2,2,2,North Side,No,0.66148
+502,Not Shared Room,67.95,42,3.61,3,1,South Side,Yes,0.26745
+503,Not Shared Room,134.76,6,3.36,4,2,North Side,No,0.08501
+504,Shared Room,309.12,41,4.17,6,4,North Side,Yes,0.22738
+505,Shared Room,98.08,48,3.94,1,2,South Side,Yes,0.56702
+506,Shared Room,49.27,26,3.35,3,1,North Side,No,0.34237
+507,Shared Room,197.26,49,4.43,5,4,South Side,Yes,0.91855
+508,Not Shared Room,49.47,27,4.49,2,1,South Side,No,0.1981
+509,Shared Room,192.49,60,3.96,5,4,North Side,No,0.73088
+510,Shared Room,157.87,63,3.6,4,2,South Side,No,0.37884
+511,Shared Room,63.24,70,4.38,4,1,South Side,No,0.08614
+512,Shared Room,70.08,49,4.19,1,1,South Side,Yes,0.52699
+513,Not Shared Room,110.72,21,4.04,1,2,South Side,No,0.83323
+514,Not Shared Room,293.79,39,3.83,6,4,South Side,Yes,0.89705
+515,Shared Room,42.35,33,3.44,3,1,South Side,Yes,0.38278
+516,Shared Room,87.51,30,3.81,3,2,South Side,No,0.40823
+517,Not Shared Room,99.79,24,3.93,4,2,South Side,No,0.57015
+518,Shared Room,220.45,32,3.98,5,4,North Side,Yes,0.54976
+519,Shared Room,175.45,46,4.22,5,3,North Side,Yes,0.61185
+520,Shared Room,82.05,52,3.62,3,2,South Side,Yes,0.75418
+521,Shared Room,57.43,26,2.93,1,1,South Side,Yes,0.66334
+522,Not Shared Room,330.87,43,4.31,6,4,North Side,Yes,0.51674
+523,Shared Room,76.93,42,3.83,4,2,South Side,No,0.81379
+524,Not Shared Room,120.99,8,4.26,3,2,North Side,Yes,0.49677
+525,Not Shared Room,274.78,71,4.24,6,4,North Side,Yes,0.50471
+526,Not Shared Room,157.42,15,3.71,4,2,South Side,Yes,0.93922
+527,Shared Room,195.96,44,4.19,5,4,North Side,Yes,0.93241
+528,Shared Room,259.82,39,4.33,6,4,North Side,Yes,0.6229
+529,Not Shared Room,229.84,39,3.95,5,4,North Side,Yes,0.16222
+530,Shared Room,30.75,31,3.9,2,1,South Side,Yes,0.9853
+531,Shared Room,93.03,27,4.48,2,2,South Side,Yes,0.84329
+532,Shared Room,50.25,40,3.65,3,1,South Side,Yes,0.26146
+533,Shared Room,235.79,32,4.04,6,4,South Side,Yes,0.52729
+534,Shared Room,26.86,28,3.86,1,1,South Side,Yes,0.43401
+535,Not Shared Room,93.44,21,3.94,2,2,South Side,No,0.99653
+536,Shared Room,136.68,45,4.32,4,2,South Side,No,0.88043
+537,Not Shared Room,92.85,15,3.82,1,2,South Side,No,0.51133
+538,Shared Room,122.96,9,3.32,4,2,North Side,Yes,0.83099
+539,Shared Room,197.31,50,4.41,5,4,North Side,No,0.5213
+540,Shared Room,117.92,63,3.4,3,2,South Side,No,0.24146
+541,Shared Room,43.15,56,4.15,1,1,South Side,Yes,0.09459
+542,Shared Room,139.01,42,3.84,4,2,North Side,Yes,0.66048
+543,Shared Room,76.11,21,3.88,2,2,South Side,Yes,0.28494
+544,Not Shared Room,155.06,35,4.74,4,2,North Side,No,0.43707
+545,Shared Room,103.32,31,3.54,4,2,North Side,Yes,0.23031
+546,Shared Room,118.39,27,4.16,3,2,North Side,No,0.95978
+547,Shared Room,121.89,70,4.55,4,2,South Side,Yes,0.07366
+548,Shared Room,158.32,34,4.53,4,2,North Side,Yes,0.00892
+549,Shared Room,84.03,44,3.56,4,2,South Side,No,0.97619
+550,Shared Room,117.49,47,4.46,3,2,South Side,Yes,0.69654
+551,Not Shared Room,59.79,67,3.53,3,1,South Side,Yes,0.36308
+552,Shared Room,79.64,37,4.26,3,2,North Side,No,0.35186
+553,Shared Room,93.02,54,4.26,1,2,South Side,Yes,0.50809
+554,Shared Room,117.57,55,3.79,3,2,North Side,Yes,0.49003
+555,Shared Room,101.34,23,4.33,3,2,South Side,Yes,0.25951
+556,Not Shared Room,156.04,64,4.17,4,2,North Side,No,0.41791
+557,Shared Room,123.04,26,3.4,4,2,North Side,No,0.45004
+558,Shared Room,164.08,54,4.04,4,3,North Side,Yes,0.49345
+559,Shared Room,218.95,35,4.61,5,4,North Side,No,0.42419
+560,Shared Room,143.16,50,4.54,4,2,North Side,Yes,0.6346
+561,Shared Room,113.48,19,4.32,3,2,North Side,Yes,0.23823
+562,Shared Room,107.75,42,3.87,3,2,South Side,No,0.13285
+563,Shared Room,84.88,42,3.87,4,2,South Side,Yes,0.74341
+564,Shared Room,226.79,34,3.82,5,4,North Side,Yes,0.61408
+565,Not Shared Room,68.1,19,3.78,3,1,South Side,Yes,0.99676
+566,Shared Room,194.13,53,4.25,5,4,North Side,No,0.11175
+567,Shared Room,43.94,43,3.85,4,1,South Side,No,0.77783
+568,Shared Room,39.48,43,3.69,3,1,South Side,No,0.4129
+569,Shared Room,106.95,51,3.23,3,2,South Side,No,0.01367
+570,Not Shared Room,169.21,47,4.56,4,3,South Side,Yes,0.08313
+571,Not Shared Room,273.05,38,4.43,6,4,North Side,No,0.06417
+572,Shared Room,236.54,55,4.66,6,4,North Side,Yes,0.18016
+573,Shared Room,226.3,53,3.72,5,4,North Side,Yes,0.36708
+574,Shared Room,118.51,38,3.86,3,2,North Side,Yes,0.55954
+575,Shared Room,99.46,22,3.38,1,2,South Side,No,0.27758
+576,Shared Room,70.87,30,3.19,3,1,South Side,No,0.49199
+577,Not Shared Room,170.31,46,4.16,4,3,South Side,Yes,0.82727
+578,Not Shared Room,185.57,7,3.25,5,3,North Side,Yes,0.32821
+579,Shared Room,155.26,53,3.98,4,2,South Side,Yes,0.85017
+580,Not Shared Room,71.89,38,3.69,2,1,South Side,Yes,0.53842
+581,Shared Room,143.88,27,3.84,4,2,North Side,No,0.61273
+582,Shared Room,79.74,61,4.09,2,2,North Side,No,0.31566
+583,Shared Room,169.13,74,4.65,4,3,North Side,No,0.90575
+584,Shared Room,166.13,46,4.12,4,3,North Side,Yes,0.80631
+585,Shared Room,81.09,69,4.72,2,2,South Side,Yes,0.25988
+586,Shared Room,105.52,58,4.54,1,2,South Side,Yes,0.90502
+587,Shared Room,92.61,35,4.03,1,2,North Side,No,0.32424
+588,Shared Room,84.09,11,3.76,1,2,South Side,No,0.19101
+589,Shared Room,118.8,39,3.92,3,2,South Side,Yes,0.91493
+590,Shared Room,76.5,35,4.18,3,2,South Side,No,0.57887
+591,Shared Room,66.26,64,3.88,1,1,South Side,Yes,0.56804
+592,Shared Room,121.92,58,4.58,4,2,North Side,Yes,0.44283
+593,Not Shared Room,145.12,55,4.1,4,2,North Side,Yes,0.51321
+594,Shared Room,199.43,25,3.46,5,4,North Side,Yes,0.47214
+595,Shared Room,66.22,36,3.94,2,1,North Side,No,0.40877
+596,Not Shared Room,201.62,62,3.74,5,4,North Side,Yes,0.82303
+597,Shared Room,149.72,42,3.86,4,2,North Side,Yes,0.51855
+598,Shared Room,26.55,36,3.96,2,1,South Side,No,0.77996
+599,Not Shared Room,163.03,50,4.01,4,2,North Side,No,0.19726
+600,Shared Room,178.82,49,4.12,5,3,North Side,Yes,0.9936
+601,Shared Room,114.94,29,4.08,3,2,North Side,No,0.49591
+602,Shared Room,114.53,33,3.93,3,2,North Side,No,0.36875
+603,Shared Room,125.62,53,3.78,4,2,South Side,Yes,0.97228
+604,Not Shared Room,202.76,92,5.23,5,4,North Side,Yes,0.14343
+605,Shared Room,185.52,52,4.17,5,3,North Side,Yes,0.06626
+606,Shared Room,187.4,54,4.61,5,3,North Side,No,0.62216
+607,Shared Room,95.85,13,3.9,3,2,South Side,Yes,0.39168
+608,Shared Room,35.4,37,4.22,3,1,South Side,No,0.65886
+609,Shared Room,141.92,62,4.1,4,2,North Side,Yes,0.70879
+610,Shared Room,113.55,35,3.81,3,2,North Side,No,0.5324
+611,Shared Room,149.77,69,4.08,4,2,North Side,No,0.73023
+612,Shared Room,153.56,45,4.36,4,2,North Side,Yes,0.94155
+613,Not Shared Room,174.79,72,4.09,5,3,South Side,Yes,0.04875
+614,Shared Room,137.31,42,3.79,4,2,North Side,Yes,0.21738
+615,Shared Room,114.35,55,3.56,3,2,North Side,No,0.05597
+616,Not Shared Room,68.41,54,4.51,3,1,South Side,Yes,0.45041
+617,Shared Room,130.62,58,4.13,4,2,North Side,Yes,0.00148
+618,Shared Room,113.44,41,3.99,3,2,South Side,No,0.85644
+619,Shared Room,46.96,32,3.74,1,1,South Side,Yes,0.05337
+620,Shared Room,35.04,60,4.16,2,1,South Side,Yes,0.0099
+621,Shared Room,33.02,36,3.77,4,1,South Side,No,0.6705
+622,Shared Room,161.35,10,3.18,4,2,South Side,Yes,0.01524
+623,Not Shared Room,136.43,52,3.34,4,2,South Side,Yes,0.78833
+624,Shared Room,68.15,20,3.55,4,1,South Side,No,0.52096
+625,Shared Room,103.38,36,3.84,4,2,South Side,Yes,0.7878
+626,Not Shared Room,142.13,36,4.05,4,2,South Side,Yes,0.20369
+627,Shared Room,168.21,50,3.95,4,3,North Side,Yes,0.99162
+628,Not Shared Room,289.5,36,4.33,6,4,North Side,Yes,0.96067
+629,Shared Room,99.65,42,4.53,1,2,South Side,No,0.38379
+630,Not Shared Room,113.89,32,3.85,3,2,South Side,Yes,0.29767
+631,Shared Room,56.26,62,3.84,2,1,South Side,No,0.29243
+632,Shared Room,182.97,38,3.22,5,3,North Side,Yes,0.38378
+633,Shared Room,93.76,19,4.26,3,2,South Side,Yes,0.86362
+634,Shared Room,71.91,35,3.95,3,1,South Side,No,0.46734
+635,Shared Room,108.26,19,4.21,3,2,South Side,Yes,0.67034
+636,Not Shared Room,169.44,34,3.76,4,3,North Side,No,0.07724
+637,Shared Room,227.22,31,3.74,5,4,North Side,No,0.76463
+638,Shared Room,89.23,51,3.94,3,2,North Side,Yes,0.97063
+639,Shared Room,201.31,10,3.66,5,4,South Side,Yes,0.31345
+640,Shared Room,173.8,39,4.22,5,3,North Side,Yes,0.1627
+641,Shared Room,183.64,57,4.03,5,3,North Side,No,0.75225
+642,Shared Room,98.05,54,4.56,1,2,South Side,No,0.58118
+643,Not Shared Room,154.15,48,4.19,4,2,South Side,Yes,0.42709
+644,Shared Room,56.47,37,3.63,3,1,South Side,No,0.67595
+645,Shared Room,148.55,34,3.98,4,2,North Side,Yes,0.00946
+646,Shared Room,69.76,50,3.41,2,1,South Side,Yes,0.50188
+647,Shared Room,124.47,41,4.23,4,2,North Side,Yes,0.71739
+648,Shared Room,76.58,41,4.02,3,2,South Side,Yes,0.47767
+649,Shared Room,250.53,39,3.45,6,4,North Side,Yes,0.11995
+650,Not Shared Room,44.18,43,3.64,1,1,South Side,No,0.86735
+651,Shared Room,156.65,53,3.85,4,2,South Side,Yes,0.87633
+652,Shared Room,77.76,36,3.91,4,2,North Side,No,0.17986
+653,Not Shared Room,170.9,26,3.74,4,3,North Side,No,0.47439
+654,Not Shared Room,142.82,26,3.86,4,2,North Side,Yes,0.05188
+655,Shared Room,96.98,19,3.83,4,2,South Side,Yes,0.15272
+656,Shared Room,130.34,62,4.64,4,2,North Side,Yes,0.32407
+657,Shared Room,99.52,10,3.6,4,2,North Side,No,0.78851
+658,Shared Room,151.18,9,4.43,4,2,North Side,Yes,0.79845
+659,Not Shared Room,147.63,55,4.08,4,2,South Side,No,0.73327
+660,Shared Room,142.69,32,3.96,4,2,North Side,Yes,0.54448
+661,Not Shared Room,63.74,36,4.32,4,1,South Side,No,0.11108
+662,Shared Room,84.27,45,4.15,3,2,South Side,No,0.78738
+663,Shared Room,26.32,47,4.3,3,1,South Side,No,0.88458
+664,Shared Room,134.41,35,3.85,4,2,South Side,No,0.80306
+665,Shared Room,109.78,29,4.09,1,2,South Side,Yes,0.17734
+666,Shared Room,73.12,46,3.28,1,1,South Side,No,0.13128
+667,Shared Room,32.4,90,4.14,1,1,South Side,No,0.40174
+668,Shared Room,97.19,44,4.12,1,2,North Side,No,0.29296
+669,Shared Room,84.82,38,3.56,2,2,South Side,Yes,0.31733
+670,Shared Room,236,34,4.45,6,4,North Side,Yes,0.28838
+671,Shared Room,190.18,29,3.87,5,4,North Side,Yes,0.38355
+672,Shared Room,157.34,89,4.12,4,2,North Side,Yes,0.4022
+673,Shared Room,141.8,30,4.03,4,2,North Side,No,0.77741
+674,Shared Room,65.78,25,3.76,3,1,South Side,Yes,0.27764
+675,Not Shared Room,96.36,38,4.22,2,2,South Side,Yes,0.11812
+676,Not Shared Room,189.52,36,4.34,5,4,North Side,Yes,0.68838
+677,Shared Room,150.23,48,4.01,4,2,South Side,Yes,0.93925
+678,Shared Room,94.65,46,3.99,2,2,North Side,Yes,0.45869
+679,Not Shared Room,93.34,42,3.77,1,2,South Side,Yes,0.36127
+680,Shared Room,213.71,34,4.57,5,4,North Side,Yes,0.71245
+681,Shared Room,86.55,48,4.13,2,2,South Side,No,0.44116
+682,Shared Room,97.87,37,3.9,2,2,South Side,Yes,0.45127
+683,Shared Room,112.91,65,4.35,3,2,North Side,No,0.47824
+684,Shared Room,97.82,24,4.14,1,2,North Side,Yes,0.78647
+685,Shared Room,169.15,44,4.13,4,3,North Side,Yes,0.24758
+686,Not Shared Room,85.49,31,3.71,4,2,North Side,No,0.68673
+687,Shared Room,163.55,38,3.97,4,2,South Side,Yes,0.5229
+688,Shared Room,90.42,54,4.23,1,2,South Side,Yes,0.48335
+689,Shared Room,179.72,53,4.34,5,3,North Side,Yes,0.25776
+690,Not Shared Room,172.2,49,4.14,4,3,South Side,Yes,0.43212
+691,Shared Room,111.08,65,4.08,2,2,South Side,Yes,0.28304
+692,Shared Room,133.93,1,3.03,4,2,South Side,No,0.85337
+693,Not Shared Room,194.27,28,4.03,5,4,North Side,Yes,0.74252
+694,Shared Room,164.16,35,3.79,4,3,North Side,Yes,0.49937
+695,Shared Room,132.87,49,3.81,4,2,North Side,No,0.67967
+696,Shared Room,124.54,53,4.05,4,2,North Side,Yes,0.76069
+697,Shared Room,92.8,39,4.03,4,2,South Side,No,0.00508
+698,Shared Room,32.56,27,3.28,4,1,South Side,Yes,0.35162
+699,Shared Room,115.66,45,3.88,3,2,North Side,No,0.39825
+700,Not Shared Room,159.37,33,3.93,4,2,North Side,No,0.02268
+701,Shared Room,170.62,19,3.82,4,3,North Side,Yes,0.53025
+702,Shared Room,91.02,17,3.53,2,2,South Side,Yes,0.49154
+703,Not Shared Room,260.69,80,4.33,6,4,North Side,Yes,0.65346
+704,Shared Room,145.23,59,4.14,4,2,North Side,Yes,0.2297
+705,Shared Room,153.5,32,3.83,4,2,North Side,No,0.00706
+706,Shared Room,230.66,41,3.86,5,4,North Side,Yes,0.11141
+707,Shared Room,139.52,37,4.24,4,2,North Side,Yes,0.6265
+708,Shared Room,72.06,35,3.94,4,1,South Side,No,0.83569
+709,Shared Room,103.41,40,3.75,2,2,South Side,No,0.23767
+710,Not Shared Room,204.01,10,2.76,5,4,North Side,Yes,0.49522
+711,Shared Room,32.19,40,3.63,3,1,South Side,No,0.34917
+712,Shared Room,192.99,49,4.29,5,4,North Side,Yes,0.59239
+713,Shared Room,167.12,25,3.39,4,3,North Side,No,0.63097
+714,Shared Room,169.47,81,4.33,4,3,South Side,Yes,0.26912
+715,Shared Room,204.2,30,3.8,5,4,North Side,Yes,0.62739
+716,Not Shared Room,199.93,38,4.35,5,4,North Side,Yes,0.06183
+717,Not Shared Room,121.11,23,3.52,3,2,North Side,No,0.03309
+718,Shared Room,105.65,48,3.92,3,2,South Side,Yes,0.28894
+719,Shared Room,75.35,7,3.06,4,2,South Side,Yes,0.91508
+720,Not Shared Room,195.57,32,4.14,5,4,North Side,No,0.51837
+721,Shared Room,52.03,25,4.17,2,1,North Side,No,0.59829
+722,Not Shared Room,169.92,39,4.16,4,3,North Side,Yes,0.06164
+723,Shared Room,111.04,45,3.66,4,2,South Side,Yes,0.73238
+724,Shared Room,90.95,38,4.35,3,2,South Side,Yes,0.37259
+725,Shared Room,140.71,40,3.8,4,2,South Side,Yes,0.98945
+726,Not Shared Room,84.15,38,3.53,2,2,South Side,Yes,0.07702
+727,Shared Room,64.79,25,4.06,3,1,South Side,No,0.78526
+728,Shared Room,178.88,44,3.76,5,3,South Side,No,0.92175
+729,Shared Room,179.21,51,3.86,5,3,North Side,Yes,0.8683
+730,Shared Room,72.75,62,4.28,1,1,South Side,Yes,0.03887
+731,Shared Room,126.65,53,4.28,4,2,North Side,No,0.51098
+732,Not Shared Room,112.81,49,4.51,3,2,South Side,Yes,0.07247
+733,Shared Room,123.01,19,3.91,4,2,North Side,Yes,0.4797
+734,Shared Room,86.71,38,3.47,1,2,North Side,Yes,0.63246
+735,Not Shared Room,234.33,48,4.13,5,4,South Side,Yes,0.21971
+736,Shared Room,49.3,31,3.74,3,1,South Side,Yes,0.89311
+737,Not Shared Room,131.77,65,3.78,4,2,South Side,No,0.22565
+738,Not Shared Room,224.15,28,3.86,5,4,South Side,No,0.27368
+739,Shared Room,198.58,44,4.39,5,4,North Side,Yes,0.00046
+740,Shared Room,147.09,17,3.41,4,2,North Side,Yes,0.99679
+741,Not Shared Room,113.08,72,3.92,3,2,South Side,Yes,0.93574
+742,Shared Room,108.49,76,4.46,3,2,North Side,No,0.59191
+743,Shared Room,234.25,55,4.52,5,4,North Side,Yes,0.26859
+744,Not Shared Room,88.54,23,3.73,2,2,South Side,Yes,0.78614
+745,Shared Room,56.15,26,3.52,3,1,South Side,No,0.84661
+746,Shared Room,225.97,57,4.44,5,4,North Side,Yes,0.52264
+747,Shared Room,128.89,50,3.88,4,2,North Side,Yes,0.99079
+748,Shared Room,133.7,53,3.89,4,2,South Side,No,0.03987
+749,Not Shared Room,127.05,35,4.26,4,2,South Side,Yes,0.96865
+750,Not Shared Room,102.5,54,4.01,3,2,South Side,Yes,0.82399
+751,Not Shared Room,101.23,56,3.86,2,2,North Side,No,0.786
+752,Shared Room,160.1,71,3.89,4,2,North Side,Yes,0.50848
+753,Shared Room,82.37,31,3.86,3,2,South Side,No,0.75304
+754,Shared Room,78.5,39,4.67,2,2,South Side,Yes,0.5687
+755,Shared Room,92.78,44,4.03,4,2,North Side,No,0.45556
+756,Shared Room,157.41,39,3.92,4,2,North Side,No,0.17396
+757,Shared Room,220.68,53,3.76,5,4,North Side,Yes,0.31153
+758,Shared Room,78.07,56,3.87,3,2,South Side,Yes,0.49537
+759,Not Shared Room,143.83,27,4.02,4,2,South Side,Yes,0.18101
+760,Not Shared Room,159.96,31,3.77,4,2,North Side,Yes,0.43544
+761,Shared Room,53.07,39,4.4,3,1,South Side,No,0.29491
+762,Shared Room,41.9,34,3.59,3,1,South Side,Yes,0.394
+763,Shared Room,69.71,49,4.34,4,1,South Side,Yes,0.46701
+764,Not Shared Room,73.29,35,3.94,4,1,South Side,Yes,0.37248
+765,Shared Room,122.54,28,4.02,4,2,South Side,No,0.44212
+766,Shared Room,125.13,35,4.27,4,2,North Side,Yes,0.61057
+767,Shared Room,93.59,25,3.4,2,2,South Side,No,0.99955
+768,Not Shared Room,252.1,35,4.11,6,4,North Side,Yes,0.18596
+769,Shared Room,177.2,61,4.46,5,3,North Side,No,0.16955
+770,Shared Room,92.18,30,4.31,3,2,South Side,No,0.32074
+771,Shared Room,42.35,42,3.73,2,1,North Side,No,0.94182
+772,Shared Room,129.25,28,3.77,4,2,North Side,Yes,0.69769
+773,Not Shared Room,165.95,40,4.35,4,3,North Side,No,0.05009
+774,Shared Room,178.98,42,4.5,5,3,North Side,Yes,0.54887
+775,Shared Room,129.89,73,4.19,4,2,South Side,No,0.74228
+776,Shared Room,59.98,29,4.43,1,1,South Side,No,0.80194
+777,Shared Room,214.31,47,4.33,5,4,North Side,No,0.09156
+778,Shared Room,189.55,62,3.89,5,4,North Side,Yes,0.54062
+779,Shared Room,121.44,11,3.29,3,2,South Side,Yes,0.02826
+780,Shared Room,77.79,42,3.83,4,2,North Side,No,0.1342
+781,Shared Room,187.33,56,3.37,5,3,North Side,Yes,0.10124
+782,Not Shared Room,129.37,46,3.79,4,2,North Side,No,0.58816
+783,Not Shared Room,184.3,48,3.5,5,3,North Side,Yes,0.50317
+784,Not Shared Room,162.42,62,4.74,4,2,North Side,No,0.83325
+785,Shared Room,78.77,48,4.23,3,2,South Side,Yes,0.07986
+786,Shared Room,61.22,35,3.12,2,1,South Side,No,0.26884
+787,Shared Room,207.51,32,4.3,5,4,North Side,Yes,0.75567
+788,Shared Room,169.5,52,3.96,4,3,South Side,No,0.11863
+789,Shared Room,73.12,47,3.9,4,1,South Side,Yes,0.84362
+790,Shared Room,221.72,36,4.5,5,4,North Side,No,0.03785
+791,Shared Room,338.13,37,4.31,6,4,North Side,Yes,0.89847
+792,Shared Room,173.92,15,3.7,5,3,North Side,No,0.34182
+793,Not Shared Room,90.46,38,4.23,1,2,South Side,Yes,0.62548
+794,Not Shared Room,172.47,38,3.78,4,3,North Side,Yes,0.51894
+795,Shared Room,185.31,49,4.46,5,3,South Side,Yes,0.85183
+796,Not Shared Room,203.93,39,4.45,5,4,North Side,Yes,0.79052
+797,Not Shared Room,84.7,35,4.3,4,2,South Side,Yes,0.25631
+798,Shared Room,162.65,27,4.7,4,2,North Side,Yes,0.21999
+799,Shared Room,164.85,47,3.79,4,3,North Side,Yes,0.60863
+800,Shared Room,119.47,58,3.91,3,2,South Side,Yes,0.55418
+801,Shared Room,116.89,37,3.94,3,2,North Side,Yes,0.89366
+802,Shared Room,128.26,48,3.63,4,2,North Side,No,0.12951
+803,Shared Room,122.59,15,3.76,4,2,South Side,Yes,0.79297
+804,Shared Room,84.48,39,4.38,4,2,South Side,Yes,0.93768
+805,Shared Room,165.13,29,3.9,4,3,South Side,Yes,0.65741
+806,Shared Room,99.42,42,3.93,1,2,South Side,No,0.5875
+807,Shared Room,201.95,42,3.72,5,4,South Side,No,0.63427
+808,Shared Room,138.47,22,3.4,4,2,North Side,Yes,0.17815
+809,Shared Room,102.06,48,4.1,4,2,South Side,No,0.85428
+810,Shared Room,167.3,75,4.6,4,3,North Side,Yes,0.99042
+811,Shared Room,60.91,36,3.76,1,1,North Side,No,0.52843
+812,Shared Room,114.08,39,3.72,3,2,North Side,Yes,0.47292
+813,Shared Room,115.75,24,4.36,3,2,South Side,Yes,0.56338
+814,Shared Room,123.89,36,4.02,4,2,North Side,Yes,0.76489
+815,Shared Room,36.09,55,3.47,2,1,South Side,No,0.78665
+816,Shared Room,125.93,35,4.11,4,2,North Side,No,0.46534
+817,Shared Room,111.63,21,3.99,1,2,South Side,Yes,0.7801
+818,Shared Room,206.07,93,5.04,5,4,North Side,Yes,0.88941
+819,Shared Room,83.48,11,4.14,4,2,South Side,No,0.61771
+820,Shared Room,36.42,49,3.09,2,1,South Side,No,0.62873
+821,Shared Room,210.42,37,4.34,5,4,North Side,Yes,0.60794
+822,Shared Room,90.38,36,4.22,2,2,South Side,Yes,0.02901
+823,Shared Room,36.75,28,3.47,3,1,South Side,No,0.88652
+824,Not Shared Room,214.28,53,3.67,5,4,North Side,Yes,0.45454
+825,Shared Room,67.66,65,4.01,3,1,South Side,No,0.02535
+826,Not Shared Room,171.16,54,3.7,4,3,North Side,Yes,0.3468
+827,Shared Room,110.51,44,4.23,1,2,South Side,Yes,0.99187
+828,Shared Room,84.86,53,5.18,4,2,South Side,Yes,0.20144
+829,Shared Room,147.2,37,4.71,4,2,North Side,Yes,0.16297
+830,Not Shared Room,122.4,55,4.21,4,2,North Side,No,0.81361
+831,Shared Room,87.38,56,4.14,1,2,North Side,No,0.38157
+832,Not Shared Room,123.93,23,3.98,4,2,North Side,No,0.5079
+833,Not Shared Room,71.58,48,4.62,2,1,South Side,No,0.73616
+834,Shared Room,47.87,45,3.69,3,1,South Side,Yes,0.16174
+835,Shared Room,190.12,60,4.47,5,4,South Side,Yes,0.2043
+836,Shared Room,195.17,48,4.18,5,4,North Side,Yes,0.21322
+837,Shared Room,212.15,57,4.1,5,4,North Side,Yes,0.83868
+838,Not Shared Room,115.83,40,4.21,3,2,North Side,Yes,0.8933
+839,Shared Room,30.94,49,3.48,3,1,South Side,No,0.33634
+840,Shared Room,81.59,38,3.07,2,2,South Side,No,0.97782
+841,Not Shared Room,105.72,14,3.59,3,2,South Side,Yes,0.64541
+842,Shared Room,103.43,56,4.06,4,2,South Side,Yes,0.21762
+843,Shared Room,108.18,43,3.21,3,2,North Side,Yes,0.15866
+844,Shared Room,101.2,30,4.08,1,2,South Side,No,0.97565
+845,Not Shared Room,167.21,26,3.87,4,3,North Side,Yes,0.62094
+846,Shared Room,137.06,60,4.38,4,2,North Side,No,0.84664
+847,Shared Room,58.38,47,4.77,3,1,South Side,No,0.09383
+848,Shared Room,98.33,21,3.69,3,2,South Side,Yes,0.60583
+849,Shared Room,201.07,42,3.61,5,4,North Side,Yes,0.94998
+850,Shared Room,140.86,50,4.07,4,2,North Side,No,0.85331
+851,Shared Room,67.06,36,4.19,3,1,South Side,No,0.99449
+852,Shared Room,40.61,57,4.19,2,1,South Side,Yes,0.54532
+853,Shared Room,122.27,27,4.64,4,2,North Side,Yes,0.67594
+854,Shared Room,98.95,43,3.37,4,2,North Side,Yes,0.9305
+855,Not Shared Room,117.62,31,3.23,3,2,South Side,Yes,0.56008
+856,Shared Room,37.39,27,4.02,3,1,South Side,Yes,0.89562
+857,Not Shared Room,118.72,34,4.28,3,2,North Side,No,0.89539
+858,Shared Room,169.27,48,4.07,4,3,North Side,Yes,0.70243
+859,Shared Room,131.16,36,3.9,4,2,North Side,No,0.30156
+860,Not Shared Room,133.89,28,3.98,4,2,North Side,No,0.52411
+861,Shared Room,63.39,23,3.92,3,1,South Side,No,0.86432
+862,Shared Room,55.9,43,3.92,1,1,South Side,No,0.03509
+863,Shared Room,171.13,40,4.03,4,3,South Side,No,0.45972
+864,Shared Room,42.56,49,4.21,2,1,South Side,No,0.63435
+865,Shared Room,49.17,45,3.72,2,1,South Side,No,0.96941
+866,Shared Room,43.06,30,3.87,3,1,South Side,No,0.47112
+867,Not Shared Room,147.02,50,3.87,4,2,North Side,No,0.79026
+868,Shared Room,87.8,42,3.92,1,2,South Side,No,0.76345
+869,Shared Room,229.04,65,4.55,5,4,South Side,Yes,0.27817
+870,Not Shared Room,214.38,52,4.3,5,4,North Side,Yes,0.45854
+871,Shared Room,101.21,47,3.78,4,2,South Side,No,0.96682
+872,Shared Room,77.41,65,4.44,1,2,South Side,Yes,0.57148
+873,Not Shared Room,40.38,26,3.64,4,1,South Side,No,0.59764
+874,Shared Room,109.63,30,3.81,4,2,North Side,No,0.51511
+875,Shared Room,121.69,15,3.08,3,2,South Side,Yes,0.12532
+876,Shared Room,97.88,34,3.89,2,2,South Side,No,0.92129
+877,Shared Room,169.79,31,4.41,4,3,South Side,Yes,0.55098
+878,Shared Room,167.39,34,4.19,4,3,South Side,Yes,0.76433
+879,Not Shared Room,32.82,21,3.7,3,1,South Side,No,0.24785
+880,Shared Room,155.41,40,3.63,4,2,South Side,No,0.5288
+881,Not Shared Room,156.75,34,3.85,4,2,North Side,No,0.13821
+882,Shared Room,215.83,40,3.45,5,4,North Side,Yes,0.81679
+883,Not Shared Room,108.61,42,3.68,2,2,South Side,Yes,0.52399
+884,Shared Room,125.16,10,3.4,4,2,South Side,Yes,0.57139
+885,Shared Room,157.55,33,4.22,4,2,South Side,Yes,0.22268
+886,Shared Room,76.29,27,3.21,4,2,South Side,Yes,0.96489
+887,Shared Room,263.37,30,4.34,6,4,North Side,Yes,0.59695
+888,Not Shared Room,160.41,24,4.26,4,2,North Side,Yes,0.8043
+889,Shared Room,33.09,51,3.69,3,1,South Side,No,0.3482
+890,Not Shared Room,200.2,33,3.65,5,4,North Side,Yes,0.88848
+891,Shared Room,38.15,54,3.6,3,1,South Side,Yes,0.62426
+892,Shared Room,96.71,12,2.94,4,2,South Side,No,0.25792
+893,Shared Room,143.84,28,4.08,4,2,North Side,No,0.40395
+894,Shared Room,190.51,26,4.89,5,4,South Side,Yes,0.18739
+895,Shared Room,102.03,4,3.62,1,2,North Side,No,0.64354
+896,Shared Room,217.85,45,4.26,5,4,South Side,Yes,0.40581
+897,Shared Room,98.46,47,4.22,3,2,North Side,No,0.90082
+898,Not Shared Room,243.7,29,4.4,6,4,North Side,Yes,0.28765
+899,Shared Room,176.32,53,4.28,5,3,North Side,Yes,0.39559
+900,Shared Room,105.26,31,4.19,1,2,North Side,Yes,0.69312
+901,Shared Room,207.47,73,4.49,5,4,South Side,Yes,0.89267
+902,Shared Room,113.24,56,4.08,3,2,South Side,No,0.72218
+903,Not Shared Room,245.98,43,4.5,6,4,North Side,Yes,0.86419
+904,Shared Room,77.23,33,3.47,1,2,South Side,Yes,0.50042
+905,Shared Room,119.28,18,4.13,3,2,South Side,No,0.41162
+906,Shared Room,124.06,31,3.88,4,2,South Side,Yes,0.65012
+907,Shared Room,31.62,34,3.84,4,1,South Side,Yes,0.9677
+908,Not Shared Room,140.52,42,4.43,4,2,South Side,Yes,0.532
+909,Shared Room,176.77,21,3.58,5,3,North Side,Yes,0.58887
+910,Shared Room,75.09,63,4.03,1,1,South Side,No,0.98563
+911,Shared Room,156.92,33,3.93,4,2,North Side,Yes,0.12553
+912,Shared Room,131.77,29,4.05,4,2,South Side,Yes,0.43923
+913,Not Shared Room,174.27,48,3.81,5,3,North Side,Yes,0.63136
+914,Shared Room,184.21,17,4.45,5,3,South Side,Yes,0.47237
+915,Shared Room,156.54,46,4.01,4,2,North Side,No,0.11889
+916,Shared Room,65.56,23,3.65,3,1,South Side,No,0.40933
+917,Shared Room,284.05,63,3.91,6,4,North Side,Yes,0.21496
+918,Shared Room,32.3,53,3.57,3,1,South Side,Yes,0.82932
+919,Shared Room,53.78,52,3.3,3,1,South Side,Yes,0.2359
+920,Not Shared Room,107.5,33,3.56,3,2,South Side,Yes,0.79934
+921,Not Shared Room,194.38,42,3.53,5,4,North Side,Yes,0.56816
+922,Shared Room,86.94,21,4.09,1,2,South Side,Yes,0.42805
+923,Shared Room,108.82,35,4.39,2,2,South Side,No,0.9408
+924,Shared Room,156.32,73,3.74,4,2,North Side,No,0.57519
+925,Shared Room,85.76,13,3.55,2,2,South Side,No,0.74988
+926,Not Shared Room,111.67,51,3.84,4,2,South Side,Yes,0.05235
+927,Shared Room,57.46,53,4.22,3,1,South Side,No,0.77309
+928,Not Shared Room,160.9,56,4.34,4,2,South Side,No,0.21592
+929,Shared Room,96.53,55,3.66,3,2,South Side,Yes,0.1128
+930,Shared Room,135.16,5,3.29,4,2,North Side,Yes,0.47065
+931,Shared Room,27.61,26,0.39,3,1,South Side,Yes,0.69415
+932,Shared Room,143.84,36,4.04,4,2,North Side,No,0.15037
+933,Not Shared Room,228.62,19,3.76,5,4,North Side,Yes,0.48905
+934,Shared Room,108.1,40,3.6,3,2,South Side,Yes,0.03491
+935,Shared Room,187.72,50,3.83,5,4,North Side,Yes,0.81449
+936,Shared Room,133.54,50,4.03,4,2,North Side,Yes,0.24674
+937,Shared Room,59.45,42,3.5,4,1,North Side,No,0.14974
+938,Shared Room,149.79,44,4.24,4,2,South Side,Yes,0.10278
+939,Shared Room,102.74,31,4.55,1,2,South Side,Yes,0.18354
+940,Shared Room,221.75,29,3.57,5,4,North Side,Yes,0.42061
+941,Shared Room,125.58,76,4,4,2,North Side,Yes,0.56526
+942,Shared Room,208.43,25,4.18,5,4,North Side,Yes,0.2867
+943,Shared Room,147.27,52,4.61,4,2,North Side,Yes,0.87551
+944,Shared Room,128.8,46,4.23,4,2,North Side,No,0.26135
+945,Shared Room,112.67,55,3.6,3,2,South Side,Yes,0.23987
+946,Shared Room,49.66,44,4.57,3,1,South Side,No,0.26374
+947,Shared Room,139.38,54,3.82,4,2,North Side,Yes,0.47788
+948,Shared Room,52.77,35,3.82,3,1,South Side,Yes,0.58158
+949,Shared Room,126.05,55,4.28,4,2,North Side,Yes,0.77673
+950,Shared Room,142.34,15,3.5,4,2,South Side,Yes,0.72737
+951,Shared Room,67.49,23,4.03,3,1,South Side,No,0.7783
+952,Shared Room,47.84,63,4.11,4,1,South Side,No,0.61239
+953,Shared Room,82.37,27,3.88,3,2,South Side,No,0.09042
+954,Shared Room,61.73,24,3.78,3,1,South Side,No,0.8294
+955,Shared Room,185.09,35,4.37,5,3,North Side,Yes,0.5752
+956,Shared Room,214.13,60,0.74,5,4,North Side,Yes,0.64762
+957,Shared Room,147.71,45,3.96,4,2,North Side,Yes,0.80335
+958,Shared Room,152.27,49,4.11,4,2,South Side,Yes,0.46197
+959,Shared Room,250.95,54,3.85,6,4,North Side,Yes,0.36378
+960,Shared Room,81.64,53,4.27,1,2,South Side,Yes,0.82381
+961,Shared Room,98.89,48,4.99,1,2,South Side,Yes,0.33624
+962,Shared Room,185.74,48,3.82,5,3,North Side,Yes,0.47253
+963,Shared Room,38.04,44,3.72,3,1,North Side,No,0.20706
+964,Shared Room,101.3,67,3.37,3,2,South Side,No,0.03854
+965,Not Shared Room,195.02,45,4.3,5,4,North Side,No,0.36617
+966,Shared Room,94.21,40,4.26,4,2,South Side,Yes,0.59188
+967,Shared Room,63.66,43,4.3,1,1,South Side,Yes,0.31668
+968,Not Shared Room,115.05,72,4.64,3,2,South Side,No,0.19762
+969,Shared Room,111.99,53,4.49,3,2,North Side,No,0.06755
+970,Shared Room,148.99,46,3.66,4,2,North Side,No,0.14117
+971,Shared Room,99.36,46,4.36,2,2,South Side,No,0.28033
+972,Not Shared Room,160.12,48,4.09,4,2,South Side,Yes,0.18155
+973,Shared Room,44.66,48,3.45,4,1,South Side,Yes,0.38835
+974,Shared Room,129.74,35,3.95,4,2,North Side,Yes,0.04874
+975,Shared Room,75.6,30,4.06,1,2,South Side,No,0.684
+976,Not Shared Room,74.16,44,4.53,2,1,South Side,Yes,0.19825
+977,Shared Room,190.93,49,4.86,5,4,South Side,No,0.64141
+978,Shared Room,155.3,24,3.69,4,2,North Side,No,0.69231
+979,Shared Room,83.29,37,3.97,3,2,South Side,Yes,0.07167
+980,Shared Room,163.06,42,4.24,4,2,South Side,Yes,0.29818
+981,Not Shared Room,144.72,52,3.99,4,2,North Side,Yes,0.66795
+982,Not Shared Room,133.13,27,4.28,4,2,South Side,Yes,0.46556
+983,Shared Room,142.87,39,3.83,4,2,South Side,Yes,0.79993
+984,Shared Room,202.89,45,3.67,5,4,North Side,Yes,0.43099
+985,Shared Room,166.32,32,4.03,4,3,North Side,Yes,0.3334
+986,Shared Room,184.12,6,1.41,5,3,North Side,Yes,0.78648
+987,Shared Room,154.83,65,4.06,4,2,South Side,No,0.52144
+988,Shared Room,205.61,36,4.23,5,4,North Side,Yes,0.21304
+989,Not Shared Room,160.59,72,5.27,4,2,North Side,No,0.7325
+990,Shared Room,121.03,47,3.95,3,2,North Side,Yes,0.4572
+991,Shared Room,274.89,47,4.77,6,4,North Side,Yes,0.89523
+992,Shared Room,128.33,34,4.24,4,2,North Side,Yes,0.2463
+993,Not Shared Room,182.85,40,4.05,5,3,North Side,Yes,0.80447
+994,Shared Room,144.95,64,4.63,4,2,North Side,No,0.81698
+995,Not Shared Room,103.01,48,4.04,4,2,South Side,Yes,0.29479
+996,Shared Room,46.93,30,3.22,4,1,South Side,Yes,0.49964
+997,Shared Room,113.74,40,3.65,3,2,South Side,Yes,0.23248
+998,Shared Room,81.76,22,3.87,1,2,South Side,No,0.62915
+999,Not Shared Room,94.09,13,4.05,2,2,South Side,No,0.53044
+1000,Shared Room,134.41,29,3.65,4,2,North Side,Yes,0.49019
